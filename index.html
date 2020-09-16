@@ -176,6 +176,7 @@
         transition: all 0.4s ease 0s;
         }
 
+
     </style>
 
     <input
@@ -189,12 +190,10 @@
 
 
   <body>
-
-
     <div id="myNav" class="overlay">
       <a class="closebtn" onclick="closeNav()">&times;</a>
       <div class="overlay-content">
-        <h2><span id="locationName"></span></h2>
+        <h1><span id="locationName"></span></h1>
         <br>
         <h3>100% Wind-Water-Solar (WWS) Energy Mix</h3>
         <div id="energy piechart"></div>
@@ -297,11 +296,11 @@
             icon: {
               path: google.maps.SymbolPath.CIRCLE,
               strokeColor: "#8c1515",
-              strokeOpacity: 0.9,
+              strokeOpacity: 0.8,
               strokeWeight: 1,
               fillColor:"#8c1515",
-              fillOpacity: 0.7,
-              scale: 10
+              fillOpacity: 0.6,
+              scale: 8
             }
           });
         });
@@ -311,8 +310,8 @@
 
         // Style the country layer
         countryLayer.setStyle({
-          fillOpacity: 0.6,
-          fillColor: "#b3995d",
+          fillOpacity: 0.3,
+          fillColor: "yellowgreen",
           strokeWeight: 0
         });
 
@@ -321,10 +320,10 @@
         countryLayer.addListener("mouseover", function(event) {
           countryLayer.revertStyle();
           countryLayer.overrideStyle(event.feature, {
-            fillColor: "#8c1515",
+            fillColor: "darkgreen",
             strokeColor: "white",
             strokeWeight: 1,
-            fillOpacity: 0.7
+            fillOpacity: 0.5
           });
         });
 
@@ -343,8 +342,8 @@
 
         // Style the state layer
         stateLayer.setStyle({
-          fillOpacity: 0.6,
-          fillColor: "#b3995d",
+          fillOpacity: 0.3,
+          fillColor: "yellowgreen",
           strokeWeight: 0
         });
 
@@ -352,10 +351,10 @@
         stateLayer.addListener("mouseover", function(event) {
           stateLayer.revertStyle();
           stateLayer.overrideStyle(event.feature, {
-            fillColor: "#8c1515",
+            fillColor: "darkgreen",
             strokeColor: "white",
             strokeWeight: 1,
-            fillOpacity: 0.8
+            fillOpacity: 0.5
           });
         });
 
@@ -407,7 +406,7 @@
           var bauEnergyCost = event.feature.getProperty('2050 BAU energy cost ($bil/yr)');
           var bauPollutionCost = event.feature.getProperty('2050 BAU air pollution cost ($bil/yr)');
           var bauClimateCost = event.feature.getProperty('2050 BAU climate cost ($bil/yr)');
-          var wwsTotalCost = event.feature.getProperty('2050 WWS energy and total social cost ($bil/yr)');
+          var wwsEnergyCost = event.feature.getProperty('2050 WWS energy and total social cost ($bil/yr)');
           var percentEnergyCostSavings = event.feature.getProperty('Percent change in energy cost due to WWS (WWS- BAU)/(BAU)');
           var percentSocialCostSavigns = event.feature.getProperty('Percent change in total social cost due to WWS (WWS-BAU)/(BAU)');
 
@@ -487,16 +486,16 @@
         google.charts.setOnLoadCallback(drawCityCostColumn);
         function drawCityCostColumn() {
           var data = google.visualization.arrayToDataTable([
-            ['Cost', 'BAU Energy Cost', 'BAU Air Pollution Cost', 'BAU Climate Cost', 'WWS Total Cost', {role: 'annotation'} ],
-            ['BAU', bauEnergyCost, bauPollutionCost, bauClimateCost, 0, ''],
-            ['WWS', 0, 0, 0, wwsTotalCost, '']
+            ['Cost', 'Energy Cost/yr', 'Air Pollution Cost/yr', 'Climate Cost/yr', {role: 'annotation'} ],
+            ['BAU', bauEnergyCost, bauPollutionCost, bauClimateCost, ''],
+            ['WWS', wwsEnergyCost, 0, 0, '']
           ]);
 
           var options = {
-            title: 'Business as Usual (BAU) and Wind, Water, Solar (WWS) Energy, Air Pollution, and Climate Cost ($bil/year)',
+            title: 'Business as Usual (BAU) and Wind, Water, Solar (WWS) Energy, Air Pollution, and Climate Costs (USD 2013 $bil/yr)',
             height: 400,
             width: 380,
-            legend: { position: 'top', maxLines: 3 },
+            legend: { position: 'top', maxLines: 4},
             bar: { groupWidth: '75%' },
             isStacked: true,
           };
@@ -568,32 +567,74 @@
         var styledMapType = new google.maps.StyledMapType(
                     [
           {
-          "featureType": "administrative",
-          "elementType": "labels.text.fill",
+          "featureType": "administrative.country",
+          "elementType": "geometry.stroke",
           "stylers": [
             {
-                "color": "#000000"
-            },
-            {
                 "visibility": "on"
-            },
-            {
-                "saturation": "100"
-            },
-            {
-                "gamma": "4.76"
             }
           ]
           },
           {
-          "featureType": "administrative",
-          "elementType": "labels.text.stroke",
+          "featureType": "administrative.country",
+          "elementType": "labels.text",
+          "stylers": [
+            {
+                "visibility": "simplified"
+            }
+          ]
+          },
+          {
+          "featureType": "administrative.province",
+          "elementType": "all",
+          "stylers": [
+            {
+                "visibility": "simplified"
+            }
+          ]
+          },
+          {
+          "featureType": "administrative.province",
+          "elementType": "geometry",
+          "stylers": [
+            {
+                "visibility": "simplified"
+            }
+          ]
+          },
+          {
+          "featureType": "administrative.province",
+          "elementType": "geometry.stroke",
+          "stylers": [
+            {
+                "visibility": "on"
+            }
+          ]
+          },
+          {
+          "featureType": "administrative.locality",
+          "elementType": "all",
           "stylers": [
             {
                 "visibility": "off"
-            },
+            }
+          ]
+          },
+          {
+          "featureType": "administrative.neighborhood",
+          "elementType": "all",
+          "stylers": [
             {
-                "color": "black"
+                "visibility": "off"
+            }
+          ]
+          },
+          {
+          "featureType": "administrative.land_parcel",
+          "elementType": "all",
+          "stylers": [
+            {
+                "visibility": "off"
             }
           ]
           },
@@ -602,13 +643,28 @@
           "elementType": "all",
           "stylers": [
             {
-                "color": "#dacfc0"
+                "visibility": "off"
+            }
+          ]
+          },
+          {
+          "featureType": "landscape.natural",
+          "elementType": "all",
+          "stylers": [
+            {
+                "visibility": "off"
+            }
+          ]
+          },
+          {
+          "featureType": "landscape.natural",
+          "elementType": "geometry",
+          "stylers": [
+            {
+                "visibility": "simplified"
             },
             {
-                "saturation": "24"
-            },
-            {
-                "gamma": "3.65"
+                "color": "#ffffff"
             }
           ]
           },
@@ -637,24 +693,6 @@
           ]
           },
           {
-          "featureType": "road.highway",
-          "elementType": "all",
-          "stylers": [
-            {
-                "visibility": "off"
-            }
-          ]
-          },
-          {
-          "featureType": "road.arterial",
-          "elementType": "labels.icon",
-          "stylers": [
-            {
-                "visibility": "off"
-            }
-          ]
-          },
-          {
           "featureType": "transit",
           "elementType": "all",
           "stylers": [
@@ -668,19 +706,37 @@
           "elementType": "all",
           "stylers": [
             {
-                "color": "#7ec0c7"
+                "color": "#46b2ec"
+            },
+            {
+                "visibility": "on"
+            }
+          ]
+          },
+          {
+          "featureType": "water",
+          "elementType": "geometry.fill",
+          "stylers": [
+            {
+                "saturation": "0"
+            },
+            {
+                "lightness": "-8"
             },
             {
                 "visibility": "on"
             },
             {
-                "lightness": "0"
-            },
+                "color": "#bcdaff"
+            }
+          ]
+          },
+          {
+          "featureType": "water",
+          "elementType": "labels.text",
+          "stylers": [
             {
-                "saturation": "-75"
-            },
-            {
-                "gamma": "1.08"
+                "visibility": "off"
             }
           ]
           }
