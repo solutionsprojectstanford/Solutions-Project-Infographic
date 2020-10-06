@@ -190,7 +190,7 @@
 
 
   <body>
-    <div id="myNav" class="overlay">
+    <div id="sidebar1" class="overlay">
       <a class="closebtn" onclick="closeNav()">&times;</a>
       <div class="overlay-content">
         <h1><span id="locationName"></span></h1>
@@ -243,6 +243,14 @@
     </div>
   </div>
 
+  <div id="placeholder" class="overlay">
+    <a class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+      <iframe id="placeholder iframe" src="" width="375px"; height = "700px"> </iframe>
+
+    </div>
+  </div>
+
     <div class= "csc-btn-group">
       <button id="countries" >Countries</button>
       <button id= "states">U.S. States</button>
@@ -274,6 +282,7 @@
         var countryJson = 'https://raw.githubusercontent.com/milesmsmith/Solutions-Project-Infographic/master/countries.json';
         var stateJson = 'https://raw.githubusercontent.com/milesmsmith/Solutions-Project-Infographic/master/us-states.json';
         var cityJson = 'https://raw.githubusercontent.com/milesmsmith/Solutions-Project-Infographic/master/cities.json';
+        var townsJson = 'https://raw.githubusercontent.com/milesmsmith/Solutions-Project-Infographic/master/NA-towns.json'
 
         // Load the boundary coordinates of each country
         var countryLayer = new google.maps.Data()
@@ -286,10 +295,15 @@
         var cityLayer = new google.maps.Data()
         cityLayer.loadGeoJson(cityJson);
 
+        var townLayer = new google.maps.Data()
+        townLayer.loadGeoJson(townsJson);
+
         // Show only the country layer by default (Eventually add the cities layer here and for the button!)
         countryLayer.setMap(null);
         stateLayer.setMap(null);
-        cityLayer.setMap(map);
+        cityLayer.setMap(null);
+        townLayer.setMap(map);
+
 
         var markers = cityLayer.setStyle(function(feature) {
           return new google.maps.Marker({
@@ -335,7 +349,7 @@
         // Click event for different countries
         // See combining data layers from Google Maps to add to menu
         countryLayer.addListener("click", function(event) {
-          document.getElementById("myNav").style.width = "450px";
+          document.getElementById("placeholder").style.width = "450px";
           var dataName = event.feature.getProperty('ADMIN');
           document.getElementById('locationName').textContent = dataName;
         });
@@ -366,15 +380,20 @@
         // Click event for different states
         stateLayer.addListener("click", function(event) {
           stateLayer.revertStyle();
-          document.getElementById("myNav").style.width = "450px";
-          var dataName = event.feature.getProperty('name')
-          document.getElementById('locationName').textContent = dataName;
+          document.getElementById("placeholder").style.width = "450px";
+        });
+
+        townLayer.addListener("click", function(event) {
+          townLayer.revertStyle();
+          document.getElementById("placeholder").style.width = "450px";
+          var placeholderGraphic = event.feature.getProperty('tsp url');
+          document.getElementById('placeholder iframe').src = placeholderGraphic;
         });
 
         // Click event for different cities
         cityLayer.addListener("click", function(event) {
           cityLayer.revertStyle();
-          document.getElementById("myNav").style.width = "450px";
+          document.getElementById("sidebar1").style.width = "450px";
 
           // Load variables from properties of GeoJSON
 
@@ -492,7 +511,7 @@
           ]);
 
           var options = {
-            title: 'Business as Usual (BAU) and Wind, Water, Solar (WWS) Energy, Air Pollution, and Climate Costs (USD 2013 $bil/yr)',
+            title: 'Business-as-Usual (BAU) and Wind-Water-Solar (WWS) Energy, Air Pollution, and Climate Costs (USD 2013 $bil/yr)',
             height: 400,
             width: 380,
             legend: { position: 'top', maxLines: 4},
@@ -792,7 +811,8 @@
     }
 
     function closeNav() {
-      document.getElementById("myNav").style.width = "0%";
+      document.getElementById("sidebar1").style.width = "0%";
+      document.getElementById("placeholder").style.width = "0%";
     }
 
     </script>
