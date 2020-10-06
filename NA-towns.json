@@ -1,0 +1,35 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Arlington",
+        "state": "Virginia",
+        "tsp url": "https://thesolutionsproject.org/why-clean-energy/#/map/cities/location/Arlington"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.08471298217773,
+          38.89063199187812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Buffalo",
+        "state": "New York",
+        "tsp url": "https://thesolutionsproject.org/why-clean-energy/#/map/cities/location/Buffalo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.87702941894531,
+          42.88803956056295
+        ]
+      }
+    }
+  ]
+}
