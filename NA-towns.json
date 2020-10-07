@@ -6,7 +6,7 @@
       "properties": {
         "name": "Arlington",
         "state": "Virginia",
-        "tsp url": "https://thesolutionsproject.org/why-clean-energy/#/map/cities/location/Arlington"
+        "tsp url": "Placeholder PDFs/city_Arlington.pdf"
       },
       "geometry": {
         "type": "Point",
@@ -21,7 +21,7 @@
       "properties": {
         "name": "Buffalo",
         "state": "New York",
-        "tsp url": "https://thesolutionsproject.org/why-clean-energy/#/map/cities/location/Buffalo"
+        "tsp url": "Placeholder PDFs/city_Buffalo.pdf"
       },
       "geometry": {
         "type": "Point",
