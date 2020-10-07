@@ -6,7 +6,7 @@
       "properties": {
         "name": "Arlington",
         "state": "Virginia",
-        "tsp url": "Placeholder PDFs/city_Arlington.pdf"
+        "tsp url": "https://github.com/milesmsmith/Solutions-Project-Infographic/blob/master/Placeholder%20PDFs/city_Arlington.pdf"
       },
       "geometry": {
         "type": "Point",
