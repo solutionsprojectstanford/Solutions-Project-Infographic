@@ -21,7 +21,7 @@
       "properties": {
         "name": "Buffalo",
         "state": "New York",
-        "tsp url": "Placeholder PDFs/city_Buffalo.pdf"
+        "tsp url": "https://thesolutionsproject.org/why-clean-energy/#/map/cities/location/Buffalo"
       },
       "geometry": {
         "type": "Point",
