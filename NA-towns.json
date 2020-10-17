@@ -6,7 +6,7 @@
       "properties": {
         "name": "Arlington",
         "state": "Virginia",
-        "tsp url": "https://drive.google.com/file/d/1gGM_dPN1WcAatTjUA6-zMVNRKppuUPtS/view?usp=sharing"
+        "tsp url": "Placeholder PDFs/city_Arlington.pdf"
       },
       "geometry": {
         "type": "Point",
@@ -21,7 +21,7 @@
       "properties": {
         "name": "Buffalo",
         "state": "New York",
-        "tsp url": "https://drive.google.com/file/d/1C8hB3ObM7dnDNns9s8ufHt00VrK2FJyR/view?usp=sharing"
+        "tsp url": "Placeholder PDFs/city_Buffalo.pdf"
       },
       "geometry": {
         "type": "Point",
