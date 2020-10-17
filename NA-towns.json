@@ -6,8 +6,8 @@
       "properties": {
         "name": "Arlington",
         "state": "Virginia",
-        "tsp url": "Placeholder PDFs/city_Arlington.png",
-        "tsp url 2":""
+        "tsp url": "Placeholder PDFs/city_Arlington1.png",
+        "tsp url 2":"Placeholder PDFs/city_Arlington2.png"
       },
       "geometry": {
         "type": "Point",
@@ -32,6 +32,22 @@
           42.88803956056295
         ]
       }
-    }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Boston",
+        "state": "Massachusetts",
+        "tsp url": "Placeholder PDFs/city_Boston1.png",
+        "tsp url 2":"Placeholder PDFs/city_Boston2.png"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.057083,
+          42.361145
+        ]
+      }
+    },
   ]
 }
