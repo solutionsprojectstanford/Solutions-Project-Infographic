@@ -27,7 +27,7 @@
         "healthCostDollars":0.38,
         "healthCostGDP":0.0152,
         "totalSavings":7156,
-        "paybackTime":3.3,
+        "paybackTime":3.3
       },
       "geometry": {
         "type": "Point",
@@ -63,7 +63,7 @@
         "healthCostDollars":0.43,
         "healthCostGDP":0.0125,
         "totalSavings":6168,
-        "paybackTime":3.4,
+        "paybackTime":3.4
       },
       "geometry": {
         "type": "Point",
@@ -99,7 +99,7 @@
         "healthCostDollars":2.33,
         "healthCostGDP":0.0128,
         "totalSavings":6485,
-        "paybackTime":3.9,
+        "paybackTime":3.9
       },
       "geometry": {
         "type": "Point",
