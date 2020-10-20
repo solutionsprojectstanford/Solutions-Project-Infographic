@@ -4,6 +4,7 @@
     {
       "type": "Feature",
       "properties": {
+        "locationID":"Arlington",
         "locationName":"Arlington",
         "locationType":"city",
         "onshoreWind":10,
