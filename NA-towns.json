@@ -27,12 +27,6 @@
         "healthCostGDP":0.0152,
         "totalSavings":7156,
         "paybackTime":3.3,
-        "footprintArea":"",
-        "spacingArea":"",
-        "govName":"",
-        "govTwitter":"",
-        "govEmail":"",
-        "state":"Virginia"
       },
       "geometry": {
         "type": "Point",
@@ -69,12 +63,6 @@
         "healthCostGDP":0.0125,
         "totalSavings":6168,
         "paybackTime":3.4,
-        "footprintArea":"",
-        "spacingArea":"",
-        "govName":"",
-        "govTwitter":"",
-        "govEmail":"",
-        "state":"New York"
       },
       "geometry": {
         "type": "Point",
@@ -111,12 +99,6 @@
         "healthCostGDP":0.0128,
         "totalSavings":6485,
         "paybackTime":3.9,
-        "footprintArea":"",
-        "spacingArea":"",
-        "govName":"",
-        "govTwitter":"",
-        "govEmail":"",
-        "state":"Massachusetts"
       },
       "geometry": {
         "type": "Point",
