@@ -4,30 +4,28 @@
     {
       "type": "Feature",
       "properties": {
-        "locationID":"Arlington",
-        "locationName":"Arlington",
-        "locationType":"city",
-        "onshoreWind":10,
-        "offshoreWind":50,
-        "waveDevice":1,
-        "geoPlant":0,
-        "hydroPlant":1,
-        "turbine":0,
-        "resRoof":5,
-        "govRoof":5,
-        "solarPlant":24,
-        "cspPlant":5,
-        "constructionJobs":2120,
-        "operationJobs":1302,
-        "wws":11.9,
-        "bau":10.26,
-        "electricityCost":-36,
-        "futureWWS":47.4,
-        "airPollutionMortality":37,
-        "healthCostDollars":0.38,
-        "healthCostGDP":0.0152,
-        "totalSavings":7156,
-        "paybackTime":3.3
+        "locationName": "Arlington",
+        "onshoreWind": 10,
+        "offshoreWind": 50,
+        "waveDevice": 1,
+        "geoPlant": 0,
+        "hydroPlant": 1,
+        "turbine": 0,
+        "resRoof": 5,
+        "govRoof": 5,
+        "solarPlant": 24,
+        "cspPlant": 5,
+        "constructionJobs": 2120,
+        "operationJobs": 1302,
+        "wws": 11.9,
+        "bau": 10.26,
+        "electricityCost": -36,
+        "futureWWS": 47.4,
+        "airPollutionMortality": 37,
+        "healthCostDollars": 0.38,
+        "healthCostGDP": 0.0152,
+        "totalSavings": 7156,
+        "paybackTime": 3.3
       },
       "geometry": {
         "type": "Point",
@@ -40,30 +38,28 @@
     {
       "type": "Feature",
       "properties": {
-        "locationID":"Buffalo",
-        "locationName":"Buffalo",
-        "locationType":"city",
-        "onshoreWind":10,
-        "offshoreWind":36,
-        "waveDevice":1,
-        "geoPlant":0,
-        "hydroPlant":7,
-        "turbine":0,
-        "resRoof":2,
-        "govRoof":2,
-        "solarPlant":43,
-        "cspPlant":0,
-        "constructionJobs":2101,
-        "operationJobs":1029,
-        "wws":11.7,
-        "bau":12.23,
-        "electricityCost":106,
-        "futureWWS":47.2,
-        "airPollutionMortality":59,
-        "healthCostDollars":0.43,
-        "healthCostGDP":0.0125,
-        "totalSavings":6168,
-        "paybackTime":3.4
+        "locationName": "Buffalo",
+        "onshoreWind": 10,
+        "offshoreWind": 36,
+        "waveDevice": 1,
+        "geoPlant": 0,
+        "hydroPlant": 7,
+        "turbine": 0,
+        "resRoof": 2,
+        "govRoof": 2,
+        "solarPlant": 43,
+        "cspPlant": 0,
+        "constructionJobs": 2101,
+        "operationJobs": 1029,
+        "wws": 11.7,
+        "bau": 12.23,
+        "electricityCost": 106,
+        "futureWWS": 47.2,
+        "airPollutionMortality": 59,
+        "healthCostDollars": 0.43,
+        "healthCostGDP": 0.0125,
+        "totalSavings": 6168,
+        "paybackTime": 3.4
       },
       "geometry": {
         "type": "Point",
@@ -76,36 +72,541 @@
     {
       "type": "Feature",
       "properties": {
-        "locationID":"Boston",
-        "locationName":"Boston",
-        "locationType":"city",
-        "onshoreWind":13,
-        "offshoreWind":55,
-        "waveDevice":1,
-        "geoPlant":0,
-        "hydroPlant":1,
-        "turbine":0,
-        "resRoof":1,
-        "govRoof":1,
-        "solarPlant":27,
-        "cspPlant":0,
-        "constructionJobs":11546,
-        "operationJobs":8970,
-        "wws":12.46,
-        "bau":11.82,
-        "electricityCost":54,
-        "futureWWS":42,
-        "airPollutionMortality":288,
-        "healthCostDollars":2.33,
-        "healthCostGDP":0.0128,
-        "totalSavings":6485,
-        "paybackTime":3.9
+        "locationName": "Boston",
+        "onshoreWind": 13,
+        "offshoreWind": 55,
+        "waveDevice": 1,
+        "geoPlant": 0,
+        "hydroPlant": 1,
+        "turbine": 0,
+        "resRoof": 1,
+        "govRoof": 1,
+        "solarPlant": 27,
+        "cspPlant": 0,
+        "constructionJobs": 11546,
+        "operationJobs": 8970,
+        "wws": 12.46,
+        "bau": 11.82,
+        "electricityCost": 54,
+        "futureWWS": 42,
+        "airPollutionMortality": 288,
+        "healthCostDollars": 2.33,
+        "healthCostGDP": 0.0128,
+        "totalSavings": 6485,
+        "paybackTime": 3.9
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
           -71.057083,
           42.361145
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locationName": "Calgary"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.06692504882812,
+          51.05520733858494
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locationName": "Cleveland"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.69021606445312,
+          41.50497780464056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locationName": "Denton"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.13356018066406,
+          33.21657393348255
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locationName": "Denver"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.98947143554686,
+          39.74732195489861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locationName": "Washington, DC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.03716278076172,
+          38.89584266537804
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locationName": "Miami"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.19641876220703,
+          25.775778914534246
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locationName": "Milwaukee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.92221069335938,
+          43.03476830455953
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locationName": "Oakland"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.27439880371094,
+          37.80544394934271
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locationName": "Palo Alto"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.16247558593751,
+          37.446516047833484
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locationName": "San Diego"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.15408325195311,
+          32.72144325007593
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locationName": "San Francisco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41241455078125,
+          37.77994127700315
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locationName": "Seattle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.32040405273438,
+          47.60431120244565
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locationName": "St. Petersburg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.66868591308592,
+          27.769836075830344
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locationName": "Hanover"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.28832244873047,
+          43.7046152744673
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locationName": "Woodstock"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.7505416870117,
+          43.13331170781402
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locationName": "Atlanta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.39285278320312,
+          33.754031498216385
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locationName": "New Orleans"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.087890625,
+          29.958504019413528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locationName": "Detroit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.05801391601561,
+          42.348395259793
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locationName": "Des Moines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.60763549804688,
+          41.590283303594205
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locationName": "Portland"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.662353515625,
+          45.52078170816289
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locationName": "Standing Rock"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.83251953125,
+          45.90529985724799
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locationName": "Abita Springs"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.04085540771484,
+          30.479154116785644
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locationName": "Aspen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.82830810546875,
+          39.19022300931075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locationName": "Burlington"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.2132339477539,
+          44.47372613352351
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locationName": "Boone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.67819976806639,
+          36.216856162150144
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locationName": "Columbia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.85897827148438,
+          39.215098309787585
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locationName": "East Hampton"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.18910217285156,
+          40.965900433765945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locationName": "Georgetown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.67875671386719,
+          30.632003915582725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locationName": "Greensburg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.29168701171875,
+          37.60498423376982
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locationName": "Grand Rapids"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.67001342773436,
+          42.96546750784811
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locationName": "Honolulu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -157.8570556640625,
+          21.304728462151672
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locationName": "Lancaster"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.15246582031249,
+          34.699848377328934
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locationName": "Madison"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.38957214355469,
+          43.075408452653214
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locationName": "Moab"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.55291748046875,
+          38.58252615935333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locationName": "Nassau"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.45276594161987,
+          40.777909185484944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locationName": "Pueblo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.61593627929688,
+          38.25543637637947
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locationName": "Rochester"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.46368408203125,
+          44.02392778951341
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locationName": "Santa Monica"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.48823547363281,
+          34.02036809829769
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locationName": "Sylva"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.22624206542969,
+          35.37561413174875
         ]
       }
     }
