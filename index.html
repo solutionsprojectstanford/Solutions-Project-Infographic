@@ -243,11 +243,21 @@
     </div>
   </div>
 
+  <div id="sidebar2" class="overlay">
+    <a class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+      <h1><span id="placeName"></span></h1>
+      <br>
+      <h3>100% Wind-Water-Solar (WWS) Energy Mix</h3>
+      <div id="tsp energy piechart"></div>
+
+    </div>
+  </div>
+
   <div id="placeholder" class="overlay">
     <a class="closebtn" onclick="closeNav()">&times;</a>
     <div class="overlay-content">
-      <iframe id="placeholder iframe" src="" width="100%"; height = "700px"> </iframe>
-      <iframe id="placeholder iframe 2" src="" width="100%"; height = "700px"> </iframe>
+      <h1>Coming very soon!</h1>
 
     </div>
   </div>
@@ -307,6 +317,20 @@
 
 
         var markers = cityLayer.setStyle(function(feature) {
+          return new google.maps.Marker({
+            icon: {
+              path: google.maps.SymbolPath.CIRCLE,
+              strokeColor: "#8c1515",
+              strokeOpacity: 0.8,
+              strokeWeight: 1,
+              fillColor:"#8c1515",
+              fillOpacity: 0.6,
+              scale: 8
+            }
+          });
+        });
+
+        var markers = townLayer.setStyle(function(feature) {
           return new google.maps.Marker({
             icon: {
               path: google.maps.SymbolPath.CIRCLE,
@@ -381,12 +405,59 @@
         // Click event for different states
         stateLayer.addListener("click", function(event) {
           stateLayer.revertStyle();
-          document.getElementById("placeholder").style.width = "450px";
+          document.getElementById("sidebar2").style.width = "450px";
+
+          document.getElementById('placeName').textContent = event.feature.getProperty('locationName');
+
+          var onshoreWind = Number(event.feature.getProperty('onshoreWind'));
+          var offshoreWind = Number(event.feature.getProperty('offshoreWind'));
+          var wave = Number(event.feature.getProperty('waveDevice'));
+          var geothermal = Number(event.feature.getProperty('geoPlant'));
+          var hydroelectric = Number(event.feature.getProperty('hydroPlant'));
+          var tidal = Number(event.feature.getProperty('turbine'));
+          var resPV = Number(event.feature.getProperty('resRoof'));
+          var govPV = Number(event.feature.getProperty('govRoof'));
+          var utilityPV = Number(event.feature.getProperty('solarPlant'));
+          var concSolar = Number(event.feature.getProperty('cspPlant'));
+
+          google.charts.load('current', {'packages':['corechart']});
+          google.charts.setOnLoadCallback(drawStateEnergyPie);
+          function drawStateEnergyPie() {
+            var data = google.visualization.arrayToDataTable([
+              ['Energy Source', 'Usage Percent'],
+              ['Onshore Wind',     onshoreWind],
+              ['Offshore Wind',      offshoreWind],
+              ['Wave',      wave],
+              ['Geothermal',      geothermal],
+              ['Hydroelectric',      hydroelectric],
+              ['Tidal',      tidal],
+              ['Res. PV',      resPV],
+              ['Com./Gov PV',      govPV],
+              ['Utility PV',      utilityPV],
+              ['CSP',      concSolar]
+            ]);
+
+            var options = {
+              title: 'Percent Annual End-Use Energy Provided by WWS Generator',
+              backgroundColor: 'white',
+              chartArea: {left: 20, top: 30, bottom: 30, height: '100%', width: '100%'},
+              height: 300,
+              width: 380,
+              titleTextStyle: {fontSize: 12}
+            };
+
+            var chart = new google.visualization.PieChart(document.getElementById('tsp energy piechart'));
+            chart.draw(data, options);
+          };
+
+
+
+
         });
 
         townLayer.addListener("click", function(event) {
           townLayer.revertStyle();
-          document.getElementById("placeholder").style.width = "450px";
+          document.getElementById("sidebar2").style.width = "450px";
         });
 
         // Click event for different cities
@@ -783,8 +854,13 @@
             countryLayer.setMap(map);
             stateLayer.setMap(null);
             cityLayer.setMap(null);
+            townLayer.setMap(null);
             $(this).addClass('active');
             $(this).siblings().removeClass('active');
+            document.getElementById("sidebar1").style.width = "0%";
+            document.getElementById("sidebar2").style.width = "0%";
+            document.getElementById("placeholder").style.width = "0%";
+
           })
 
           statesbtn.addEventListener("click", function(event) {
@@ -793,8 +869,13 @@
             countryLayer.setMap(null);
             cityLayer.setMap(null);
             stateLayer.setMap(map);
+            townLayer.setMap(null);
             $(this).siblings().removeClass('active');
             $(this).addClass('active');
+            document.getElementById("sidebar1").style.width = "0%";
+            document.getElementById("sidebar2").style.width = "0%";
+            document.getElementById("placeholder").style.width = "0%";
+
           });
 
           citiesbtn.addEventListener("click", function(event) {
@@ -803,15 +884,22 @@
             countryLayer.setMap(null);
             stateLayer.setMap(null);
             cityLayer.setMap(map);
+            townLayer.setMap(map);
             $(this).siblings().removeClass('active');
             $(this).addClass('active');
+            document.getElementById("sidebar1").style.width = "0%";
+            document.getElementById("sidebar2").style.width = "0%";
+            document.getElementById("placeholder").style.width = "0%";
+
           })
 
     }
 
     function closeNav() {
       document.getElementById("sidebar1").style.width = "0%";
+      document.getElementById("sidebar2").style.width = "0%";
       document.getElementById("placeholder").style.width = "0%";
+
     }
 
     </script>
