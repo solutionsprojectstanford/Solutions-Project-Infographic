@@ -374,9 +374,54 @@
         // Click event for different countries
         // See combining data layers from Google Maps to add to menu
         countryLayer.addListener("click", function(event) {
-          document.getElementById("placeholder").style.width = "450px";
-          var dataName = event.feature.getProperty('ADMIN');
-          document.getElementById('locationName').textContent = dataName;
+          countryLayer.revertStyle();
+          document.getElementById("sidebar2").style.width = "450px";
+
+          document.getElementById('placeName').textContent = event.feature.getProperty('locationName');
+
+          // Energy Mix Chart
+          var onshoreWind = Number(event.feature.getProperty('onshoreWind'));
+          var offshoreWind = Number(event.feature.getProperty('offshoreWind'));
+          var wave = Number(event.feature.getProperty('waveDevice'));
+          var geothermal = Number(event.feature.getProperty('geoPlant'));
+          var hydroelectric = Number(event.feature.getProperty('hydroPlant'));
+          var tidal = Number(event.feature.getProperty('turbine'));
+          var resPV = Number(event.feature.getProperty('resRoof'));
+          var govPV = Number(event.feature.getProperty('govRoof'));
+          var utilityPV = Number(event.feature.getProperty('solarPlant'));
+          var concSolar = Number(event.feature.getProperty('cspPlant'));
+
+          google.charts.load('current', {'packages':['corechart']});
+          google.charts.setOnLoadCallback(drawCountryEnergyPie);
+          function drawCountryEnergyPie() {
+            var data = google.visualization.arrayToDataTable([
+              ['Energy Source', 'Usage Percent'],
+              ['Onshore Wind',     onshoreWind],
+              ['Offshore Wind',      offshoreWind],
+              ['Wave',      wave],
+              ['Geothermal',      geothermal],
+              ['Hydroelectric',      hydroelectric],
+              ['Tidal',      tidal],
+              ['Res. PV',      resPV],
+              ['Com./Gov PV',      govPV],
+              ['Utility PV',      utilityPV],
+              ['CSP',      concSolar]
+            ]);
+
+            var options = {
+              title: 'Percent Annual End-Use Energy Provided by WWS Generator',
+              backgroundColor: 'white',
+              chartArea: {left: 20, top: 30, bottom: 30, height: '100%', width: '100%'},
+              height: 300,
+              width: 380,
+              titleTextStyle: {fontSize: 12}
+            };
+
+            var chart = new google.visualization.PieChart(document.getElementById('tsp energy piechart'));
+            chart.draw(data, options);
+          };
+
+
         });
 
         // Style the state layer
