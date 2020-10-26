@@ -251,6 +251,12 @@
       <h3>100% Wind-Water-Solar (WWS) Energy Mix</h3>
       <div id="tsp energy piechart"></div>
 
+      <h3>2050 Average Energy, Health, and Climate Costs Savings from WWS</h3>
+      <p style="display: inline-block;">$<span id="tsp costSavings"></span> per year per person</p>
+      <br>
+      <h3>2050 Pollution Mortality Reduction</h3>
+      <p><span id="tsp avoided deaths" style="display: inline-block;"></span> deaths avoided per year</p>
+
     </div>
   </div>
 
@@ -313,7 +319,7 @@
         countryLayer.setMap(null);
         stateLayer.setMap(null);
         cityLayer.setMap(map);
-        townLayer.setMap(map);
+        townLayer.setMap(null);
 
 
         var markers = cityLayer.setStyle(function(feature) {
@@ -379,7 +385,6 @@
 
           document.getElementById('placeName').textContent = event.feature.getProperty('locationName');
 
-          // Energy Mix Chart
           var onshoreWind = Number(event.feature.getProperty('onshoreWind'));
           var offshoreWind = Number(event.feature.getProperty('offshoreWind'));
           var wave = Number(event.feature.getProperty('waveDevice'));
@@ -391,6 +396,14 @@
           var utilityPV = Number(event.feature.getProperty('solarPlant'));
           var concSolar = Number(event.feature.getProperty('cspPlant'));
 
+          var costSavings = Number(event.feature.getProperty('totalSavings'));
+          var avoidedDeaths = Number(event.feature.getProperty('airPollutionMortality'));
+
+          document.getElementById('tsp costSavings').textContent = costSavings;
+          document.getElementById('tsp avoided deaths').textContent = avoidedDeaths;
+
+
+          // Energy Mix Chart
           google.charts.load('current', {'packages':['corechart']});
           google.charts.setOnLoadCallback(drawCountryEnergyPie);
           function drawCountryEnergyPie() {
@@ -465,6 +478,13 @@
           var utilityPV = Number(event.feature.getProperty('solarPlant'));
           var concSolar = Number(event.feature.getProperty('cspPlant'));
 
+          var costSavings = Number(event.feature.getProperty('totalSavings'));
+          var avoidedDeaths = Number(event.feature.getProperty('airPollutionMortality'));
+
+          document.getElementById('tsp costSavings').textContent = costSavings;
+          document.getElementById('tsp avoided deaths').textContent = avoidedDeaths;
+
+
           google.charts.load('current', {'packages':['corechart']});
           google.charts.setOnLoadCallback(drawStateEnergyPie);
           function drawStateEnergyPie() {
@@ -493,6 +513,9 @@
 
             var chart = new google.visualization.PieChart(document.getElementById('tsp energy piechart'));
             chart.draw(data, options);
+
+
+
           };
 
 
@@ -502,7 +525,7 @@
 
         townLayer.addListener("click", function(event) {
           townLayer.revertStyle();
-          document.getElementById("sidebar2").style.width = "450px";
+          document.getElementById("placeholder").style.width = "450px";
         });
 
         // Click event for different cities
@@ -516,37 +539,37 @@
           var countryName = event.feature.getProperty('country');
 
           // End-Use Energy
-          var onshoreWind = event.feature.getProperty('onshore wind');
-          var offshoreWind = event.feature.getProperty('offshore wind');
-          var wave = event.feature.getProperty('wave');
-          var geothermal = event.feature.getProperty('geothermal');
-          var hydroelectric = event.feature.getProperty('hydroelectric');
-          var tidal = event.feature.getProperty('tidal');
-          var resPV = event.feature.getProperty('res pv');
-          var govPV = event.feature.getProperty('gov pv');
-          var utilityPV = event.feature.getProperty('utility pv');
-          var concSolar = event.feature.getProperty('csp');
+          var onshoreWind = Number(event.feature.getProperty('onshore wind'));
+          var offshoreWind = Number(event.feature.getProperty('offshore wind'));
+          var wave = Number(event.feature.getProperty('wave'));
+          var geothermal = Number(event.feature.getProperty('geothermal'));
+          var hydroelectric = Number(event.feature.getProperty('hydroelectric'));
+          var tidal = Number(event.feature.getProperty('tidal'));
+          var resPV = Number(event.feature.getProperty('res pv'));
+          var govPV = Number(event.feature.getProperty('gov pv'));
+          var utilityPV = Number(event.feature.getProperty('utility pv'));
+          var concSolar = Number(event.feature.getProperty('csp'));
 
 
           // Nameplate Capacity Energy Mix (NOT YET FINISHED)
-          var onshoreNC = event.feature.getProperty('onshore wind (nameplate capacity)');
-          var offshoreNC = event.feature.getProperty('offshore wind (nameplate capacity)');
-          var waveNC = event.feature.getProperty('wave (nameplate capacity)');
-          var geothermalNC = event.feature.getProperty('geothermal (nameplate capacity)');
-          var cspNC = event.feature.getProperty('csp (nameplate capacity)');
-          var tidalNC = event.feature.getProperty('tidal (nameplate capacity)');
+          var onshoreNC = Number(event.feature.getProperty('onshore wind (nameplate capacity)'));
+          var offshoreNC = Number(event.feature.getProperty('offshore wind (nameplate capacity)'));
+          var waveNC = Number(event.feature.getProperty('wave (nameplate capacity)'));
+          var geothermalNC = Number(event.feature.getProperty('geothermal (nameplate capacity)'));
+          var cspNC = Number(event.feature.getProperty('csp (nameplate capacity)'));
+          var tidalNC = Number(event.feature.getProperty('tidal (nameplate capacity)'));
 
           // Associated Costs
-          var bauEnergyCost = event.feature.getProperty('2050 BAU energy cost ($bil/yr)');
-          var bauPollutionCost = event.feature.getProperty('2050 BAU air pollution cost ($bil/yr)');
-          var bauClimateCost = event.feature.getProperty('2050 BAU climate cost ($bil/yr)');
-          var wwsEnergyCost = event.feature.getProperty('2050 WWS energy and total social cost ($bil/yr)');
-          var percentEnergyCostSavings = event.feature.getProperty('Percent change in energy cost due to WWS (WWS- BAU)/(BAU)');
-          var percentSocialCostSavigns = event.feature.getProperty('Percent change in total social cost due to WWS (WWS-BAU)/(BAU)');
+          var bauEnergyCost = Number(event.feature.getProperty('2050 BAU energy cost ($bil/yr)'));
+          var bauPollutionCost = Number(event.feature.getProperty('2050 BAU air pollution cost ($bil/yr)'));
+          var bauClimateCost = Number(event.feature.getProperty('2050 BAU climate cost ($bil/yr)'));
+          var wwsEnergyCost = Number(event.feature.getProperty('2050 WWS energy and total social cost ($bil/yr)'));
+          var percentEnergyCostSavings = Number(event.feature.getProperty('Percent change in energy cost due to WWS (WWS- BAU)/(BAU)'));
+          var percentSocialCostSavigns = Number(event.feature.getProperty('Percent change in total social cost due to WWS (WWS-BAU)/(BAU)'));
 
           // Savings & Avoided Deaths
-          var costSavings = event.feature.getProperty('cost savings');
-          var avoidedDeaths = event.feature.getProperty('avoided deaths');
+          var costSavings = Number(event.feature.getProperty('cost savings'));
+          var avoidedDeaths = Number(event.feature.getProperty('avoided deaths'));
 
 
           document.getElementById('locationName').textContent = cityName;
@@ -929,7 +952,7 @@
             countryLayer.setMap(null);
             stateLayer.setMap(null);
             cityLayer.setMap(map);
-            townLayer.setMap(map);
+            townLayer.setMap(null);
             $(this).siblings().removeClass('active');
             $(this).addClass('active');
             document.getElementById("sidebar1").style.width = "0%";
