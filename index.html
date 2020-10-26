@@ -190,7 +190,7 @@
 
 
   <body>
-    <div id="sidebar1" class="overlay">
+    <div id="megacities-sidebar" class="overlay">
       <a class="closebtn" onclick="closeNav()">&times;</a>
       <div class="overlay-content">
         <h1><span id="locationName"></span></h1>
@@ -215,6 +215,8 @@
         <br>
         <h3>2050 Pollution Mortality Reduction</h3>
         <p><span id="avoided deaths" style="display: inline-block;"></span> deaths avoided per year</p>
+        <h3 style="display: inline-block;">Roadmap developed in 2020 paper:</h3>
+        <div class="button_cont" align="center"><a class="example_c" href="http://web.stanford.edu/group/efmh/jacobson/Articles/I/Megacities.pdf" target="_blank" rel="nofollow noopener">Paper</a></div>
 
 
         <div>
@@ -243,20 +245,49 @@
     </div>
   </div>
 
-  <div id="sidebar2" class="overlay">
+  <div id="states-sidebar" class="overlay">
     <a class="closebtn" onclick="closeNav()">&times;</a>
     <div class="overlay-content">
-      <h1><span id="placeName"></span></h1>
+      <h1><span id="stateName"></span></h1>
       <br>
       <h3>100% Wind-Water-Solar (WWS) Energy Mix</h3>
-      <div id="tsp energy piechart"></div>
+      <div id="state energy piechart"></div>
 
       <h3>2050 Average Energy, Health, and Climate Costs Savings from WWS</h3>
-      <p style="display: inline-block;">$<span id="tsp costSavings"></span> per year per person</p>
+      <p style="display: inline-block;">$<span id="state costSavings"></span> per year per person</p>
       <br>
       <h3>2050 Pollution Mortality Reduction</h3>
-      <p><span id="tsp avoided deaths" style="display: inline-block;"></span> deaths avoided per year</p>
+      <p><span id="state avoided deaths" style="display: inline-block;"></span> deaths avoided per year</p>
+      <br>
 
+      <h3 style="display: inline-block;">Roadmap developed in 2015 paper:</h3>
+      <div class="button_cont" align="center"><a class="example_c" href="http://web.stanford.edu/group/efmh/jacobson/Articles/I/USStatesWWS.pdf" target="_blank" rel="nofollow noopener">Paper</a></div>
+      <br>
+      <br>
+      <br>
+    </div>
+  </div>
+
+  <div id="countries-sidebar" class="overlay">
+    <a class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+      <h1><span id="countryName"></span></h1>
+      <br>
+      <h3>100% Wind-Water-Solar (WWS) Energy Mix</h3>
+      <div id="country energy piechart"></div>
+
+      <h3>2050 Average Energy, Health, and Climate Costs Savings from WWS</h3>
+      <p style="display: inline-block;">$<span id="country costSavings"></span> per year per person</p>
+      <br>
+      <h3>2050 Pollution Mortality Reduction</h3>
+      <p><span id="country avoided deaths" style="display: inline-block;"></span> deaths avoided per year</p>
+      <br>
+
+      <h3 style="display: inline-block;">Roadmap developed in 2019 paper:</h3>
+      <div class="button_cont" align="center"><a class="example_c" href="http://web.stanford.edu/group/efmh/jacobson/Articles/I/143WWSCountries.pdf" target="_blank" rel="nofollow noopener">Paper</a></div>
+      <br>
+      <br>
+      <br>
     </div>
   </div>
 
@@ -381,9 +412,9 @@
         // See combining data layers from Google Maps to add to menu
         countryLayer.addListener("click", function(event) {
           countryLayer.revertStyle();
-          document.getElementById("sidebar2").style.width = "450px";
+          document.getElementById("countries-sidebar").style.width = "450px";
 
-          document.getElementById('placeName').textContent = event.feature.getProperty('locationName');
+          document.getElementById('countryName').textContent = event.feature.getProperty('locationName');
 
           var onshoreWind = Number(event.feature.getProperty('onshoreWind'));
           var offshoreWind = Number(event.feature.getProperty('offshoreWind'));
@@ -399,8 +430,8 @@
           var costSavings = Number(event.feature.getProperty('totalSavings'));
           var avoidedDeaths = Number(event.feature.getProperty('airPollutionMortality'));
 
-          document.getElementById('tsp costSavings').textContent = costSavings;
-          document.getElementById('tsp avoided deaths').textContent = avoidedDeaths;
+          document.getElementById('country costSavings').textContent = costSavings;
+          document.getElementById('country avoided deaths').textContent = avoidedDeaths;
 
 
           // Energy Mix Chart
@@ -430,7 +461,7 @@
               titleTextStyle: {fontSize: 12}
             };
 
-            var chart = new google.visualization.PieChart(document.getElementById('tsp energy piechart'));
+            var chart = new google.visualization.PieChart(document.getElementById('country energy piechart'));
             chart.draw(data, options);
           };
 
@@ -463,9 +494,9 @@
         // Click event for different states
         stateLayer.addListener("click", function(event) {
           stateLayer.revertStyle();
-          document.getElementById("sidebar2").style.width = "450px";
+          document.getElementById("states-sidebar").style.width = "450px";
 
-          document.getElementById('placeName').textContent = event.feature.getProperty('locationName');
+          document.getElementById('stateName').textContent = event.feature.getProperty('locationName');
 
           var onshoreWind = Number(event.feature.getProperty('onshoreWind'));
           var offshoreWind = Number(event.feature.getProperty('offshoreWind'));
@@ -481,8 +512,8 @@
           var costSavings = Number(event.feature.getProperty('totalSavings'));
           var avoidedDeaths = Number(event.feature.getProperty('airPollutionMortality'));
 
-          document.getElementById('tsp costSavings').textContent = costSavings;
-          document.getElementById('tsp avoided deaths').textContent = avoidedDeaths;
+          document.getElementById('state costSavings').textContent = costSavings;
+          document.getElementById('state avoided deaths').textContent = avoidedDeaths;
 
 
           google.charts.load('current', {'packages':['corechart']});
@@ -511,16 +542,9 @@
               titleTextStyle: {fontSize: 12}
             };
 
-            var chart = new google.visualization.PieChart(document.getElementById('tsp energy piechart'));
+            var chart = new google.visualization.PieChart(document.getElementById('state energy piechart'));
             chart.draw(data, options);
-
-
-
           };
-
-
-
-
         });
 
         townLayer.addListener("click", function(event) {
@@ -531,7 +555,7 @@
         // Click event for different cities
         cityLayer.addListener("click", function(event) {
           cityLayer.revertStyle();
-          document.getElementById("sidebar1").style.width = "450px";
+          document.getElementById("megacities-sidebar").style.width = "450px";
 
           // Load variables from properties of GeoJSON
 
@@ -925,8 +949,9 @@
             townLayer.setMap(null);
             $(this).addClass('active');
             $(this).siblings().removeClass('active');
-            document.getElementById("sidebar1").style.width = "0%";
-            document.getElementById("sidebar2").style.width = "0%";
+            document.getElementById("megacities-sidebar").style.width = "0%";
+            document.getElementById("states-sidebar").style.width = "0%";
+            document.getElementById("countries-sidebar").style.width = "0%";
             document.getElementById("placeholder").style.width = "0%";
 
           })
@@ -940,8 +965,9 @@
             townLayer.setMap(null);
             $(this).siblings().removeClass('active');
             $(this).addClass('active');
-            document.getElementById("sidebar1").style.width = "0%";
-            document.getElementById("sidebar2").style.width = "0%";
+            document.getElementById("megacities-sidebar").style.width = "0%";
+            document.getElementById("states-sidebar").style.width = "0%";
+            document.getElementById("countries-sidebar").style.width = "0%";
             document.getElementById("placeholder").style.width = "0%";
 
           });
@@ -955,8 +981,10 @@
             townLayer.setMap(null);
             $(this).siblings().removeClass('active');
             $(this).addClass('active');
-            document.getElementById("sidebar1").style.width = "0%";
-            document.getElementById("sidebar2").style.width = "0%";
+            document.getElementById("megacities-sidebar").style.width = "0%";
+            document.getElementById("states-sidebar").style.width = "0%";
+            document.getElementById("countries-sidebar").style.width = "0%";
+
             document.getElementById("placeholder").style.width = "0%";
 
           })
@@ -964,8 +992,10 @@
     }
 
     function closeNav() {
-      document.getElementById("sidebar1").style.width = "0%";
-      document.getElementById("sidebar2").style.width = "0%";
+      document.getElementById("megacities-sidebar").style.width = "0%";
+      document.getElementById("states-sidebar").style.width = "0%";
+      document.getElementById("countries-sidebar").style.width = "0%";
+
       document.getElementById("placeholder").style.width = "0%";
 
     }
