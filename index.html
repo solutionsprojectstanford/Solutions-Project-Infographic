@@ -575,17 +575,17 @@
           var concSolar = Number(event.feature.getProperty('csp'));
 
 
-          // Nameplate Capacity Energy Mix (NOT YET FINISHED)
+          // Nameplate Capacity Energy Mix 
           var onshoreNC = Number(event.feature.getProperty('onshore wind (nameplate capacity)'));
           var offshoreNC = Number(event.feature.getProperty('offshore wind (nameplate capacity)'));
           var waveNC = Number(event.feature.getProperty('wave (nameplate capacity)'));
           var geothermalNC = Number(event.feature.getProperty('geothermal (nameplate capacity)'));
           var cspNC = Number(event.feature.getProperty('csp (nameplate capacity)'));
           var tidalNC = Number(event.feature.getProperty('tidal (nameplate capacity)'));
-          var HydroNC = Number(event.feature.getProperty('Hydro-electric (nameplate capacity)'));
-          var ResPVNC = Number(event.feature.getProperty('Res. PV (nameplate capacity) '));
-          var ComGovPVNC = Number(event.feature.getProperty('Com./Gov. PV (nameplate capacity)'));
-          var UtilPVNC = Number(event.feature.getProperty('Utility PV (nameplate capacity)'));
+          var hydroNC = Number(event.feature.getProperty('Hydro-electric (nameplate capacity)'));
+          var resPVNC = Number(event.feature.getProperty('Res. PV (nameplate capacity) '));
+          var comgovPVNC = Number(event.feature.getProperty('Com./Gov. PV (nameplate capacity)'));
+          var utilPVNC = Number(event.feature.getProperty('Utility PV (nameplate capacity)'));
           
 
           // Associated Costs
@@ -651,6 +651,10 @@
               ['Offshore Wind', offshoreNC],
               ['Wave', waveNC],
               ['Geothermal', geothermalNC],
+              ['Hydro-electric', hydroNC],
+              ['Residential PV', resPVNC],
+              ['Com./Gov. PV', comgovPVNC],
+              ['Utility PV', utilPVNC],
               ['CSP', cspNC],
               ['tidal', tidalNC]
             ]);
