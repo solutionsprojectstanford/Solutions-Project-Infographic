@@ -1369,7 +1369,7 @@
         "Percent change in end-use load with WWS due to eliminating energy in mining, transporting, refining": "-1.0",
         "Percent change in end-use load with WWS due to efficiency beyond BAU": -7.2,
         "Overall percent change in end-use load with WWS": -44.8,
-        "wave (nameplate capacity)": ""
+        "wave (nameplate capacity)": 566
       },
       "geometry": {
         "type": "Point",
@@ -1421,7 +1421,8 @@
         "Percent change in end-use load with WWS due to higher work: energy ratio": -40.1,
         "Percent change in end-use load with WWS due to eliminating energy in mining, transporting, refining": -12.2,
         "Percent change in end-use load with WWS due to efficiency beyond BAU": -6.9,
-        "Overall percent change in end-use load with WWS": -59.2
+        "Overall percent change in end-use load with WWS": -59.2,
+        "wave (nameplate capacity)": 796
       },
       "geometry": {
         "type": "Point",
@@ -1473,7 +1474,8 @@
         "Percent change in end-use load with WWS due to higher work: energy ratio": -39.8,
         "Percent change in end-use load with WWS due to eliminating energy in mining, transporting, refining": -13.6,
         "Percent change in end-use load with WWS due to efficiency beyond BAU": -6.9,
-        "Overall percent change in end-use load with WWS": -60.3
+        "Overall percent change in end-use load with WWS": -60.3,
+        "wave (nameplate capacity)": 3
       },
       "geometry": {
         "type": "Point",
@@ -1525,7 +1527,8 @@
         "Percent change in end-use load with WWS due to higher work: energy ratio": -39.1,
         "Percent change in end-use load with WWS due to eliminating energy in mining, transporting, refining": -9.9,
         "Percent change in end-use load with WWS due to efficiency beyond BAU": -7.1,
-        "Overall percent change in end-use load with WWS": -56.2
+        "Overall percent change in end-use load with WWS": -56.2,
+        "wave (nameplate capacity)": 0
       },
       "geometry": {
         "type": "Point",
@@ -1577,7 +1580,8 @@
         "Percent change in end-use load with WWS due to higher work: energy ratio": -46.7,
         "Percent change in end-use load with WWS due to eliminating energy in mining, transporting, refining": -5.7,
         "Percent change in end-use load with WWS due to efficiency beyond BAU": -6.8,
-        "Overall percent change in end-use load with WWS": -59.2
+        "Overall percent change in end-use load with WWS": -59.2,
+        "wave (nameplate capacity)": 310
       },
       "geometry": {
         "type": "Point",
@@ -1629,7 +1633,8 @@
         "Percent change in end-use load with WWS due to higher work: energy ratio": -45.8,
         "Percent change in end-use load with WWS due to eliminating energy in mining, transporting, refining": -5.5,
         "Percent change in end-use load with WWS due to efficiency beyond BAU": -8.1,
-        "Overall percent change in end-use load with WWS": -59.5
+        "Overall percent change in end-use load with WWS": -59.5,
+        "wave (nameplate capacity)": 156
       },
       "geometry": {
         "type": "Point",
@@ -1681,7 +1686,8 @@
         "Percent change in end-use load with WWS due to higher work: energy ratio": -41.6,
         "Percent change in end-use load with WWS due to eliminating energy in mining, transporting, refining": "-11.0",
         "Percent change in end-use load with WWS due to efficiency beyond BAU": "-8.0",
-        "Overall percent change in end-use load with WWS": -60.6
+        "Overall percent change in end-use load with WWS": -60.6,
+        "wave (nameplate capacity)": 0
       },
       "geometry": {
         "type": "Point",
@@ -1733,7 +1739,8 @@
         "Percent change in end-use load with WWS due to higher work: energy ratio": -65.8,
         "Percent change in end-use load with WWS due to eliminating energy in mining, transporting, refining": -1.6,
         "Percent change in end-use load with WWS due to efficiency beyond BAU": "-8.0",
-        "Overall percent change in end-use load with WWS": -75.4
+        "Overall percent change in end-use load with WWS": -75.4,
+        "wave (nameplate capacity)": 307
       },
       "geometry": {
         "type": "Point",
@@ -1785,7 +1792,8 @@
         "Percent change in end-use load with WWS due to higher work: energy ratio": -34.5,
         "Percent change in end-use load with WWS due to eliminating energy in mining, transporting, refining": -10.1,
         "Percent change in end-use load with WWS due to efficiency beyond BAU": -7.6,
-        "Overall percent change in end-use load with WWS": -52.2
+        "Overall percent change in end-use load with WWS": -52.2,
+        "wave (nameplate capacity)": 172
       },
       "geometry": {
         "type": "Point",
@@ -1837,7 +1845,8 @@
         "Percent change in end-use load with WWS due to higher work: energy ratio": -62.7,
         "Percent change in end-use load with WWS due to eliminating energy in mining, transporting, refining": -4.3,
         "Percent change in end-use load with WWS due to efficiency beyond BAU": -8.4,
-        "Overall percent change in end-use load with WWS": -75.4
+        "Overall percent change in end-use load with WWS": -75.4,
+        "wave (nameplate capacity)": 104
       },
       "geometry": {
         "type": "Point",
@@ -1889,7 +1898,8 @@
         "Percent change in end-use load with WWS due to higher work: energy ratio": -42.3,
         "Percent change in end-use load with WWS due to eliminating energy in mining, transporting, refining": -13.9,
         "Percent change in end-use load with WWS due to efficiency beyond BAU": -6.3,
-        "Overall percent change in end-use load with WWS": -62.5
+        "Overall percent change in end-use load with WWS": -62.5,
+        "wave (nameplate capacity)": 232
       },
       "geometry": {
         "type": "Point",
@@ -1941,7 +1951,8 @@
         "Percent change in end-use load with WWS due to higher work: energy ratio": -44.3,
         "Percent change in end-use load with WWS due to eliminating energy in mining, transporting, refining": -9.5,
         "Percent change in end-use load with WWS due to efficiency beyond BAU": -8.2,
-        "Overall percent change in end-use load with WWS": "-62.0"
+        "Overall percent change in end-use load with WWS": "-62.0",
+        "wave (nameplate capacity)": 517
       },
       "geometry": {
         "type": "Point",
@@ -1993,7 +2004,8 @@
         "Percent change in end-use load with WWS due to higher work: energy ratio": -40.1,
         "Percent change in end-use load with WWS due to eliminating energy in mining, transporting, refining": -12.2,
         "Percent change in end-use load with WWS due to efficiency beyond BAU": -6.9,
-        "Overall percent change in end-use load with WWS": -59.2
+        "Overall percent change in end-use load with WWS": -59.2,
+        "wave (nameplate capacity)": 1058
       },
       "geometry": {
         "type": "Point",
@@ -2045,7 +2057,8 @@
         "Percent change in end-use load with WWS due to higher work: energy ratio": -39.8,
         "Percent change in end-use load with WWS due to eliminating energy in mining, transporting, refining": -13.6,
         "Percent change in end-use load with WWS due to efficiency beyond BAU": -6.9,
-        "Overall percent change in end-use load with WWS": -60.3
+        "Overall percent change in end-use load with WWS": -60.3,
+        "wave (nameplate capacity)": 377
       },
       "geometry": {
         "type": "Point",
@@ -2097,7 +2110,8 @@
         "Percent change in end-use load with WWS due to higher work: energy ratio": -38.9,
         "Percent change in end-use load with WWS due to eliminating energy in mining, transporting, refining": -13.5,
         "Percent change in end-use load with WWS due to efficiency beyond BAU": "-6.0",
-        "Overall percent change in end-use load with WWS": -58.4
+        "Overall percent change in end-use load with WWS": -58.4,
+        "wave (nameplate capacity)": 1937
       },
       "geometry": {
         "type": "Point",
@@ -2149,7 +2163,8 @@
         "Percent change in end-use load with WWS due to higher work: energy ratio": -37.5,
         "Percent change in end-use load with WWS due to eliminating energy in mining, transporting, refining": -4.4,
         "Percent change in end-use load with WWS due to efficiency beyond BAU": -6.5,
-        "Overall percent change in end-use load with WWS": -48.3
+        "Overall percent change in end-use load with WWS": -48.3,
+        "wave (nameplate capacity)": 200
       },
       "geometry": {
         "type": "Point",
@@ -2201,7 +2216,8 @@
         "Percent change in end-use load with WWS due to higher work: energy ratio": -33.3,
         "Percent change in end-use load with WWS due to eliminating energy in mining, transporting, refining": -23.2,
         "Percent change in end-use load with WWS due to efficiency beyond BAU": "-6.0",
-        "Overall percent change in end-use load with WWS": -62.5
+        "Overall percent change in end-use load with WWS": -62.5,
+        "wave (nameplate capacity)": 534
       },
       "geometry": {
         "type": "Point",
@@ -2253,7 +2269,8 @@
         "Percent change in end-use load with WWS due to higher work: energy ratio": -41.3,
         "Percent change in end-use load with WWS due to eliminating energy in mining, transporting, refining": -21.1,
         "Percent change in end-use load with WWS due to efficiency beyond BAU": -5.9,
-        "Overall percent change in end-use load with WWS": -68.2
+        "Overall percent change in end-use load with WWS": -68.2,
+        "wave (nameplate capacity)": 743
       },
       "geometry": {
         "type": "Point",
@@ -2305,7 +2322,8 @@
         "Percent change in end-use load with WWS due to higher work: energy ratio": -36.6,
         "Percent change in end-use load with WWS due to eliminating energy in mining, transporting, refining": -5.8,
         "Percent change in end-use load with WWS due to efficiency beyond BAU": "-7.0",
-        "Overall percent change in end-use load with WWS": -49.4
+        "Overall percent change in end-use load with WWS": -49.4,
+        "wave (nameplate capacity)": 67
       },
       "geometry": {
         "type": "Point",
@@ -2357,7 +2375,8 @@
         "Percent change in end-use load with WWS due to higher work: energy ratio": "-62.0",
         "Percent change in end-use load with WWS due to eliminating energy in mining, transporting, refining": -0.8,
         "Percent change in end-use load with WWS due to efficiency beyond BAU": -8.7,
-        "Overall percent change in end-use load with WWS": -71.5
+        "Overall percent change in end-use load with WWS": -71.5,
+        "wave (nameplate capacity)": 93
       },
       "geometry": {
         "type": "Point",
@@ -2409,7 +2428,8 @@
         "Percent change in end-use load with WWS due to higher work: energy ratio": -40.1,
         "Percent change in end-use load with WWS due to eliminating energy in mining, transporting, refining": -12.2,
         "Percent change in end-use load with WWS due to efficiency beyond BAU": -6.9,
-        "Overall percent change in end-use load with WWS": -59.2
+        "Overall percent change in end-use load with WWS": -59.2,
+        "wave (nameplate capacity)": "1,599"
       },
       "geometry": {
         "type": "Point",
@@ -2461,7 +2481,8 @@
         "Percent change in end-use load with WWS due to higher work: energy ratio": "-24.0",
         "Percent change in end-use load with WWS due to eliminating energy in mining, transporting, refining": -25.2,
         "Percent change in end-use load with WWS due to efficiency beyond BAU": -7.8,
-        "Overall percent change in end-use load with WWS": "-57.0"
+        "Overall percent change in end-use load with WWS": "-57.0",
+        "wave (nameplate capacity)": 72
       },
       "geometry": {
         "type": "Point",
@@ -2513,7 +2534,8 @@
         "Percent change in end-use load with WWS due to higher work: energy ratio": -39.8,
         "Percent change in end-use load with WWS due to eliminating energy in mining, transporting, refining": -13.6,
         "Percent change in end-use load with WWS due to efficiency beyond BAU": -6.9,
-        "Overall percent change in end-use load with WWS": -60.3
+        "Overall percent change in end-use load with WWS": -60.3,
+        "wave (nameplate capacity)": 28
       },
       "geometry": {
         "type": "Point",
@@ -2565,7 +2587,8 @@
         "Percent change in end-use load with WWS due to higher work: energy ratio": -40.6,
         "Percent change in end-use load with WWS due to eliminating energy in mining, transporting, refining": -5.9,
         "Percent change in end-use load with WWS due to efficiency beyond BAU": -8.9,
-        "Overall percent change in end-use load with WWS": -55.3
+        "Overall percent change in end-use load with WWS": -55.3,
+        "wave (nameplate capacity)": 759
       },
       "geometry": {
         "type": "Point",
@@ -2617,7 +2640,8 @@
         "Percent change in end-use load with WWS due to higher work: energy ratio": "-34.0",
         "Percent change in end-use load with WWS due to eliminating energy in mining, transporting, refining": -16.1,
         "Percent change in end-use load with WWS due to efficiency beyond BAU": -6.3,
-        "Overall percent change in end-use load with WWS": -56.4
+        "Overall percent change in end-use load with WWS": -56.4,
+        "wave (nameplate capacity)": 307
       },
       "geometry": {
         "type": "Point",
@@ -2669,7 +2693,8 @@
         "Percent change in end-use load with WWS due to higher work: energy ratio": -40.1,
         "Percent change in end-use load with WWS due to eliminating energy in mining, transporting, refining": -12.2,
         "Percent change in end-use load with WWS due to efficiency beyond BAU": -6.9,
-        "Overall percent change in end-use load with WWS": -59.2
+        "Overall percent change in end-use load with WWS": -59.2,
+        "wave (nameplate capacity)": 517
       },
       "geometry": {
         "type": "Point",
@@ -2721,7 +2746,8 @@
         "Percent change in end-use load with WWS due to higher work: energy ratio": -40.1,
         "Percent change in end-use load with WWS due to eliminating energy in mining, transporting, refining": -12.2,
         "Percent change in end-use load with WWS due to efficiency beyond BAU": -6.9,
-        "Overall percent change in end-use load with WWS": -59.2
+        "Overall percent change in end-use load with WWS": -59.2,
+        "wave (nameplate capacity)": 541
       },
       "geometry": {
         "type": "Point",
@@ -2773,7 +2799,8 @@
         "Percent change in end-use load with WWS due to higher work: energy ratio": -34.8,
         "Percent change in end-use load with WWS due to eliminating energy in mining, transporting, refining": -1.8,
         "Percent change in end-use load with WWS due to efficiency beyond BAU": -4.6,
-        "Overall percent change in end-use load with WWS": -41.1
+        "Overall percent change in end-use load with WWS": -41.1,
+        "wave (nameplate capacity)": 0
       },
       "geometry": {
         "type": "Point",
@@ -2825,7 +2852,8 @@
         "Percent change in end-use load with WWS due to higher work: energy ratio": -44.9,
         "Percent change in end-use load with WWS due to eliminating energy in mining, transporting, refining": -3.2,
         "Percent change in end-use load with WWS due to efficiency beyond BAU": -7.4,
-        "Overall percent change in end-use load with WWS": -55.4
+        "Overall percent change in end-use load with WWS": -55.4,
+        "wave (nameplate capacity)": 54
       },
       "geometry": {
         "type": "Point",
@@ -2877,7 +2905,8 @@
         "Percent change in end-use load with WWS due to higher work: energy ratio": "-37.0",
         "Percent change in end-use load with WWS due to eliminating energy in mining, transporting, refining": -10.5,
         "Percent change in end-use load with WWS due to efficiency beyond BAU": -5.5,
-        "Overall percent change in end-use load with WWS": -52.9
+        "Overall percent change in end-use load with WWS": -52.9,
+        "wave (nameplate capacity)": "2,015"
       },
       "geometry": {
         "type": "Point",
@@ -2929,7 +2958,8 @@
         "Percent change in end-use load with WWS due to higher work: energy ratio": -42.2,
         "Percent change in end-use load with WWS due to eliminating energy in mining, transporting, refining": -11.6,
         "Percent change in end-use load with WWS due to efficiency beyond BAU": "-8.0",
-        "Overall percent change in end-use load with WWS": -61.7
+        "Overall percent change in end-use load with WWS": -61.7,
+        "wave (nameplate capacity)": 191
       },
       "geometry": {
         "type": "Point",
@@ -2963,11 +2993,11 @@
         "2050 WWS energy and total social cost ($bil/yr)": 1,
         "Percent change in energy cost due to WWS (WWS- BAU)/(BAU)": -50,
         "Percent change in total social cost due to WWS (WWS-BAU)/(BAU)": -84.2,
-        "geothermal (nameplate capacity)": 34,
-        "csp (nameplate capacity)": 274,
+        "geothermal (nameplate capacity)": 383,
+        "csp (nameplate capacity)": 57,
         "tidal (nameplate capacity)": 2,
         "onshore wind (nameplate capacity)": 1555,
-        "offshore wind (nameplate capacity)": 2263,
+        "offshore wind (nameplate capacity)": 393,
         "2050 Total end-use load (GW): BAU": 2.785,
         "2050 Total end-use load (GW): WWS": 1.273,
         "Percent of end-use load due to residential buildings: BAU": 12.4,
@@ -2981,7 +3011,8 @@
         "Percent change in end-use load with WWS due to higher work: energy ratio": -45.5,
         "Percent change in end-use load with WWS due to eliminating energy in mining, transporting, refining": -1.5,
         "Percent change in end-use load with WWS due to efficiency beyond BAU": -7.3,
-        "Overall percent change in end-use load with WWS": -54.3
+        "Overall percent change in end-use load with WWS": -54.3,
+        "wave (nameplate capacity)": 51
       },
       "geometry": {
         "type": "Point",
@@ -3015,11 +3046,11 @@
         "2050 WWS energy and total social cost ($bil/yr)": 4,
         "Percent change in energy cost due to WWS (WWS- BAU)/(BAU)": -63.5,
         "Percent change in total social cost due to WWS (WWS-BAU)/(BAU)": -87,
-        "geothermal (nameplate capacity)": 383,
-        "csp (nameplate capacity)": 57,
+        "geothermal (nameplate capacity)": 34,
+        "csp (nameplate capacity)": 274,
         "tidal (nameplate capacity)": 8,
         "onshore wind (nameplate capacity)": 5426,
-        "offshore wind (nameplate capacity)": 393,
+        "offshore wind (nameplate capacity)": 2263,
         "2050 Total end-use load (GW): BAU": 11.901,
         "2050 Total end-use load (GW): WWS": 4.854,
         "Percent of end-use load due to residential buildings: BAU": 14.3,
@@ -3033,7 +3064,8 @@
         "Percent change in end-use load with WWS due to higher work: energy ratio": -40.1,
         "Percent change in end-use load with WWS due to eliminating energy in mining, transporting, refining": -12.2,
         "Percent change in end-use load with WWS due to efficiency beyond BAU": -6.9,
-        "Overall percent change in end-use load with WWS": -59.2
+        "Overall percent change in end-use load with WWS": -59.2,
+        "wave (nameplate capacity)": 171
       },
       "geometry": {
         "type": "Point",
@@ -3085,7 +3117,8 @@
         "Percent change in end-use load with WWS due to higher work: energy ratio": -33.9,
         "Percent change in end-use load with WWS due to eliminating energy in mining, transporting, refining": -8.6,
         "Percent change in end-use load with WWS due to efficiency beyond BAU": -7.2,
-        "Overall percent change in end-use load with WWS": -49.7
+        "Overall percent change in end-use load with WWS": -49.7,
+        "wave (nameplate capacity)": ""
       },
       "geometry": {
         "type": "Point",
