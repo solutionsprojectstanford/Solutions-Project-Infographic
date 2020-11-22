@@ -47,7 +47,8 @@
         "Overall percent change in end-use load with WWS": -67.2,
         "Hydro-electric (nameplate capacity)": 200,
         "Res. PV (nameplate capacity) ": 688,
-        "Com./Gov. PV (nameplate capacity)": "1,501"
+        "Com./Gov. PV (nameplate capacity)": "1,501",
+        "Utility PV (nameplate capacity)": 785
       },
       "geometry": {
         "type": "Point",
@@ -103,7 +104,8 @@
         "Overall percent change in end-use load with WWS": -77.5,
         "Hydro-electric (nameplate capacity)": 114,
         "Res. PV (nameplate capacity) ": 259,
-        "Com./Gov. PV (nameplate capacity)": 564
+        "Com./Gov. PV (nameplate capacity)": 564,
+        "Utility PV (nameplate capacity)": 584
       },
       "geometry": {
         "type": "Point",
@@ -159,7 +161,8 @@
         "Overall percent change in end-use load with WWS": -56.2,
         "Hydro-electric (nameplate capacity)": "2,169",
         "Res. PV (nameplate capacity) ": "2,443",
-        "Com./Gov. PV (nameplate capacity)": "5,993"
+        "Com./Gov. PV (nameplate capacity)": "5,993",
+        "Utility PV (nameplate capacity)": "4,890"
       },
       "geometry": {
         "type": "Point",
@@ -215,7 +218,8 @@
         "Overall percent change in end-use load with WWS": -45.7,
         "Hydro-electric (nameplate capacity)": "2,424",
         "Res. PV (nameplate capacity) ": "4,018",
-        "Com./Gov. PV (nameplate capacity)": "5,005"
+        "Com./Gov. PV (nameplate capacity)": "5,005",
+        "Utility PV (nameplate capacity)": "4,647"
       },
       "geometry": {
         "type": "Point",
@@ -271,7 +275,8 @@
         "Overall percent change in end-use load with WWS": -61.7,
         "Hydro-electric (nameplate capacity)": 447,
         "Res. PV (nameplate capacity) ": "1,859",
-        "Com./Gov. PV (nameplate capacity)": "4,403"
+        "Com./Gov. PV (nameplate capacity)": "4,403",
+        "Utility PV (nameplate capacity)": "4,113"
       },
       "geometry": {
         "type": "Point",
@@ -327,7 +332,8 @@
         "Overall percent change in end-use load with WWS": -53.8,
         "Hydro-electric (nameplate capacity)": 846,
         "Res. PV (nameplate capacity) ": "33,196",
-        "Com./Gov. PV (nameplate capacity)": "22,976"
+        "Com./Gov. PV (nameplate capacity)": "22,976",
+        "Utility PV (nameplate capacity)": "48,431"
       },
       "geometry": {
         "type": "Point",
@@ -383,7 +389,8 @@
         "Overall percent change in end-use load with WWS": -54.9,
         "Hydro-electric (nameplate capacity)": "8,630",
         "Res. PV (nameplate capacity) ": "39,950",
-        "Com./Gov. PV (nameplate capacity)": "46,294"
+        "Com./Gov. PV (nameplate capacity)": "46,294",
+        "Utility PV (nameplate capacity)": "45,198"
       },
       "geometry": {
         "type": "Point",
@@ -439,7 +446,8 @@
         "Overall percent change in end-use load with WWS": -57.6,
         "Hydro-electric (nameplate capacity)": 241,
         "Res. PV (nameplate capacity) ": "3,980",
-        "Com./Gov. PV (nameplate capacity)": "4,963"
+        "Com./Gov. PV (nameplate capacity)": "4,963",
+        "Utility PV (nameplate capacity)": "9,320"
       },
       "geometry": {
         "type": "Point",
@@ -495,7 +503,8 @@
         "Overall percent change in end-use load with WWS": -63.4,
         "Hydro-electric (nameplate capacity)": "3,782",
         "Res. PV (nameplate capacity) ": "4,350",
-        "Com./Gov. PV (nameplate capacity)": "9,555"
+        "Com./Gov. PV (nameplate capacity)": "9,555",
+        "Utility PV (nameplate capacity)": "5,004"
       },
       "geometry": {
         "type": "Point",
@@ -551,7 +560,8 @@
         "Overall percent change in end-use load with WWS": -61.7,
         "Hydro-electric (nameplate capacity)": 218,
         "Res. PV (nameplate capacity) ": 818,
-        "Com./Gov. PV (nameplate capacity)": 696
+        "Com./Gov. PV (nameplate capacity)": 696,
+        "Utility PV (nameplate capacity)": 857
       },
       "geometry": {
         "type": "Point",
@@ -607,7 +617,8 @@
         "Overall percent change in end-use load with WWS": -61.9,
         "Hydro-electric (nameplate capacity)": 584,
         "Res. PV (nameplate capacity) ": 938,
-        "Com./Gov. PV (nameplate capacity)": "1,209"
+        "Com./Gov. PV (nameplate capacity)": "1,209",
+        "Utility PV (nameplate capacity)": "1,036"
       },
       "geometry": {
         "type": "Point",
@@ -663,7 +674,8 @@
         "Overall percent change in end-use load with WWS": "-65.0",
         "Hydro-electric (nameplate capacity)": "3,678",
         "Res. PV (nameplate capacity) ": "7,841",
-        "Com./Gov. PV (nameplate capacity)": "18,946"
+        "Com./Gov. PV (nameplate capacity)": "18,946",
+        "Utility PV (nameplate capacity)": "9,204"
       },
       "geometry": {
         "type": "Point",
@@ -719,7 +731,8 @@
         "Overall percent change in end-use load with WWS": -55.2,
         "Hydro-electric (nameplate capacity)": 655,
         "Res. PV (nameplate capacity) ": "8,160",
-        "Com./Gov. PV (nameplate capacity)": "18,692"
+        "Com./Gov. PV (nameplate capacity)": "18,692",
+        "Utility PV (nameplate capacity)": "9,419"
       },
       "geometry": {
         "type": "Point",
@@ -775,7 +788,8 @@
         "Overall percent change in end-use load with WWS": -62.5,
         "Hydro-electric (nameplate capacity)": "4,856",
         "Res. PV (nameplate capacity) ": "3,523",
-        "Com./Gov. PV (nameplate capacity)": "8,430"
+        "Com./Gov. PV (nameplate capacity)": "8,430",
+        "Utility PV (nameplate capacity)": "4,121"
       },
       "geometry": {
         "type": "Point",
@@ -831,7 +845,8 @@
         "Overall percent change in end-use load with WWS": -54.8,
         "Hydro-electric (nameplate capacity)": 104,
         "Res. PV (nameplate capacity) ": "9,424",
-        "Com./Gov. PV (nameplate capacity)": "10,360"
+        "Com./Gov. PV (nameplate capacity)": "10,360",
+        "Utility PV (nameplate capacity)": "10,894"
       },
       "geometry": {
         "type": "Point",
@@ -887,7 +902,8 @@
         "Overall percent change in end-use load with WWS": -60.8,
         "Hydro-electric (nameplate capacity)": "1,168",
         "Res. PV (nameplate capacity) ": "1,331",
-        "Com./Gov. PV (nameplate capacity)": "2,912"
+        "Com./Gov. PV (nameplate capacity)": "2,912",
+        "Utility PV (nameplate capacity)": "1,524"
       },
       "geometry": {
         "type": "Point",
@@ -943,7 +959,8 @@
         "Overall percent change in end-use load with WWS": -57.7,
         "Hydro-electric (nameplate capacity)": 145,
         "Res. PV (nameplate capacity) ": 943,
-        "Com./Gov. PV (nameplate capacity)": "2,176"
+        "Com./Gov. PV (nameplate capacity)": "2,176",
+        "Utility PV (nameplate capacity)": "1,091"
       },
       "geometry": {
         "type": "Point",
@@ -999,7 +1016,8 @@
         "Overall percent change in end-use load with WWS": -59.2,
         "Hydro-electric (nameplate capacity)": "1,852",
         "Res. PV (nameplate capacity) ": "10,620",
-        "Com./Gov. PV (nameplate capacity)": "15,771"
+        "Com./Gov. PV (nameplate capacity)": "15,771",
+        "Utility PV (nameplate capacity)": "15,859"
       },
       "geometry": {
         "type": "Point",
@@ -1055,7 +1073,8 @@
         "Overall percent change in end-use load with WWS": -49.4,
         "Hydro-electric (nameplate capacity)": "1,396",
         "Res. PV (nameplate capacity) ": "20,606",
-        "Com./Gov. PV (nameplate capacity)": "27,426"
+        "Com./Gov. PV (nameplate capacity)": "27,426",
+        "Utility PV (nameplate capacity)": "32,113"
       },
       "geometry": {
         "type": "Point",
@@ -1111,7 +1130,8 @@
         "Overall percent change in end-use load with WWS": -58.9,
         "Hydro-electric (nameplate capacity)": 34,
         "Res. PV (nameplate capacity) ": "6,645",
-        "Com./Gov. PV (nameplate capacity)": "2,822"
+        "Com./Gov. PV (nameplate capacity)": "2,822",
+        "Utility PV (nameplate capacity)": "13,282"
       },
       "geometry": {
         "type": "Point",
@@ -1167,7 +1187,8 @@
         "Overall percent change in end-use load with WWS": -46.3,
         "Hydro-electric (nameplate capacity)": 0,
         "Res. PV (nameplate capacity) ": "10,123",
-        "Com./Gov. PV (nameplate capacity)": "5,790"
+        "Com./Gov. PV (nameplate capacity)": "5,790",
+        "Utility PV (nameplate capacity)": "93,326"
       },
       "geometry": {
         "type": "Point",
@@ -1223,7 +1244,8 @@
         "Overall percent change in end-use load with WWS": -62.5,
         "Hydro-electric (nameplate capacity)": "4,458",
         "Res. PV (nameplate capacity) ": "3,234",
-        "Com./Gov. PV (nameplate capacity)": "7,739"
+        "Com./Gov. PV (nameplate capacity)": "7,739",
+        "Utility PV (nameplate capacity)": "3,783"
       },
       "geometry": {
         "type": "Point",
@@ -1279,7 +1301,8 @@
         "Overall percent change in end-use load with WWS": "-62.0",
         "Hydro-electric (nameplate capacity)": 912,
         "Res. PV (nameplate capacity) ": 680,
-        "Com./Gov. PV (nameplate capacity)": "1,505"
+        "Com./Gov. PV (nameplate capacity)": "1,505",
+        "Utility PV (nameplate capacity)": "1,295"
       },
       "geometry": {
         "type": "Point",
@@ -1335,7 +1358,8 @@
         "wave (nameplate capacity)": 344,
         "Hydro-electric (nameplate capacity)": "1,371",
         "Res. PV (nameplate capacity) ": "7,992",
-        "Com./Gov. PV (nameplate capacity)": "5,166"
+        "Com./Gov. PV (nameplate capacity)": "5,166",
+        "Utility PV (nameplate capacity)": "9,152"
       },
       "geometry": {
         "type": "Point",
@@ -1391,7 +1415,8 @@
         "wave (nameplate capacity)": 51,
         "Hydro-electric (nameplate capacity)": 14,
         "Res. PV (nameplate capacity) ": 780,
-        "Com./Gov. PV (nameplate capacity)": "1,748"
+        "Com./Gov. PV (nameplate capacity)": "1,748",
+        "Utility PV (nameplate capacity)": 897
       },
       "geometry": {
         "type": "Point",
@@ -1447,7 +1472,8 @@
         "wave (nameplate capacity)": 566,
         "Hydro-electric (nameplate capacity)": "2,252",
         "Res. PV (nameplate capacity) ": "13,132",
-        "Com./Gov. PV (nameplate capacity)": "8,488"
+        "Com./Gov. PV (nameplate capacity)": "8,488",
+        "Utility PV (nameplate capacity)": "15,038"
       },
       "geometry": {
         "type": "Point",
@@ -1503,7 +1529,8 @@
         "wave (nameplate capacity)": 796,
         "Hydro-electric (nameplate capacity)": "1,931",
         "Res. PV (nameplate capacity) ": "11,073",
-        "Com./Gov. PV (nameplate capacity)": "16,443"
+        "Com./Gov. PV (nameplate capacity)": "16,443",
+        "Utility PV (nameplate capacity)": "16,535"
       },
       "geometry": {
         "type": "Point",
@@ -1559,7 +1586,8 @@
         "wave (nameplate capacity)": 3,
         "Hydro-electric (nameplate capacity)": 25,
         "Res. PV (nameplate capacity) ": 54,
-        "Com./Gov. PV (nameplate capacity)": 66
+        "Com./Gov. PV (nameplate capacity)": 66,
+        "Utility PV (nameplate capacity)": 61
       },
       "geometry": {
         "type": "Point",
@@ -1615,7 +1643,8 @@
         "wave (nameplate capacity)": 0,
         "Hydro-electric (nameplate capacity)": "6,888",
         "Res. PV (nameplate capacity) ": "7,758",
-        "Com./Gov. PV (nameplate capacity)": "19,030"
+        "Com./Gov. PV (nameplate capacity)": "19,030",
+        "Utility PV (nameplate capacity)": "15,527"
       },
       "geometry": {
         "type": "Point",
@@ -1671,7 +1700,8 @@
         "wave (nameplate capacity)": 310,
         "Hydro-electric (nameplate capacity)": 243,
         "Res. PV (nameplate capacity) ": "5,550",
-        "Com./Gov. PV (nameplate capacity)": "12,253"
+        "Com./Gov. PV (nameplate capacity)": "12,253",
+        "Utility PV (nameplate capacity)": "6,423"
       },
       "geometry": {
         "type": "Point",
@@ -1727,7 +1757,8 @@
         "wave (nameplate capacity)": 156,
         "Hydro-electric (nameplate capacity)": 655,
         "Res. PV (nameplate capacity) ": "6,905",
-        "Com./Gov. PV (nameplate capacity)": "7,873"
+        "Com./Gov. PV (nameplate capacity)": "7,873",
+        "Utility PV (nameplate capacity)": "9,905"
       },
       "geometry": {
         "type": "Point",
@@ -1783,7 +1814,8 @@
         "wave (nameplate capacity)": 0,
         "Hydro-electric (nameplate capacity)": 585,
         "Res. PV (nameplate capacity) ": "3,411",
-        "Com./Gov. PV (nameplate capacity)": "2,590"
+        "Com./Gov. PV (nameplate capacity)": "2,590",
+        "Utility PV (nameplate capacity)": "3,634"
       },
       "geometry": {
         "type": "Point",
@@ -1839,7 +1871,8 @@
         "wave (nameplate capacity)": 307,
         "Hydro-electric (nameplate capacity)": 638,
         "Res. PV (nameplate capacity) ": "1,939",
-        "Com./Gov. PV (nameplate capacity)": "4,295"
+        "Com./Gov. PV (nameplate capacity)": "4,295",
+        "Utility PV (nameplate capacity)": "2,253"
       },
       "geometry": {
         "type": "Point",
@@ -1895,7 +1928,8 @@
         "wave (nameplate capacity)": 172,
         "Hydro-electric (nameplate capacity)": 301,
         "Res. PV (nameplate capacity) ": "1,474",
-        "Com./Gov. PV (nameplate capacity)": 956
+        "Com./Gov. PV (nameplate capacity)": 956,
+        "Utility PV (nameplate capacity)": "3,607"
       },
       "geometry": {
         "type": "Point",
@@ -1951,7 +1985,8 @@
         "wave (nameplate capacity)": 104,
         "Hydro-electric (nameplate capacity)": 126,
         "Res. PV (nameplate capacity) ": "3,663",
-        "Com./Gov. PV (nameplate capacity)": "7,983"
+        "Com./Gov. PV (nameplate capacity)": "7,983",
+        "Utility PV (nameplate capacity)": "8,352"
       },
       "geometry": {
         "type": "Point",
@@ -2007,7 +2042,8 @@
         "wave (nameplate capacity)": 232,
         "Hydro-electric (nameplate capacity)": "2,318",
         "Res. PV (nameplate capacity) ": "2,625",
-        "Com./Gov. PV (nameplate capacity)": "5,723"
+        "Com./Gov. PV (nameplate capacity)": "5,723",
+        "Utility PV (nameplate capacity)": "5,980"
       },
       "geometry": {
         "type": "Point",
@@ -2063,7 +2099,8 @@
         "wave (nameplate capacity)": 517,
         "Hydro-electric (nameplate capacity)": 326,
         "Res. PV (nameplate capacity) ": "5,027",
-        "Com./Gov. PV (nameplate capacity)": "4,929"
+        "Com./Gov. PV (nameplate capacity)": "4,929",
+        "Utility PV (nameplate capacity)": "29,209"
       },
       "geometry": {
         "type": "Point",
@@ -2119,7 +2156,8 @@
         "wave (nameplate capacity)": 1058,
         "Hydro-electric (nameplate capacity)": "2,565",
         "Res. PV (nameplate capacity) ": "14,709",
-        "Com./Gov. PV (nameplate capacity)": "21,843"
+        "Com./Gov. PV (nameplate capacity)": "21,843",
+        "Utility PV (nameplate capacity)": "21,965"
       },
       "geometry": {
         "type": "Point",
@@ -2175,7 +2213,8 @@
         "wave (nameplate capacity)": 377,
         "Hydro-electric (nameplate capacity)": "2,952",
         "Res. PV (nameplate capacity) ": "6,442",
-        "Com./Gov. PV (nameplate capacity)": "7,899"
+        "Com./Gov. PV (nameplate capacity)": "7,899",
+        "Utility PV (nameplate capacity)": "7,276"
       },
       "geometry": {
         "type": "Point",
@@ -2231,7 +2270,8 @@
         "wave (nameplate capacity)": 1937,
         "Hydro-electric (nameplate capacity)": "2,233",
         "Res. PV (nameplate capacity) ": "10,535",
-        "Com./Gov. PV (nameplate capacity)": "23,810"
+        "Com./Gov. PV (nameplate capacity)": "23,810",
+        "Utility PV (nameplate capacity)": "12,128"
       },
       "geometry": {
         "type": "Point",
@@ -2287,7 +2327,8 @@
         "wave (nameplate capacity)": 200,
         "Hydro-electric (nameplate capacity)": 879,
         "Res. PV (nameplate capacity) ": "1,099",
-        "Com./Gov. PV (nameplate capacity)": "2,589"
+        "Com./Gov. PV (nameplate capacity)": "2,589",
+        "Utility PV (nameplate capacity)": "1,268"
       },
       "geometry": {
         "type": "Point",
@@ -2343,7 +2384,8 @@
         "wave (nameplate capacity)": 534,
         "Hydro-electric (nameplate capacity)": "10,671",
         "Res. PV (nameplate capacity) ": "7,741",
-        "Com./Gov. PV (nameplate capacity)": "18,525"
+        "Com./Gov. PV (nameplate capacity)": "18,525",
+        "Utility PV (nameplate capacity)": "9,055"
       },
       "geometry": {
         "type": "Point",
@@ -2399,7 +2441,8 @@
         "wave (nameplate capacity)": 743,
         "Hydro-electric (nameplate capacity)": "7,105",
         "Res. PV (nameplate capacity) ": "22,615",
-        "Com./Gov. PV (nameplate capacity)": "29,740"
+        "Com./Gov. PV (nameplate capacity)": "29,740",
+        "Utility PV (nameplate capacity)": "24,293"
       },
       "geometry": {
         "type": "Point",
@@ -2455,7 +2498,8 @@
         "wave (nameplate capacity)": 67,
         "Hydro-electric (nameplate capacity)": 720,
         "Res. PV (nameplate capacity) ": "10,628",
-        "Com./Gov. PV (nameplate capacity)": "14,146"
+        "Com./Gov. PV (nameplate capacity)": "14,146",
+        "Utility PV (nameplate capacity)": "16,564"
       },
       "geometry": {
         "type": "Point",
@@ -2511,7 +2555,8 @@
         "wave (nameplate capacity)": 93,
         "Hydro-electric (nameplate capacity)": 101,
         "Res. PV (nameplate capacity) ": 561,
-        "Com./Gov. PV (nameplate capacity)": "1,244"
+        "Com./Gov. PV (nameplate capacity)": "1,244",
+        "Utility PV (nameplate capacity)": 653
       },
       "geometry": {
         "type": "Point",
@@ -2567,7 +2612,8 @@
         "wave (nameplate capacity)": "1,599",
         "Hydro-electric (nameplate capacity)": "3,879",
         "Res. PV (nameplate capacity) ": "22,239",
-        "Com./Gov. PV (nameplate capacity)": "33,024"
+        "Com./Gov. PV (nameplate capacity)": "33,024",
+        "Utility PV (nameplate capacity)": "33,209"
       },
       "geometry": {
         "type": "Point",
@@ -2623,7 +2669,8 @@
         "wave (nameplate capacity)": 72,
         "Hydro-electric (nameplate capacity)": "8,904",
         "Res. PV (nameplate capacity) ": "1,804",
-        "Com./Gov. PV (nameplate capacity)": 436
+        "Com./Gov. PV (nameplate capacity)": 436,
+        "Utility PV (nameplate capacity)": "1,954"
       },
       "geometry": {
         "type": "Point",
@@ -2679,7 +2726,8 @@
         "wave (nameplate capacity)": 28,
         "Hydro-electric (nameplate capacity)": 220,
         "Res. PV (nameplate capacity) ": 480,
-        "Com./Gov. PV (nameplate capacity)": 588
+        "Com./Gov. PV (nameplate capacity)": 588,
+        "Utility PV (nameplate capacity)": 542
       },
       "geometry": {
         "type": "Point",
@@ -2735,7 +2783,8 @@
         "wave (nameplate capacity)": 759,
         "Hydro-electric (nameplate capacity)": "3,436",
         "Res. PV (nameplate capacity) ": "13,475",
-        "Com./Gov. PV (nameplate capacity)": "16,103"
+        "Com./Gov. PV (nameplate capacity)": "16,103",
+        "Utility PV (nameplate capacity)": "14,424"
       },
       "geometry": {
         "type": "Point",
@@ -2791,7 +2840,8 @@
         "wave (nameplate capacity)": 307,
         "Hydro-electric (nameplate capacity)": 848,
         "Res. PV (nameplate capacity) ": "4,902",
-        "Com./Gov. PV (nameplate capacity)": "8,396"
+        "Com./Gov. PV (nameplate capacity)": "8,396",
+        "Utility PV (nameplate capacity)": "10,946"
       },
       "geometry": {
         "type": "Point",
@@ -2847,7 +2897,8 @@
         "wave (nameplate capacity)": 517,
         "Hydro-electric (nameplate capacity)": "1,253",
         "Res. PV (nameplate capacity) ": "7,186",
-        "Com./Gov. PV (nameplate capacity)": "10,671"
+        "Com./Gov. PV (nameplate capacity)": "10,671",
+        "Utility PV (nameplate capacity)": "10,731"
       },
       "geometry": {
         "type": "Point",
@@ -2903,7 +2954,8 @@
         "wave (nameplate capacity)": 541,
         "Hydro-electric (nameplate capacity)": "1,312",
         "Res. PV (nameplate capacity) ": "7,525",
-        "Com./Gov. PV (nameplate capacity)": "11,174"
+        "Com./Gov. PV (nameplate capacity)": "11,174",
+        "Utility PV (nameplate capacity)": "11,237"
       },
       "geometry": {
         "type": "Point",
@@ -2959,7 +3011,8 @@
         "wave (nameplate capacity)": 0,
         "Hydro-electric (nameplate capacity)": 658,
         "Res. PV (nameplate capacity) ": "1,072",
-        "Com./Gov. PV (nameplate capacity)": 498
+        "Com./Gov. PV (nameplate capacity)": 498,
+        "Utility PV (nameplate capacity)": "1,209"
       },
       "geometry": {
         "type": "Point",
@@ -3015,7 +3068,8 @@
         "wave (nameplate capacity)": 54,
         "Hydro-electric (nameplate capacity)": 101,
         "Res. PV (nameplate capacity) ": 733,
-        "Com./Gov. PV (nameplate capacity)": "1,604"
+        "Com./Gov. PV (nameplate capacity)": "1,604",
+        "Utility PV (nameplate capacity)": 837
       },
       "geometry": {
         "type": "Point",
@@ -3071,7 +3125,8 @@
         "wave (nameplate capacity)": "2,015",
         "Hydro-electric (nameplate capacity)": "10,953",
         "Res. PV (nameplate capacity) ": "12,152",
-        "Com./Gov. PV (nameplate capacity)": "26,687"
+        "Com./Gov. PV (nameplate capacity)": "26,687",
+        "Utility PV (nameplate capacity)": "13,907"
       },
       "geometry": {
         "type": "Point",
@@ -3127,7 +3182,8 @@
         "wave (nameplate capacity)": 191,
         "Hydro-electric (nameplate capacity)": "1,194",
         "Res. PV (nameplate capacity) ": "4,474",
-        "Com./Gov. PV (nameplate capacity)": "3,806"
+        "Com./Gov. PV (nameplate capacity)": "3,806",
+        "Utility PV (nameplate capacity)": "4,688"
       },
       "geometry": {
         "type": "Point",
@@ -3183,7 +3239,8 @@
         "wave (nameplate capacity)": 51,
         "Hydro-electric (nameplate capacity)": 681,
         "Res. PV (nameplate capacity) ": 288,
-        "Com./Gov. PV (nameplate capacity)": 628
+        "Com./Gov. PV (nameplate capacity)": 628,
+        "Utility PV (nameplate capacity)": 329
       },
       "geometry": {
         "type": "Point",
@@ -3239,7 +3296,8 @@
         "wave (nameplate capacity)": 171,
         "Hydro-electric (nameplate capacity)": 414,
         "Res. PV (nameplate capacity) ": "2,372",
-        "Com./Gov. PV (nameplate capacity)": "3,522"
+        "Com./Gov. PV (nameplate capacity)": "3,522",
+        "Utility PV (nameplate capacity)": "3,542"
       },
       "geometry": {
         "type": "Point",
@@ -3295,7 +3353,8 @@
         "wave (nameplate capacity)": 403,
         "Hydro-electric (nameplate capacity)": 3159,
         "Res. PV (nameplate capacity) ": "6,301",
-        "Com./Gov. PV (nameplate capacity)": "12,691"
+        "Com./Gov. PV (nameplate capacity)": "12,691",
+        "Utility PV (nameplate capacity)": "6,551"
       },
       "geometry": {
         "type": "Point",
@@ -3351,7 +3410,8 @@
         "wave (nameplate capacity)": 2105,
         "Hydro-electric (nameplate capacity)": 11442,
         "Res. PV (nameplate capacity) ": "12,694",
-        "Com./Gov. PV (nameplate capacity)": "27,878"
+        "Com./Gov. PV (nameplate capacity)": "27,878",
+        "Utility PV (nameplate capacity)": "14,528"
       },
       "geometry": {
         "type": "Point",
@@ -3407,7 +3467,8 @@
         "wave (nameplate capacity)": 0,
         "Hydro-electric (nameplate capacity)": 1519,
         "Res. PV (nameplate capacity) ": "16,670",
-        "Com./Gov. PV (nameplate capacity)": "10,671"
+        "Com./Gov. PV (nameplate capacity)": "10,671",
+        "Utility PV (nameplate capacity)": "68,852"
       },
       "geometry": {
         "type": "Point",
@@ -3463,7 +3524,8 @@
         "wave (nameplate capacity)": 296,
         "Hydro-electric (nameplate capacity)": 11050,
         "Res. PV (nameplate capacity) ": "51,154",
-        "Com./Gov. PV (nameplate capacity)": "59,277"
+        "Com./Gov. PV (nameplate capacity)": "59,277",
+        "Utility PV (nameplate capacity)": "57,875"
       },
       "geometry": {
         "type": "Point",
@@ -3519,7 +3581,8 @@
         "wave (nameplate capacity)": 0,
         "Hydro-electric (nameplate capacity)": 153,
         "Res. PV (nameplate capacity) ": 747,
-        "Com./Gov. PV (nameplate capacity)": "1,863"
+        "Com./Gov. PV (nameplate capacity)": "1,863",
+        "Utility PV (nameplate capacity)": "1,653"
       },
       "geometry": {
         "type": "Point",
@@ -3575,7 +3638,8 @@
         "wave (nameplate capacity)": 0,
         "Hydro-electric (nameplate capacity)": 1296,
         "Res. PV (nameplate capacity) ": "16,493",
-        "Com./Gov. PV (nameplate capacity)": "17,421"
+        "Com./Gov. PV (nameplate capacity)": "17,421",
+        "Utility PV (nameplate capacity)": "21,211"
       },
       "geometry": {
         "type": "Point",
@@ -3631,7 +3695,8 @@
         "wave (nameplate capacity)": "4,999",
         "Hydro-electric (nameplate capacity)": 8765,
         "Res. PV (nameplate capacity) ": "42,957",
-        "Com./Gov. PV (nameplate capacity)": "27,860"
+        "Com./Gov. PV (nameplate capacity)": "27,860",
+        "Utility PV (nameplate capacity)": "105,114"
       },
       "geometry": {
         "type": "Point",
@@ -3687,7 +3752,8 @@
         "wave (nameplate capacity)": 850,
         "Hydro-electric (nameplate capacity)": 16977,
         "Res. PV (nameplate capacity) ": "12,316",
-        "Com./Gov. PV (nameplate capacity)": "29,473"
+        "Com./Gov. PV (nameplate capacity)": "29,473",
+        "Utility PV (nameplate capacity)": "14,406"
       },
       "geometry": {
         "type": "Point",
@@ -3743,7 +3809,8 @@
         "wave (nameplate capacity)": 0,
         "Hydro-electric (nameplate capacity)": 15,
         "Res. PV (nameplate capacity) ": "1,243",
-        "Com./Gov. PV (nameplate capacity)": "3,212"
+        "Com./Gov. PV (nameplate capacity)": "3,212",
+        "Utility PV (nameplate capacity)": "2,584"
       },
       "geometry": {
         "type": "Point",
@@ -3799,7 +3866,8 @@
         "wave (nameplate capacity)": 349,
         "Hydro-electric (nameplate capacity)": 6975,
         "Res. PV (nameplate capacity) ": "5,060",
-        "Com./Gov. PV (nameplate capacity)": "12,109"
+        "Com./Gov. PV (nameplate capacity)": "12,109",
+        "Utility PV (nameplate capacity)": "5,919"
       },
       "geometry": {
         "type": "Point",
@@ -3855,7 +3923,8 @@
         "wave (nameplate capacity)": 0,
         "Hydro-electric (nameplate capacity)": 2985,
         "Res. PV (nameplate capacity) ": "4,074",
-        "Com./Gov. PV (nameplate capacity)": "4,111"
+        "Com./Gov. PV (nameplate capacity)": "4,111",
+        "Utility PV (nameplate capacity)": "9,225"
       },
       "geometry": {
         "type": "Point",
@@ -3911,7 +3980,8 @@
         "wave (nameplate capacity)": 106,
         "Hydro-electric (nameplate capacity)": 355,
         "Res. PV (nameplate capacity) ": 628,
-        "Com./Gov. PV (nameplate capacity)": "1,395"
+        "Com./Gov. PV (nameplate capacity)": "1,395",
+        "Utility PV (nameplate capacity)": 720
       },
       "geometry": {
         "type": "Point",
@@ -3967,7 +4037,8 @@
         "wave (nameplate capacity)": 4,
         "Hydro-electric (nameplate capacity)": 161,
         "Res. PV (nameplate capacity) ": 743,
-        "Com./Gov. PV (nameplate capacity)": 862
+        "Com./Gov. PV (nameplate capacity)": 862,
+        "Utility PV (nameplate capacity)": 841
       },
       "geometry": {
         "type": "Point",
@@ -4023,7 +4094,8 @@
         "wave (nameplate capacity)": 0,
         "Hydro-electric (nameplate capacity)": 3421,
         "Res. PV (nameplate capacity) ": "1,460",
-        "Com./Gov. PV (nameplate capacity)": "3,091"
+        "Com./Gov. PV (nameplate capacity)": "3,091",
+        "Utility PV (nameplate capacity)": "3,312"
       },
       "geometry": {
         "type": "Point",
@@ -4065,7 +4137,8 @@
         "wave (nameplate capacity)": 131,
         "Hydro-electric (nameplate capacity)": 4874,
         "Res. PV (nameplate capacity) ": "22,564",
-        "Com./Gov. PV (nameplate capacity)": "26,147"
+        "Com./Gov. PV (nameplate capacity)": "26,147",
+        "Utility PV (nameplate capacity)": "25,528"
       },
       "geometry": {
         "type": "Point",
@@ -4097,7 +4170,8 @@
         "wave (nameplate capacity)": 676,
         "Hydro-electric (nameplate capacity)": 1866,
         "Res. PV (nameplate capacity) ": "10,790",
-        "Com./Gov. PV (nameplate capacity)": "18,482"
+        "Com./Gov. PV (nameplate capacity)": "18,482",
+        "Utility PV (nameplate capacity)": "24,095"
       },
       "geometry": {
         "type": "Point",
