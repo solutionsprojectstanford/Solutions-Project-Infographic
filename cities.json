@@ -48,7 +48,7 @@
         "Hydro-electric (nameplate capacity)": 200,
         "Res. PV (nameplate capacity) ": 688,
         "Com./Gov. PV (nameplate capacity)": 1501,
-        "Utility PV (nameplate capacity)": 785
+        "Utility PV (nameplate capacity)": 785,
       },
       "geometry": {
         "type": "Point",
@@ -105,7 +105,7 @@
         "Hydro-electric (nameplate capacity)": 114,
         "Res. PV (nameplate capacity) ": 259,
         "Com./Gov. PV (nameplate capacity)": 564,
-        "Utility PV (nameplate capacity)": 584
+        "Utility PV (nameplate capacity)": 584,
       },
       "geometry": {
         "type": "Point",
@@ -162,7 +162,7 @@
         "Hydro-electric (nameplate capacity)": 2169,
         "Res. PV (nameplate capacity) ": 2443,
         "Com./Gov. PV (nameplate capacity)": 5993,
-        "Utility PV (nameplate capacity)": 4890
+        "Utility PV (nameplate capacity)": 4890,
       },
       "geometry": {
         "type": "Point",
@@ -219,7 +219,7 @@
         "Hydro-electric (nameplate capacity)": 2424,
         "Res. PV (nameplate capacity) ": 4,018,
         "Com./Gov. PV (nameplate capacity)": 5,005,
-        "Utility PV (nameplate capacity)": 4,647
+        "Utility PV (nameplate capacity)": 4,647,
       },
       "geometry": {
         "type": "Point",
@@ -276,7 +276,7 @@
         "Hydro-electric (nameplate capacity)": 447,
         "Res. PV (nameplate capacity) ": 1,859,
         "Com./Gov. PV (nameplate capacity)": 4,403,
-        "Utility PV (nameplate capacity)": 4,113
+        "Utility PV (nameplate capacity)": 4,113,
       },
       "geometry": {
         "type": "Point",
