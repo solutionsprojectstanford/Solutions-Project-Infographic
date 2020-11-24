@@ -47,7 +47,7 @@
         "Overall percent change in end-use load with WWS": -67.2,
         "Hydro-electric (nameplate capacity)": 200,
         "Res. PV (nameplate capacity) ": 688,
-        "Com./Gov. PV (nameplate capacity)": "1,501",
+        "Com./Gov. PV (nameplate capacity)": 1501,
         "Utility PV (nameplate capacity)": 785
       },
       "geometry": {
@@ -147,7 +147,7 @@
         "tidal (nameplate capacity)": 6,
         "2050 Total end-use load (GW): BAU": 12.968,
         "2050 Total end-use load (GW): WWS": 5.685,
-        "Percent of end-use load due to residential buildings: BAU": "21.0",
+        "Percent of end-use load due to residential buildings: BAU": 21.0,
         "Percent of end-use load due to residential buildings: WWS": 19.4,
         "Percent of end-use load due to commercial and government buildings: BAU": 13.1,
         "Percent of end-use load due to commercial and government buildings: WWS": 16.6,
@@ -159,10 +159,10 @@
         "Percent change in end-use load with WWS due to eliminating energy in mining, transporting, refining": -9.9,
         "Percent change in end-use load with WWS due to efficiency beyond BAU": -7.1,
         "Overall percent change in end-use load with WWS": -56.2,
-        "Hydro-electric (nameplate capacity)": "2,169",
-        "Res. PV (nameplate capacity) ": "2,443",
-        "Com./Gov. PV (nameplate capacity)": "5,993",
-        "Utility PV (nameplate capacity)": "4,890"
+        "Hydro-electric (nameplate capacity)": 2169,
+        "Res. PV (nameplate capacity) ": 2443,
+        "Com./Gov. PV (nameplate capacity)": 5993,
+        "Utility PV (nameplate capacity)": 4890
       },
       "geometry": {
         "type": "Point",
@@ -214,12 +214,12 @@
         "Percent of end-use load due to transport: WWS": 14.9,
         "Percent change in end-use load with WWS due to higher work: energy ratio": -33.5,
         "Percent change in end-use load with WWS due to eliminating energy in mining, transporting, refining": -5.2,
-        "Percent change in end-use load with WWS due to efficiency beyond BAU": "-7.0",
+        "Percent change in end-use load with WWS due to efficiency beyond BAU": -7.0,
         "Overall percent change in end-use load with WWS": -45.7,
-        "Hydro-electric (nameplate capacity)": "2,424",
-        "Res. PV (nameplate capacity) ": "4,018",
-        "Com./Gov. PV (nameplate capacity)": "5,005",
-        "Utility PV (nameplate capacity)": "4,647"
+        "Hydro-electric (nameplate capacity)": 2424,
+        "Res. PV (nameplate capacity) ": 4,018,
+        "Com./Gov. PV (nameplate capacity)": 5,005,
+        "Utility PV (nameplate capacity)": 4,647
       },
       "geometry": {
         "type": "Point",
@@ -274,9 +274,9 @@
         "Percent change in end-use load with WWS due to efficiency beyond BAU": -6.5,
         "Overall percent change in end-use load with WWS": -61.7,
         "Hydro-electric (nameplate capacity)": 447,
-        "Res. PV (nameplate capacity) ": "1,859",
-        "Com./Gov. PV (nameplate capacity)": "4,403",
-        "Utility PV (nameplate capacity)": "4,113"
+        "Res. PV (nameplate capacity) ": 1,859,
+        "Com./Gov. PV (nameplate capacity)": 4,403,
+        "Utility PV (nameplate capacity)": 4,113
       },
       "geometry": {
         "type": "Point",
