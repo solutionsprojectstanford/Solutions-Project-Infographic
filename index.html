@@ -195,20 +195,19 @@
       <div class="overlay-content">
         <h1><span id="locationName"></span></h1>
         <br>
-        <h3>100% Wind-Water-Solar (WWS) Energy Mix</h3>
+        <h3>2050 100% Wind-Water-Solar (WWS) Energy Mix</h3>
         <div id="energy piechart"></div>
         <br>
-        <h3>100% Wind-Water-Solar (WWS) Energy Mix in terms of Nameplate Capacity</h3>
+        <h3>2050 100% Wind-Water-Solar (WWS) Energy Mix in terms of Nameplate Capacity</h3>
         <div id="nameplate capacity piechart"></div>
         <br>
-        <h3>Total Associated Energy, Climate, and Pollution Cost</h3>
+        <h3>2050 Total Associated Energy, Climate, and Pollution Cost</h3>
         <div id="energy cost column"></div>
         <p>Change in energy cost due to WWS: <span id="energy cost savings" style="display: inline-block; font-weight: bold;"></span>%</p>
         <p>Change in total social cost due to WWS: <span id="social cost savings" style="display: inline-block; font-weight: bold;"></span>%</p>
         <br>
-        <h3>End-Use Energy Consumption</h3>
-        <br>
-        <h3>Jobs Created </h3>
+        <h3>2050 End-Use Energy Consumption Using WWS</h3>
+        <div id="end-use reduction column"></div>
         <br>
         <h3>2050 Average Energy, Health, and Climate Costs Savings from WWS</h3>
         <p style="display: inline-block;">$<span id="costSavings"></span> per year per person</p>
@@ -250,7 +249,7 @@
     <div class="overlay-content">
       <h1><span id="stateName"></span></h1>
       <br>
-      <h3>100% Wind-Water-Solar (WWS) Energy Mix</h3>
+      <h3>2050 100% Wind-Water-Solar (WWS) Energy Mix After Electrifying All Energy Sectors</h3>
       <div id="state energy piechart"></div>
 
       <h3>2050 Average Energy, Health, and Climate Costs Savings from WWS</h3>
@@ -273,7 +272,7 @@
     <div class="overlay-content">
       <h1><span id="countryName"></span></h1>
       <br>
-      <h3>100% Wind-Water-Solar (WWS) Energy Mix</h3>
+      <h3>2050 100% Wind-Water-Solar (WWS) Energy Mix After Electrifying All Energy Sectors</h3>
       <div id="country energy piechart"></div>
 
       <h3>2050 Average Energy, Health, and Climate Costs Savings from WWS</h3>
@@ -575,7 +574,7 @@
           var concSolar = Number(event.feature.getProperty('csp'));
 
 
-          // Nameplate Capacity Energy Mix 
+          // Nameplate Capacity Energy Mix
           var onshoreNC = Number(event.feature.getProperty('onshore wind (nameplate capacity)'));
           var offshoreNC = Number(event.feature.getProperty('offshore wind (nameplate capacity)'));
           var waveNC = Number(event.feature.getProperty('wave (nameplate capacity)'));
@@ -586,7 +585,7 @@
           var resPVNC = Number(event.feature.getProperty('Res. PV (nameplate capacity) '));
           var comgovPVNC = Number(event.feature.getProperty('Com./Gov. PV (nameplate capacity)'));
           var utilPVNC = Number(event.feature.getProperty('Utility PV (nameplate capacity)'));
-          
+
 
           // Associated Costs
           var bauEnergyCost = Number(event.feature.getProperty('2050 BAU energy cost ($bil/yr)'));
@@ -595,6 +594,12 @@
           var wwsEnergyCost = Number(event.feature.getProperty('2050 WWS energy and total social cost ($bil/yr)'));
           var percentEnergyCostSavings = Number(event.feature.getProperty('Percent change in energy cost due to WWS (WWS- BAU)/(BAU)'));
           var percentSocialCostSavigns = Number(event.feature.getProperty('Percent change in total social cost due to WWS (WWS-BAU)/(BAU)'));
+
+          // Change in End-Use Energy load
+          var changeWork = Number(event.feature.getProperty('Percent change in end-use load with WWS due to higher work: energy ratio'));
+          var changeTransportation = Number(event.feature.getProperty('Percent change in end-use load with WWS due to eliminating energy in mining, transporting, refining'));
+          var changeEfficiency = Number(event.feature.getProperty('Percent change in end-use load with WWS due to efficiency beyond BAU'));
+
 
           // Savings & Avoided Deaths
           var costSavings = Number(event.feature.getProperty('cost savings'));
@@ -682,7 +687,7 @@
           ]);
 
           var options = {
-            title: 'Business-as-Usual (BAU) and Wind-Water-Solar (WWS) Energy, Air Pollution, and Climate Costs (USD 2013 $bil/yr)',
+            title: '2050 Business-as-Usual (BAU) and WWS Energy, Air Pollution, and Climate Costs (USD 2013 $bil/yr)',
             height: 400,
             width: 380,
             legend: { position: 'top', maxLines: 4},
@@ -694,6 +699,26 @@
           chart.draw(data, options);
         };
 
+        // End-Use Energy Consumption
+        google.charts.setOnLoadCallback(drawCityEndUseChangeColumn);
+        function drawCityEndUseChangeColumn() {
+          var data = google.visualization.arrayToDataTable([
+            ['Cause', 'Increased Work/Energy Ratio', 'Eliminating Energy in Mining, Transportation, and Refining', 'Increased Efficiency', {role: 'annotation'} ],
+            ['2050 End-Use Energy Consumption (WWS)', -changeWork, -changeTransportation, -changeEfficiency,'']
+          ]);
+
+          var options = {
+            title: 'Percent Reduction of End-Use Load Using Wind-Water-Solar (WWS)',
+            height: 400,
+            width: 380,
+            legend: { position: 'top', maxLines: 4},
+            bar: { groupWidth: '75%' },
+            isStacked: true,
+          };
+
+          var chart = new google.visualization.ColumnChart(document.getElementById('end-use reduction column'));
+          chart.draw(data, options);
+        };
 
       });
 
