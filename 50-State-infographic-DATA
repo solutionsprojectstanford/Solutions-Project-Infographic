@@ -1,0 +1,1787 @@
+[
+ {
+   "shortCountry": "AL",
+   "country": "Alabama",
+   "Onshore wind": 0.047116398,
+   "Offshore wind": 0.024671607,
+   "Wave device": 0.00283549,
+   "Geothermal electric plant": 0,
+   "Hydroelectric plant": 0.054671657,
+   "Tidal turbine": 0.000164902,
+   "Res. roof PV system": 0.160873726,
+   "Com": {
+      "gov": {
+         "Indus roof PV system": 0.113547132
+      }
+   },
+   "Solar PV plant": 0.596119088,
+   "CSP plant": 0,
+   "constructionJobs": 56589.45435,
+   "operationJobs": 66814.7298,
+   "wws-cents": {
+      "kWh": 6.501844911
+   },
+   "bau-cents": {
+      "kWh": 10.46401195
+   },
+   "electricityCostSavDolPerPersonPerYr": 1275.452531,
+   "futureWWS": 0.48437111,
+   "airPollutionMortality": 767.8477352,
+   "AirPollutionCostBilDollars": 10.1076111,
+   "AirPollutionCostGDP": 0.016656288,
+   "Energy+health+climates-savings-per-person": 17663.09393,
+   "paybackTime1": 1.334684023,
+   "footprintArea-FracOfCountry": 0.006636565,
+   "spacingArea": 0.002116082
+},
+ {
+   "shortCountry": "AK",
+   "country": "Alaska",
+   "Onshore wind": 0.562953479,
+   "Offshore wind": 0.210991389,
+   "Wave device": 0.006485639,
+   "Geothermal electric plant": 0.162118646,
+   "Hydroelectric plant": 0.021098721,
+   "Tidal turbine": 0.006077739,
+   "Res. roof PV system": 0.005220529,
+   "Com": {
+      "gov": {
+         "Indus roof PV system": 0.001610371
+      }
+   },
+   "Solar PV plant": 0.023443488,
+   "CSP plant": 0,
+   "constructionJobs": 10887.35891,
+   "operationJobs": 14415.30818,
+   "wws-cents": {
+      "kWh": 7.66168473
+   },
+   "bau-cents": {
+      "kWh": 10.06608513
+   },
+   "electricityCostSavDolPerPersonPerYr": 501.5990091,
+   "futureWWS": 0.566469487,
+   "airPollutionMortality": 61.19279093,
+   "AirPollutionCostBilDollars": 0.805515084,
+   "AirPollutionCostGDP": 0.009781316,
+   "Energy+health+climates-savings-per-person": 35144.91518,
+   "paybackTime1": 1.761935133,
+   "footprintArea-FracOfCountry": 0.0000186712,
+   "spacingArea": 0.000993964
+},
+ {
+   "shortCountry": "AZ",
+   "country": "Arizona",
+   "Onshore wind": 0.16903268,
+   "Offshore wind": 0,
+   "Wave device": 0,
+   "Geothermal electric plant": 0.058634211,
+   "Hydroelectric plant": 0.078954155,
+   "Tidal turbine": 0,
+   "Res. roof PV system": 0.149042485,
+   "Com": {
+      "gov": {
+         "Indus roof PV system": 0.303524508
+      }
+   },
+   "Solar PV plant": 0.223563728,
+   "CSP plant": 0.017248233,
+   "constructionJobs": 26185.11538,
+   "operationJobs": 20601.21766,
+   "wws-cents": {
+      "kWh": 8.307729345
+   },
+   "bau-cents": {
+      "kWh": 10.40888664
+   },
+   "electricityCostSavDolPerPersonPerYr": 439.9144617,
+   "futureWWS": 0.554380905,
+   "airPollutionMortality": 1650.128904,
+   "AirPollutionCostBilDollars": 21.72157376,
+   "AirPollutionCostGDP": 0.018291916,
+   "Energy+health+climates-savings-per-person": 8400.311076,
+   "paybackTime1": 0.692516758,
+   "footprintArea-FracOfCountry": 0.000441227,
+   "spacingArea": 0.0024417
+},
+ {
+   "shortCountry": "AR",
+   "country": "Arkansas",
+   "Onshore wind": 0.047944732,
+   "Offshore wind": 0,
+   "Wave device": 0,
+   "Geothermal electric plant": 0,
+   "Hydroelectric plant": 0.041105358,
+   "Tidal turbine": 0,
+   "Res. roof PV system": 0.214393766,
+   "Com": {
+      "gov": {
+         "Indus roof PV system": 0.160249514
+      }
+   },
+   "Solar PV plant": 0.536306629,
+   "CSP plant": 0,
+   "constructionJobs": 32923.3913,
+   "operationJobs": 33680.94648,
+   "wws-cents": {
+      "kWh": 6.795714938
+   },
+   "bau-cents": {
+      "kWh": 10.43434283
+   },
+   "electricityCostSavDolPerPersonPerYr": 1064.204766,
+   "futureWWS": 0.524845089,
+   "airPollutionMortality": 369.798861,
+   "AirPollutionCostBilDollars": 4.867870152,
+   "AirPollutionCostGDP": 0.012743761,
+   "Energy+health+climates-savings-per-person": 16082.45722,
+   "paybackTime1": 1.286330265,
+   "footprintArea-FracOfCountry": 0.002977065,
+   "spacingArea": 0.00108321
+},
+ {
+   "shortCountry": "CA",
+   "country": "California",
+   "Onshore wind": 0.114789565,
+   "Offshore wind": 0.228072642,
+   "Wave device": 0.002349693,
+   "Geothermal electric plant": 0.156486372,
+   "Hydroelectric plant": 0.060126587,
+   "Tidal turbine": 0.000155955,
+   "Res. roof PV system": 0.147464956,
+   "Com": {
+      "gov": {
+         "Indus roof PV system": 0.122888174
+      }
+   },
+   "Solar PV plant": 0.152048428,
+   "CSP plant": 0.015617628,
+   "constructionJobs": 115690.9019,
+   "operationJobs": 109324.7479,
+   "wws-cents": {
+      "kWh": 9.02211667
+   },
+   "bau-cents": {
+      "kWh": 10.41302624
+   },
+   "electricityCostSavDolPerPersonPerYr": 326.9105963,
+   "futureWWS": 0.594784991,
+   "airPollutionMortality": 10191.05025,
+   "AirPollutionCostBilDollars": 134.1505195,
+   "AirPollutionCostGDP": 0.027365007,
+   "Energy+health+climates-savings-per-person": 9428.227864,
+   "paybackTime1": 0.919661282,
+   "footprintArea-FracOfCountry": 0.001284701,
+   "spacingArea": 0.005561417
+},
+ {
+   "shortCountry": "CO",
+   "country": "Colorado",
+   "Onshore wind": 0.41478549,
+   "Offshore wind": 0,
+   "Wave device": 0,
+   "Geothermal electric plant": 0.056282113,
+   "Hydroelectric plant": 0.017340467,
+   "Tidal turbine": 0,
+   "Res. roof PV system": 0.112416238,
+   "Com": {
+      "gov": {
+         "Indus roof PV system": 0.225919449
+      }
+   },
+   "Solar PV plant": 0.168624357,
+   "CSP plant": 0.004631887,
+   "constructionJobs": 28082.06688,
+   "operationJobs": 23294.93419,
+   "wws-cents": {
+      "kWh": 7.724956589
+   },
+   "bau-cents": {
+      "kWh": 10.51938626
+   },
+   "electricityCostSavDolPerPersonPerYr": 468.7094735,
+   "futureWWS": 0.590274082,
+   "airPollutionMortality": 725.0931612,
+   "AirPollutionCostBilDollars": 9.544808622,
+   "AirPollutionCostGDP": 0.010698405,
+   "Energy+health+climates-savings-per-person": 9608.648747,
+   "paybackTime1": 0.907292004,
+   "footprintArea-FracOfCountry": 0.000517486,
+   "spacingArea": 0.004298281
+},
+ {
+   "shortCountry": "CT",
+   "country": "Connecticut",
+   "Onshore wind": 0.098911496,
+   "Offshore wind": 0.440995946,
+   "Wave device": 0.002976274,
+   "Geothermal electric plant": 0,
+   "Hydroelectric plant": 0.007279114,
+   "Tidal turbine": 0.000629651,
+   "Res. roof PV system": 0.086501136,
+   "Com": {
+      "gov": {
+         "Indus roof PV system": 0.057568233
+      }
+   },
+   "Solar PV plant": 0.30513815,
+   "CSP plant": 0,
+   "constructionJobs": 14292.23654,
+   "operationJobs": 18120.4058,
+   "wws-cents": {
+      "kWh": 8.167272709
+   },
+   "bau-cents": {
+      "kWh": 10.86928148
+   },
+   "electricityCostSavDolPerPersonPerYr": 537.6137518,
+   "futureWWS": 0.62353231,
+   "airPollutionMortality": 520.4096811,
+   "AirPollutionCostBilDollars": 6.850444987,
+   "AirPollutionCostGDP": 0.01733988,
+   "Energy+health+climates-savings-per-person": 9389.711687,
+   "paybackTime1": 1.16185381,
+   "footprintArea-FracOfCountry": 0.012576339,
+   "spacingArea": 0.012302609
+},
+ {
+   "shortCountry": "DC",
+   "country": "DC, Washington",
+   "Onshore wind": 0.001004818,
+   "Offshore wind": 0.979492909,
+   "Wave device": 0,
+   "Geothermal electric plant": 0,
+   "Hydroelectric plant": 0,
+   "Tidal turbine": 0,
+   "Res. roof PV system": 0.013639546,
+   "Com": {
+      "gov": {
+         "Indus roof PV system": 0.005862727
+      }
+   },
+   "Solar PV plant": 0,
+   "CSP plant": 0,
+   "constructionJobs": 1557.892566,
+   "operationJobs": 2675.078041,
+   "wws-cents": {
+      "kWh": 11.83602718
+   },
+   "bau-cents": {
+      "kWh": 10.74746416
+   },
+   "electricityCostSavDolPerPersonPerYr": 207.5990564,
+   "futureWWS": 0.470285528,
+   "airPollutionMortality": 144.3920915,
+   "AirPollutionCostBilDollars": 1.900714217,
+   "AirPollutionCostGDP": 0.017483346,
+   "Energy+health+climates-savings-per-person": 4184.56068,
+   "paybackTime1": 2.247138471,
+   "footprintArea-FracOfCountry": 1.13199e-7,
+   "spacingArea": 0.002493158
+},
+ {
+   "shortCountry": "DE",
+   "country": "Delaware",
+   "Onshore wind": 0.099588872,
+   "Offshore wind": 0.436377842,
+   "Wave device": 0.002996656,
+   "Geothermal electric plant": 0,
+   "Hydroelectric plant": 0,
+   "Tidal turbine": 0.001114624,
+   "Res. roof PV system": 0.090700142,
+   "Com": {
+      "gov": {
+         "Indus roof PV system": 0.078303303
+      }
+   },
+   "Solar PV plant": 0.290918561,
+   "CSP plant": 0,
+   "constructionJobs": 6101.90178,
+   "operationJobs": 7357.819327,
+   "wws-cents": {
+      "kWh": 8.380127804
+   },
+   "bau-cents": {
+      "kWh": 11.62448092
+   },
+   "electricityCostSavDolPerPersonPerYr": 685.0744409,
+   "futureWWS": 0.573404304,
+   "airPollutionMortality": 185.9356797,
+   "AirPollutionCostBilDollars": 2.447575807,
+   "AirPollutionCostGDP": 0.017549955,
+   "Energy+health+climates-savings-per-person": 9841.870071,
+   "paybackTime1": 1.274584388,
+   "footprintArea-FracOfCountry": 0.011060784,
+   "spacingArea": 0.01360172
+},
+ {
+   "shortCountry": "FL",
+   "country": "Florida",
+   "Onshore wind": 0.099434191,
+   "Offshore wind": 0.345502055,
+   "Wave device": 0.002997101,
+   "Geothermal electric plant": 0,
+   "Hydroelectric plant": 0.000465807,
+   "Tidal turbine": 0.00050039,
+   "Res. roof PV system": 0.166999666,
+   "Com": {
+      "gov": {
+         "Indus roof PV system": 0.121663283
+      }
+   },
+   "Solar PV plant": 0.260742711,
+   "CSP plant": 0.001694795,
+   "constructionJobs": 84172.99761,
+   "operationJobs": 89848.40611,
+   "wws-cents": {
+      "kWh": 8.041904239
+   },
+   "bau-cents": {
+      "kWh": 11.25862304
+   },
+   "electricityCostSavDolPerPersonPerYr": 544.3422052,
+   "futureWWS": 0.523007425,
+   "airPollutionMortality": 2839.051353,
+   "AirPollutionCostBilDollars": 37.37202788,
+   "AirPollutionCostGDP": 0.010991462,
+   "Energy+health+climates-savings-per-person": 7214.76441,
+   "paybackTime1": 1.248224334,
+   "footprintArea-FracOfCountry": 0.004783108,
+   "spacingArea": 0.007660585
+},
+ {
+   "shortCountry": "GA",
+   "country": "Georgia",
+   "Onshore wind": 0.048624756,
+   "Offshore wind": 0.423823088,
+   "Wave device": 0.002926264,
+   "Geothermal electric plant": 0,
+   "Hydroelectric plant": 0.024273201,
+   "Tidal turbine": 0.000305422,
+   "Res. roof PV system": 0.223977606,
+   "Com": {
+      "gov": {
+         "Indus roof PV system": 0.170113891
+      }
+   },
+   "Solar PV plant": 0.105955772,
+   "CSP plant": 0,
+   "constructionJobs": 64267.05555,
+   "operationJobs": 54271.6775,
+   "wws-cents": {
+      "kWh": 8.724664704
+   },
+   "bau-cents": {
+      "kWh": 10.65556532
+   },
+   "electricityCostSavDolPerPersonPerYr": 567.3683518,
+   "futureWWS": 0.509773286,
+   "airPollutionMortality": 1957.718948,
+   "AirPollutionCostBilDollars": 25.77055431,
+   "AirPollutionCostGDP": 0.016770359,
+   "Energy+health+climates-savings-per-person": 9462.526195,
+   "paybackTime1": 1.643160685,
+   "footprintArea-FracOfCountry": 0.001200635,
+   "spacingArea": 0.002486243
+},
+ {
+   "shortCountry": "HI",
+   "country": "Hawaii",
+   "Onshore wind": 0.15508585,
+   "Offshore wind": 0.183135811,
+   "Wave device": 0.002380906,
+   "Geothermal electric plant": 0.198970746,
+   "Hydroelectric plant": 0.00514627,
+   "Tidal turbine": 0.002247742,
+   "Res. roof PV system": 0.187007715,
+   "Com": {
+      "gov": {
+         "Indus roof PV system": 0.128109333
+      }
+   },
+   "Solar PV plant": 0.122090541,
+   "CSP plant": 0.015825087,
+   "constructionJobs": 7337.852136,
+   "operationJobs": 5693.397931,
+   "wws-cents": {
+      "kWh": 8.462633974
+   },
+   "bau-cents": {
+      "kWh": 11.23247471
+   },
+   "electricityCostSavDolPerPersonPerYr": 591.0199037,
+   "futureWWS": 0.617628574,
+   "airPollutionMortality": 140.9468648,
+   "AirPollutionCostBilDollars": 1.855362763,
+   "AirPollutionCostGDP": 0.011584878,
+   "Energy+health+climates-savings-per-person": 10842.84019,
+   "paybackTime1": 1.591848362,
+   "footprintArea-FracOfCountry": 0.001711015,
+   "spacingArea": 0.005339145
+},
+ {
+   "shortCountry": "ID",
+   "country": "Idaho",
+   "Onshore wind": 0.381612374,
+   "Offshore wind": 0,
+   "Wave device": 0,
+   "Geothermal electric plant": 0.159005156,
+   "Hydroelectric plant": 0.204974221,
+   "Tidal turbine": 0,
+   "Res. roof PV system": 0.05088165,
+   "Com": {
+      "gov": {
+         "Indus roof PV system": 0.127204125
+      }
+   },
+   "Solar PV plant": 0.076322475,
+   "CSP plant": 0,
+   "constructionJobs": 8590.93408,
+   "operationJobs": 7719.317415,
+   "wws-cents": {
+      "kWh": 7.385788991
+   },
+   "bau-cents": {
+      "kWh": 8.125631221
+   },
+   "electricityCostSavDolPerPersonPerYr": 327.114233,
+   "futureWWS": 0.562690602,
+   "airPollutionMortality": 247.5270079,
+   "AirPollutionCostBilDollars": 3.258337061,
+   "AirPollutionCostGDP": 0.01079436,
+   "Energy+health+climates-savings-per-person": 6524.778267,
+   "paybackTime1": 1.499204804,
+   "footprintArea-FracOfCountry": 0.00012552,
+   "spacingArea": 0.002332471
+},
+ {
+   "shortCountry": "IL",
+   "country": "Illinois",
+   "Onshore wind": 0.348858603,
+   "Offshore wind": 0.051067181,
+   "Wave device": 0.002822938,
+   "Geothermal electric plant": 0,
+   "Hydroelectric plant": 0.000438197,
+   "Tidal turbine": 0,
+   "Res. roof PV system": 0.074355873,
+   "Com": {
+      "gov": {
+         "Indus roof PV system": 0.062852578
+      }
+   },
+   "Solar PV plant": 0.45960463,
+   "CSP plant": 0,
+   "constructionJobs": 79642.67483,
+   "operationJobs": 106646.499,
+   "wws-cents": {
+      "kWh": 5.820202857
+   },
+   "bau-cents": {
+      "kWh": 10.25022735
+   },
+   "electricityCostSavDolPerPersonPerYr": 974.7872475,
+   "futureWWS": 0.588264703,
+   "airPollutionMortality": 2124.589633,
+   "AirPollutionCostBilDollars": 27.96716688,
+   "AirPollutionCostGDP": 0.021019787,
+   "Energy+health+climates-savings-per-person": 15654.33881,
+   "paybackTime1": 1.081866955,
+   "footprintArea-FracOfCountry": 0.009154827,
+   "spacingArea": 0.018233896
+},
+ {
+   "shortCountry": "IN",
+   "country": "Indiana",
+   "Onshore wind": 0.34871375,
+   "Offshore wind": 0.01421311,
+   "Wave device": 0.002373881,
+   "Geothermal electric plant": 0,
+   "Hydroelectric plant": 0.00130112,
+   "Tidal turbine": 0,
+   "Res. roof PV system": 0.091036505,
+   "Com": {
+      "gov": {
+         "Indus roof PV system": 0.064966901
+      }
+   },
+   "Solar PV plant": 0.477394735,
+   "CSP plant": 0,
+   "constructionJobs": 74902.15628,
+   "operationJobs": 97112.5816,
+   "wws-cents": {
+      "kWh": 5.355204605
+   },
+   "bau-cents": {
+      "kWh": 10.54771476
+   },
+   "electricityCostSavDolPerPersonPerYr": 1220.525571,
+   "futureWWS": 0.530333437,
+   "airPollutionMortality": 1422.667572,
+   "AirPollutionCostBilDollars": 18.72737248,
+   "AirPollutionCostGDP": 0.021774278,
+   "Energy+health+climates-savings-per-person": 20302.15851,
+   "paybackTime1": 1.183834236,
+   "footprintArea-FracOfCountry": 0.012943982,
+   "spacingArea": 0.028526821
+},
+ {
+   "shortCountry": "IA",
+   "country": "Iowa",
+   "Onshore wind": 0.598344637,
+   "Offshore wind": 0,
+   "Wave device": 0,
+   "Geothermal electric plant": 0,
+   "Hydroelectric plant": 0.002758939,
+   "Tidal turbine": 0,
+   "Res. roof PV system": 0.060431302,
+   "Com": {
+      "gov": {
+         "Indus roof PV system": 0.038504922
+      }
+   },
+   "Solar PV plant": 0.2999602,
+   "CSP plant": 0,
+   "constructionJobs": 46492.55719,
+   "operationJobs": 60219.16406,
+   "wws-cents": {
+      "kWh": 5.933331609
+   },
+   "bau-cents": {
+      "kWh": 10.33301624
+   },
+   "electricityCostSavDolPerPersonPerYr": 1192.448129,
+   "futureWWS": 0.482984278,
+   "airPollutionMortality": 441.3077926,
+   "AirPollutionCostBilDollars": 5.809182391,
+   "AirPollutionCostGDP": 0.014685772,
+   "Energy+health+climates-savings-per-person": 18515.59178,
+   "paybackTime1": 1.70176645,
+   "footprintArea-FracOfCountry": 0.004168064,
+   "spacingArea": 0.018698217
+},
+ {
+   "shortCountry": "KS",
+   "country": "Kansas",
+   "Onshore wind": 0.599859134,
+   "Offshore wind": 0,
+   "Wave device": 0,
+   "Geothermal electric plant": 0,
+   "Hydroelectric plant": 0.000234777,
+   "Tidal turbine": 0,
+   "Res. roof PV system": 0.082091341,
+   "Com": {
+      "gov": {
+         "Indus roof PV system": 0.047942033
+      }
+   },
+   "Solar PV plant": 0.269872715,
+   "CSP plant": 0,
+   "constructionJobs": 24738.2201,
+   "operationJobs": 29361.25449,
+   "wws-cents": {
+      "kWh": 6.835684823
+   },
+   "bau-cents": {
+      "kWh": 10.29260691
+   },
+   "electricityCostSavDolPerPersonPerYr": 952.9251179,
+   "futureWWS": 0.572397128,
+   "airPollutionMortality": 289.2906653,
+   "AirPollutionCostBilDollars": 3.808095545,
+   "AirPollutionCostGDP": 0.011052728,
+   "Energy+health+climates-savings-per-person": 15835.63086,
+   "paybackTime1": 1.102207982,
+   "footprintArea-FracOfCountry": 0.001353244,
+   "spacingArea": 0.004260928
+},
+ {
+   "shortCountry": "KY",
+   "country": "Kentucky",
+   "Onshore wind": 0.097227435,
+   "Offshore wind": 0,
+   "Wave device": 0,
+   "Geothermal electric plant": 0,
+   "Hydroelectric plant": 0.027725652,
+   "Tidal turbine": 0,
+   "Res. roof PV system": 0.166708063,
+   "Com": {
+      "gov": {
+         "Indus roof PV system": 0.125904546
+      }
+   },
+   "Solar PV plant": 0.582434304,
+   "CSP plant": 0,
+   "constructionJobs": 45087.74563,
+   "operationJobs": 51360.58531,
+   "wws-cents": {
+      "kWh": 5.70350932
+   },
+   "bau-cents": {
+      "kWh": 10.21406139
+   },
+   "electricityCostSavDolPerPersonPerYr": 1261.547318,
+   "futureWWS": 0.554912458,
+   "airPollutionMortality": 712.1278995,
+   "AirPollutionCostBilDollars": 9.374139599,
+   "AirPollutionCostGDP": 0.017006403,
+   "Energy+health+climates-savings-per-person": 19924.73279,
+   "paybackTime1": 1.021111708,
+   "footprintArea-FracOfCountry": 0.006378989,
+   "spacingArea": 0.004463105
+},
+ {
+   "shortCountry": "LA",
+   "country": "Louisiana",
+   "Onshore wind": 0.099437104,
+   "Offshore wind": 0.499336907,
+   "Wave device": 0.002992089,
+   "Geothermal electric plant": 0,
+   "Hydroelectric plant": 0.002269168,
+   "Tidal turbine": 0.000367702,
+   "Res. roof PV system": 0.038374077,
+   "Com": {
+      "gov": {
+         "Indus roof PV system": 0.024331682
+      }
+   },
+   "Solar PV plant": 0.332891271,
+   "CSP plant": 0,
+   "constructionJobs": 103102.3364,
+   "operationJobs": 159495.5624,
+   "wws-cents": {
+      "kWh": 7.078010925
+   },
+   "bau-cents": {
+      "kWh": 11.14957468
+   },
+   "electricityCostSavDolPerPersonPerYr": 1575.88002,
+   "futureWWS": 0.544902404,
+   "airPollutionMortality": 588.6964538,
+   "AirPollutionCostBilDollars": 7.749342138,
+   "AirPollutionCostGDP": 0.014296945,
+   "Energy+health+climates-savings-per-person": 37055.98986,
+   "paybackTime1": 2.026481621,
+   "footprintArea-FracOfCountry": 0.014262425,
+   "spacingArea": 0.012184255
+},
+ {
+   "shortCountry": "ME",
+   "country": "Maine",
+   "Onshore wind": 0.211156465,
+   "Offshore wind": 0.299428922,
+   "Wave device": 0.002541502,
+   "Geothermal electric plant": 0,
+   "Hydroelectric plant": 0.150283487,
+   "Tidal turbine": 0.00254915,
+   "Res. roof PV system": 0.096905765,
+   "Com": {
+      "gov": {
+         "Indus roof PV system": 0.037515427
+      }
+   },
+   "Solar PV plant": 0.199619282,
+   "CSP plant": 0,
+   "constructionJobs": 10337.94921,
+   "operationJobs": 11967.06832,
+   "wws-cents": {
+      "kWh": 7.545282707
+   },
+   "bau-cents": {
+      "kWh": 9.479306742
+   },
+   "electricityCostSavDolPerPersonPerYr": 447.5964809,
+   "futureWWS": 0.533442429,
+   "airPollutionMortality": 108.7686908,
+   "AirPollutionCostBilDollars": 1.431783381,
+   "AirPollutionCostGDP": 0.008626189,
+   "Energy+health+climates-savings-per-person": 8952.531767,
+   "paybackTime1": 1.875518711,
+   "footprintArea-FracOfCountry": 0.001058593,
+   "spacingArea": 0.002302892
+},
+ {
+   "shortCountry": "MD",
+   "country": "Maryland",
+   "Onshore wind": 0.29299468,
+   "Offshore wind": 0.29059963,
+   "Wave device": 0.002938763,
+   "Geothermal electric plant": 0,
+   "Hydroelectric plant": 0.019421762,
+   "Tidal turbine": 0.000990542,
+   "Res. roof PV system": 0.108660001,
+   "Com": {
+      "gov": {
+         "Indus roof PV system": 0.090661536
+      }
+   },
+   "Solar PV plant": 0.193733087,
+   "CSP plant": 0,
+   "constructionJobs": 22812.87747,
+   "operationJobs": 24748.97746,
+   "wws-cents": {
+      "kWh": 7.92167492
+   },
+   "bau-cents": {
+      "kWh": 10.37591537
+   },
+   "electricityCostSavDolPerPersonPerYr": 558.7141999,
+   "futureWWS": 0.589667866,
+   "airPollutionMortality": 1085.89309,
+   "AirPollutionCostBilDollars": 14.29422078,
+   "AirPollutionCostGDP": 0.019146614,
+   "Energy+health+climates-savings-per-person": 8381.821589,
+   "paybackTime1": 1.175017125,
+   "footprintArea-FracOfCountry": 0.006359852,
+   "spacingArea": 0.034074412
+},
+ {
+   "shortCountry": "MA",
+   "country": "Massachusetts",
+   "Onshore wind": 0.2468971,
+   "Offshore wind": 0.377788267,
+   "Wave device": 0.00297168,
+   "Geothermal electric plant": 0,
+   "Hydroelectric plant": 0.008867491,
+   "Tidal turbine": 0.000572428,
+   "Res. roof PV system": 0.067011707,
+   "Com": {
+      "gov": {
+         "Indus roof PV system": 0.044032483
+      }
+   },
+   "Solar PV plant": 0.251858845,
+   "CSP plant": 0,
+   "constructionJobs": 24604.96896,
+   "operationJobs": 32341.89629,
+   "wws-cents": {
+      "kWh": 7.623693432
+   },
+   "bau-cents": {
+      "kWh": 11.08118482
+   },
+   "electricityCostSavDolPerPersonPerYr": 538.0766075,
+   "futureWWS": 0.622298434,
+   "airPollutionMortality": 858.060301,
+   "AirPollutionCostBilDollars": 11.29512978,
+   "AirPollutionCostGDP": 0.012923302,
+   "Energy+health+climates-savings-per-person": 7902.478281,
+   "paybackTime1": 1.166173655,
+   "footprintArea-FracOfCountry": 0.012344436,
+   "spacingArea": 0.047903339
+},
+ {
+   "shortCountry": "MI",
+   "country": "Michigan",
+   "Onshore wind": 0.391422711,
+   "Offshore wind": 0.076708351,
+   "Wave device": 0.002944504,
+   "Geothermal electric plant": 0,
+   "Hydroelectric plant": 0.018412487,
+   "Tidal turbine": 0.000086231,
+   "Res. roof PV system": 0.12378999,
+   "Com": {
+      "gov": {
+         "Indus roof PV system": 0.079802324
+      }
+   },
+   "Solar PV plant": 0.306833402,
+   "CSP plant": 0,
+   "constructionJobs": 61969.59583,
+   "operationJobs": 69034.96779,
+   "wws-cents": {
+      "kWh": 6.073484244
+   },
+   "bau-cents": {
+      "kWh": 10.53697121
+   },
+   "electricityCostSavDolPerPersonPerYr": 799.9684908,
+   "futureWWS": 0.600092919,
+   "airPollutionMortality": 1345.90115,
+   "AirPollutionCostBilDollars": 17.71685294,
+   "AirPollutionCostGDP": 0.014948286,
+   "Energy+health+climates-savings-per-person": 12902.51479,
+   "paybackTime1": 1.200231616,
+   "footprintArea-FracOfCountry": 0.004553615,
+   "spacingArea": 0.016136015
+},
+ {
+   "shortCountry": "MN",
+   "country": "Minnesota",
+   "Onshore wind": 0.429554965,
+   "Offshore wind": 0.158315396,
+   "Wave device": 0.002872317,
+   "Geothermal electric plant": 0,
+   "Hydroelectric plant": 0.042561094,
+   "Tidal turbine": 0,
+   "Res. roof PV system": 0.141436948,
+   "Com": {
+      "gov": {
+         "Indus roof PV system": 0.119715683
+      }
+   },
+   "Solar PV plant": 0.105543597,
+   "CSP plant": 0,
+   "constructionJobs": 42124.07391,
+   "operationJobs": 37290.14005,
+   "wws-cents": {
+      "kWh": 6.947063044
+   },
+   "bau-cents": {
+      "kWh": 10.31962827
+   },
+   "electricityCostSavDolPerPersonPerYr": 718.2659915,
+   "futureWWS": 0.563041384,
+   "airPollutionMortality": 608.2438226,
+   "AirPollutionCostBilDollars": 8.006655135,
+   "AirPollutionCostGDP": 0.010631815,
+   "Energy+health+climates-savings-per-person": 11401.94962,
+   "paybackTime1": 1.552491442,
+   "footprintArea-FracOfCountry": 0.000741384,
+   "spacingArea": 0.008741249
+},
+ {
+   "shortCountry": "MS",
+   "country": "Mississippi",
+   "Onshore wind": 0.099678567,
+   "Offshore wind": 0.075846693,
+   "Wave device": 0.002999355,
+   "Geothermal electric plant": 0,
+   "Hydroelectric plant": 0,
+   "Tidal turbine": 0.000214975,
+   "Res. roof PV system": 0.150315462,
+   "Com": {
+      "gov": {
+         "Indus roof PV system": 0.088916854
+      }
+   },
+   "Solar PV plant": 0.582028094,
+   "CSP plant": 0,
+   "constructionJobs": 40991.7043,
+   "operationJobs": 49871.55474,
+   "wws-cents": {
+      "kWh": 5.298828536
+   },
+   "bau-cents": {
+      "kWh": 11.36732479
+   },
+   "electricityCostSavDolPerPersonPerYr": 1684.71967,
+   "futureWWS": 0.551470513,
+   "airPollutionMortality": 399.1657574,
+   "AirPollutionCostBilDollars": 5.254443108,
+   "AirPollutionCostGDP": 0.015781337,
+   "Energy+health+climates-savings-per-person": 19899.79655,
+   "paybackTime1": 1.573856883,
+   "footprintArea-FracOfCountry": 0.005158706,
+   "spacingArea": 0.002641005
+},
+ {
+   "shortCountry": "MO",
+   "country": "Missouri",
+   "Onshore wind": 0.295933206,
+   "Offshore wind": 0,
+   "Wave device": 0,
+   "Geothermal electric plant": 0,
+   "Hydroelectric plant": 0.013555981,
+   "Tidal turbine": 0,
+   "Res. roof PV system": 0.203889947,
+   "Com": {
+      "gov": {
+         "Indus roof PV system": 0.166772834
+      }
+   },
+   "Solar PV plant": 0.319848032,
+   "CSP plant": 0,
+   "constructionJobs": 44664.25627,
+   "operationJobs": 40080.4191,
+   "wws-cents": {
+      "kWh": 6.318935495
+   },
+   "bau-cents": {
+      "kWh": 10.22701935
+   },
+   "electricityCostSavDolPerPersonPerYr": 878.0112272,
+   "futureWWS": 0.578551128,
+   "airPollutionMortality": 902.4002139,
+   "AirPollutionCostBilDollars": 11.87880096,
+   "AirPollutionCostGDP": 0.01568377,
+   "Energy+health+climates-savings-per-person": 15785.81057,
+   "paybackTime1": 0.992571807,
+   "footprintArea-FracOfCountry": 0.002147462,
+   "spacingArea": 0.005805381
+},
+ {
+   "shortCountry": "MT",
+   "country": "Montana",
+   "Onshore wind": 0.329751167,
+   "Offshore wind": 0,
+   "Wave device": 0,
+   "Geothermal electric plant": 0.13739632,
+   "Hydroelectric plant": 0.313018402,
+   "Tidal turbine": 0,
+   "Res. roof PV system": 0.043966822,
+   "Com": {
+      "gov": {
+         "Indus roof PV system": 0.109917056
+      }
+   },
+   "Solar PV plant": 0.065950233,
+   "CSP plant": 0,
+   "constructionJobs": 5484.885247,
+   "operationJobs": 4879.011862,
+   "wws-cents": {
+      "kWh": 6.955496306
+   },
+   "bau-cents": {
+      "kWh": 8.645818596
+   },
+   "electricityCostSavDolPerPersonPerYr": 515.782903,
+   "futureWWS": 0.613121653,
+   "airPollutionMortality": 130.9337753,
+   "AirPollutionCostBilDollars": 1.72355484,
+   "AirPollutionCostGDP": 0.011297377,
+   "Energy+health+climates-savings-per-person": 17895.40616,
+   "paybackTime1": 0.544208858,
+   "footprintArea-FracOfCountry": 0.000049115,
+   "spacingArea": 0.000550396
+},
+ {
+   "shortCountry": "NE",
+   "country": "Nebraska",
+   "Onshore wind": 0.542611054,
+   "Offshore wind": 0,
+   "Wave device": 0,
+   "Geothermal electric plant": 0,
+   "Hydroelectric plant": 0.013434448,
+   "Tidal turbine": 0,
+   "Res. roof PV system": 0.113916832,
+   "Com": {
+      "gov": {
+         "Indus roof PV system": 0.115618425
+      }
+   },
+   "Solar PV plant": 0.214419242,
+   "CSP plant": 0,
+   "constructionJobs": 23669.85167,
+   "operationJobs": 22986.53932,
+   "wws-cents": {
+      "kWh": 7.418567998
+   },
+   "bau-cents": {
+      "kWh": 10.05283008
+   },
+   "electricityCostSavDolPerPersonPerYr": 850.6422856,
+   "futureWWS": 0.494460273,
+   "airPollutionMortality": 210.0429859,
+   "AirPollutionCostBilDollars": 2.764913821,
+   "AirPollutionCostGDP": 0.010949952,
+   "Energy+health+climates-savings-per-person": 17418.69114,
+   "paybackTime1": 1.40931482,
+   "footprintArea-FracOfCountry": 0.000879333,
+   "spacingArea": 0.0054944
+},
+ {
+   "shortCountry": "NV",
+   "country": "Nevada",
+   "Onshore wind": 0.221463116,
+   "Offshore wind": 0,
+   "Wave device": 0,
+   "Geothermal electric plant": 0.188318976,
+   "Hydroelectric plant": 0.058405121,
+   "Tidal turbine": 0,
+   "Res. roof PV system": 0.103349454,
+   "Com": {
+      "gov": {
+         "Indus roof PV system": 0.258373635
+      }
+   },
+   "Solar PV plant": 0.155024181,
+   "CSP plant": 0.015065518,
+   "constructionJobs": 15382.70214,
+   "operationJobs": 11704.566,
+   "wws-cents": {
+      "kWh": 8.184470757
+   },
+   "bau-cents": {
+      "kWh": 11.06636838
+   },
+   "electricityCostSavDolPerPersonPerYr": 587.8195908,
+   "futureWWS": 0.57613016,
+   "airPollutionMortality": 623.4759147,
+   "AirPollutionCostBilDollars": 8.207163721,
+   "AirPollutionCostGDP": 0.01619127,
+   "Energy+health+climates-savings-per-person": 8245.60856,
+   "paybackTime1": 1.295607887,
+   "footprintArea-FracOfCountry": 0.000150721,
+   "spacingArea": 0.001649448
+},
+ {
+   "shortCountry": "NH",
+   "country": "New Hampshire",
+   "Onshore wind": 0.183515876,
+   "Offshore wind": 0.280231903,
+   "Wave device": 0.002761021,
+   "Geothermal electric plant": 0,
+   "Hydroelectric plant": 0.079076151,
+   "Tidal turbine": 0.000583447,
+   "Res. roof PV system": 0.177133885,
+   "Com": {
+      "gov": {
+         "Indus roof PV system": 0.089876448
+      }
+   },
+   "Solar PV plant": 0.186821269,
+   "CSP plant": 0,
+   "constructionJobs": 7408.562029,
+   "operationJobs": 6891.145527,
+   "wws-cents": {
+      "kWh": 7.25634206
+   },
+   "bau-cents": {
+      "kWh": 10.0973336
+   },
+   "electricityCostSavDolPerPersonPerYr": 439.4602743,
+   "futureWWS": 0.627542609,
+   "airPollutionMortality": 145.8655435,
+   "AirPollutionCostBilDollars": 1.920110094,
+   "AirPollutionCostGDP": 0.010846118,
+   "Energy+health+climates-savings-per-person": 7820.480958,
+   "paybackTime1": 1.389113603,
+   "footprintArea-FracOfCountry": 0.001763612,
+   "spacingArea": 0.005202656
+},
+ {
+   "shortCountry": "NJ",
+   "country": "New Jersey",
+   "Onshore wind": 0.249065966,
+   "Offshore wind": 0.404168288,
+   "Wave device": 0.002997785,
+   "Geothermal electric plant": 0,
+   "Hydroelectric plant": 0.000306193,
+   "Tidal turbine": 0.000432157,
+   "Res. roof PV system": 0.044897225,
+   "Com": {
+      "gov": {
+         "Indus roof PV system": 0.02868686
+      }
+   },
+   "Solar PV plant": 0.269445526,
+   "CSP plant": 0,
+   "constructionJobs": 31902.29693,
+   "operationJobs": 46060.2545,
+   "wws-cents": {
+      "kWh": 8.117299491
+   },
+   "bau-cents": {
+      "kWh": 10.93708465
+   },
+   "electricityCostSavDolPerPersonPerYr": 572.8199446,
+   "futureWWS": 0.635645525,
+   "airPollutionMortality": 1124.053166,
+   "AirPollutionCostBilDollars": 14.79654329,
+   "AirPollutionCostGDP": 0.014609463,
+   "Energy+health+climates-savings-per-person": 10344.01755,
+   "paybackTime1": 1.048892327,
+   "footprintArea-FracOfCountry": 0.02102543,
+   "spacingArea": 0.058149755
+},
+ {
+   "shortCountry": "NM",
+   "country": "New Mexico",
+   "Onshore wind": 0.322283986,
+   "Offshore wind": 0,
+   "Wave device": 0,
+   "Geothermal electric plant": 0.173330048,
+   "Hydroelectric plant": 0.004516927,
+   "Tidal turbine": 0,
+   "Res. roof PV system": 0.096685196,
+   "Com": {
+      "gov": {
+         "Indus roof PV system": 0.241712989
+      }
+   },
+   "Solar PV plant": 0.145027794,
+   "CSP plant": 0.01644306,
+   "constructionJobs": 12645.2587,
+   "operationJobs": 9713.770603,
+   "wws-cents": {
+      "kWh": 8.866243259
+   },
+   "bau-cents": {
+      "kWh": 10.7319665
+   },
+   "electricityCostSavDolPerPersonPerYr": 618.99338,
+   "futureWWS": 0.594965042,
+   "airPollutionMortality": 276.4757543,
+   "AirPollutionCostBilDollars": 3.639405672,
+   "AirPollutionCostGDP": 0.014354341,
+   "Energy+health+climates-savings-per-person": 17837.29288,
+   "paybackTime1": 0.79358345,
+   "footprintArea-FracOfCountry": 0.000175895,
+   "spacingArea": 0.000955812
+},
+ {
+   "shortCountry": "NY",
+   "country": "New York",
+   "Onshore wind": 0.130596389,
+   "Offshore wind": 0.347258599,
+   "Wave device": 0.002619787,
+   "Geothermal electric plant": 0,
+   "Hydroelectric plant": 0.126472825,
+   "Tidal turbine": 0.000264794,
+   "Res. roof PV system": 0.094924018,
+   "Com": {
+      "gov": {
+         "Indus roof PV system": 0.066357855
+      }
+   },
+   "Solar PV plant": 0.231505733,
+   "CSP plant": 0,
+   "constructionJobs": 64752.13401,
+   "operationJobs": 76532.00077,
+   "wws-cents": {
+      "kWh": 8.03761029
+   },
+   "bau-cents": {
+      "kWh": 9.882564924
+   },
+   "electricityCostSavDolPerPersonPerYr": 437.6061612,
+   "futureWWS": 0.614996795,
+   "airPollutionMortality": 2153.417391,
+   "AirPollutionCostBilDollars": 28.34664286,
+   "AirPollutionCostGDP": 0.013654169,
+   "Energy+health+climates-savings-per-person": 8135.812617,
+   "paybackTime1": 1.280383243,
+   "footprintArea-FracOfCountry": 0.005317832,
+   "spacingArea": 0.01019875
+},
+ {
+   "shortCountry": "NC",
+   "country": "North Carolina",
+   "Onshore wind": 0.193626169,
+   "Offshore wind": 0.206853826,
+   "Wave device": 0.002913132,
+   "Geothermal electric plant": 0,
+   "Hydroelectric plant": 0.02848424,
+   "Tidal turbine": 0.000471781,
+   "Res. roof PV system": 0.229837584,
+   "Com": {
+      "gov": {
+         "Indus roof PV system": 0.199910716
+      }
+   },
+   "Solar PV plant": 0.137902551,
+   "CSP plant": 0,
+   "constructionJobs": 59981.46701,
+   "operationJobs": 45327.98146,
+   "wws-cents": {
+      "kWh": 8.071370322
+   },
+   "bau-cents": {
+      "kWh": 10.45475072
+   },
+   "electricityCostSavDolPerPersonPerYr": 588.0762659,
+   "futureWWS": 0.52123576,
+   "airPollutionMortality": 1627.228969,
+   "AirPollutionCostBilDollars": 21.42012906,
+   "AirPollutionCostGDP": 0.013892125,
+   "Energy+health+climates-savings-per-person": 8242.074217,
+   "paybackTime1": 1.466208349,
+   "footprintArea-FracOfCountry": 0.001425863,
+   "spacingArea": 0.010717901
+},
+ {
+   "shortCountry": "ND",
+   "country": "North Dakota",
+   "Onshore wind": 0.571251253,
+   "Offshore wind": 0,
+   "Wave device": 0,
+   "Geothermal electric plant": 0,
+   "Hydroelectric plant": 0.047914578,
+   "Tidal turbine": 0,
+   "Res. roof PV system": 0.077976888,
+   "Com": {
+      "gov": {
+         "Indus roof PV system": 0.096688625
+      }
+   },
+   "Solar PV plant": 0.206168656,
+   "CSP plant": 0,
+   "constructionJobs": 12649.64297,
+   "operationJobs": 13467.21228,
+   "wws-cents": {
+      "kWh": 7.94118282
+   },
+   "bau-cents": {
+      "kWh": 9.943169836
+   },
+   "electricityCostSavDolPerPersonPerYr": 1266.260955,
+   "futureWWS": 0.525887843,
+   "airPollutionMortality": 50.69519316,
+   "AirPollutionCostBilDollars": 0.667329307,
+   "AirPollutionCostGDP": 0.006437932,
+   "Energy+health+climates-savings-per-person": 45887.84671,
+   "paybackTime1": 0.641154723,
+   "footprintArea-FracOfCountry": 0.000503362,
+   "spacingArea": 0.003749689
+},
+ {
+   "shortCountry": "OH",
+   "country": "Ohio",
+   "Onshore wind": 0.298632746,
+   "Offshore wind": 0.049986034,
+   "Wave device": 0.002995313,
+   "Geothermal electric plant": 0,
+   "Hydroelectric plant": 0.001562201,
+   "Tidal turbine": 0,
+   "Res. roof PV system": 0.112878053,
+   "Com": {
+      "gov": {
+         "Indus roof PV system": 0.084071342
+      }
+   },
+   "Solar PV plant": 0.44987431,
+   "CSP plant": 0,
+   "constructionJobs": 87957.60504,
+   "operationJobs": 107297.0853,
+   "wws-cents": {
+      "kWh": 5.664719258
+   },
+   "bau-cents": {
+      "kWh": 10.69211752
+   },
+   "electricityCostSavDolPerPersonPerYr": 1063.752094,
+   "futureWWS": 0.572828064,
+   "airPollutionMortality": 2283.800761,
+   "AirPollutionCostBilDollars": 30.06295241,
+   "AirPollutionCostGDP": 0.021370705,
+   "Energy+health+climates-savings-per-person": 15305.12717,
+   "paybackTime1": 1.173995087,
+   "footprintArea-FracOfCountry": 0.012230962,
+   "spacingArea": 0.024425342
+},
+ {
+   "shortCountry": "OK",
+   "country": "Oklahoma",
+   "Onshore wind": 0.538992167,
+   "Offshore wind": 0,
+   "Wave device": 0,
+   "Geothermal electric plant": 0,
+   "Hydroelectric plant": 0.020014242,
+   "Tidal turbine": 0,
+   "Res. roof PV system": 0.1216313,
+   "Com": {
+      "gov": {
+         "Indus roof PV system": 0.136915342
+      }
+   },
+   "Solar PV plant": 0.182446949,
+   "CSP plant": 0,
+   "constructionJobs": 33392.87832,
+   "operationJobs": 30837.2225,
+   "wws-cents": {
+      "kWh": 7.938993479
+   },
+   "bau-cents": {
+      "kWh": 10.87933836
+   },
+   "electricityCostSavDolPerPersonPerYr": 942.774138,
+   "futureWWS": 0.571525528,
+   "airPollutionMortality": 512.822678,
+   "AirPollutionCostBilDollars": 6.750573004,
+   "AirPollutionCostGDP": 0.01315598,
+   "Energy+health+climates-savings-per-person": 17100.45046,
+   "paybackTime1": 0.999227649,
+   "footprintArea-FracOfCountry": 0.001196094,
+   "spacingArea": 0.008056547
+},
+ {
+   "shortCountry": "OR",
+   "country": "Oregon",
+   "Onshore wind": 0.107128582,
+   "Offshore wind": 0.077132579,
+   "Wave device": 0.001611764,
+   "Geothermal electric plant": 0.134476951,
+   "Hydroelectric plant": 0.327615243,
+   "Tidal turbine": 0.000653131,
+   "Res. roof PV system": 0.085702866,
+   "Com": {
+      "gov": {
+         "Indus roof PV system": 0.214257164
+      }
+   },
+   "Solar PV plant": 0.051421719,
+   "CSP plant": 0,
+   "constructionJobs": 17280.09769,
+   "operationJobs": 12590.27699,
+   "wws-cents": {
+      "kWh": 7.626528577
+   },
+   "bau-cents": {
+      "kWh": 8.475618549
+   },
+   "electricityCostSavDolPerPersonPerYr": 342.972436,
+   "futureWWS": 0.545596595,
+   "airPollutionMortality": 445.0020028,
+   "AirPollutionCostBilDollars": 5.857811355,
+   "AirPollutionCostGDP": 0.009424532,
+   "Energy+health+climates-savings-per-person": 6429.903656,
+   "paybackTime1": 1.227501244,
+   "footprintArea-FracOfCountry": 0.000135211,
+   "spacingArea": 0.000548718
+},
+ {
+   "shortCountry": "PA",
+   "country": "Pennsylvania",
+   "Onshore wind": 0.197460972,
+   "Offshore wind": 0.043607056,
+   "Wave device": 0.002970827,
+   "Geothermal electric plant": 0,
+   "Hydroelectric plant": 0.009695443,
+   "Tidal turbine": 0.0000288686,
+   "Res. roof PV system": 0.054591048,
+   "Com": {
+      "gov": {
+         "Indus roof PV system": 0.027528649
+      }
+   },
+   "Solar PV plant": 0.664117137,
+   "CSP plant": 0,
+   "constructionJobs": 107767.3166,
+   "operationJobs": 166174.8013,
+   "wws-cents": {
+      "kWh": 4.430829895
+   },
+   "bau-cents": {
+      "kWh": 10.60238498
+   },
+   "electricityCostSavDolPerPersonPerYr": 1135.54477,
+   "futureWWS": 0.563799015,
+   "airPollutionMortality": 2302.342826,
+   "AirPollutionCostBilDollars": 30.30703202,
+   "AirPollutionCostGDP": 0.020417551,
+   "Energy+health+climates-savings-per-person": 15249.06211,
+   "paybackTime1": 1.28949044,
+   "footprintArea-FracOfCountry": 0.021128523,
+   "spacingArea": 0.019067066
+},
+ {
+   "shortCountry": "RI",
+   "country": "Rhode Island",
+   "Onshore wind": 0.099465838,
+   "Offshore wind": 0.46361587,
+   "Wave device": 0.002992954,
+   "Geothermal electric plant": 0,
+   "Hydroelectric plant": 0.000630957,
+   "Tidal turbine": 0.001717712,
+   "Res. roof PV system": 0.075921951,
+   "Com": {
+      "gov": {
+         "Indus roof PV system": 0.046577471
+      }
+   },
+   "Solar PV plant": 0.309077247,
+   "CSP plant": 0,
+   "constructionJobs": 4261.102179,
+   "operationJobs": 5500.296163,
+   "wws-cents": {
+      "kWh": 8.238266436
+   },
+   "bau-cents": {
+      "kWh": 11.65139842
+   },
+   "electricityCostSavDolPerPersonPerYr": 506.2690362,
+   "futureWWS": 0.635184261,
+   "airPollutionMortality": 126.4304313,
+   "AirPollutionCostBilDollars": 1.664274793,
+   "AirPollutionCostGDP": 0.013416916,
+   "Energy+health+climates-savings-per-person": 8582.702563,
+   "paybackTime1": 1.074129952,
+   "footprintArea-FracOfCountry": 0.016062035,
+   "spacingArea": 0.014286474
+},
+ {
+   "shortCountry": "SC",
+   "country": "South Carolina",
+   "Onshore wind": 0.09651932,
+   "Offshore wind": 0.281296742,
+   "Wave device": 0.002904292,
+   "Geothermal electric plant": 0,
+   "Hydroelectric plant": 0.031256436,
+   "Tidal turbine": 0.000646069,
+   "Res. roof PV system": 0.226422568,
+   "Com": {
+      "gov": {
+         "Indus roof PV system": 0.173423411
+      }
+   },
+   "Solar PV plant": 0.187531161,
+   "CSP plant": 0,
+   "constructionJobs": 39258.44906,
+   "operationJobs": 33454.60543,
+   "wws-cents": {
+      "kWh": 8.136291497
+   },
+   "bau-cents": {
+      "kWh": 10.32875545
+   },
+   "electricityCostSavDolPerPersonPerYr": 682.5220417,
+   "futureWWS": 0.505853126,
+   "airPollutionMortality": 965.4706728,
+   "AirPollutionCostBilDollars": 12.70903285,
+   "AirPollutionCostGDP": 0.016099438,
+   "Energy+health+climates-savings-per-person": 9611.882301,
+   "paybackTime1": 1.636580956,
+   "footprintArea-FracOfCountry": 0.002456501,
+   "spacingArea": 0.005749652
+},
+ {
+   "shortCountry": "SD",
+   "country": "South Dakota",
+   "Onshore wind": 0.512089463,
+   "Offshore wind": 0,
+   "Wave device": 0,
+   "Geothermal electric plant": 0,
+   "Hydroelectric plant": 0.146517561,
+   "Tidal turbine": 0,
+   "Res. roof PV system": 0.079407274,
+   "Com": {
+      "gov": {
+         "Indus roof PV system": 0.14287479
+      }
+   },
+   "Solar PV plant": 0.119110911,
+   "CSP plant": 0,
+   "constructionJobs": 10196.20445,
+   "operationJobs": 9197.20128,
+   "wws-cents": {
+      "kWh": 7.100713976
+   },
+   "bau-cents": {
+      "kWh": 8.414489886
+   },
+   "electricityCostSavDolPerPersonPerYr": 484.5337548,
+   "futureWWS": 0.49057429,
+   "airPollutionMortality": 74.1963213,
+   "AirPollutionCostBilDollars": 0.976687859,
+   "AirPollutionCostGDP": 0.00795314,
+   "Energy+health+climates-savings-per-person": 10953.0336,
+   "paybackTime1": 1.797517201,
+   "footprintArea-FracOfCountry": 0.000216863,
+   "spacingArea": 0.002588003
+},
+ {
+   "shortCountry": "TN",
+   "country": "Tennessee",
+   "Onshore wind": 0.190342168,
+   "Offshore wind": 0,
+   "Wave device": 0,
+   "Geothermal electric plant": 0,
+   "Hydroelectric plant": 0.048289158,
+   "Tidal turbine": 0,
+   "Res. roof PV system": 0.206819754,
+   "Com": {
+      "gov": {
+         "Indus roof PV system": 0.157049487
+      }
+   },
+   "Solar PV plant": 0.397499433,
+   "CSP plant": 0,
+   "constructionJobs": 59042.21484,
+   "operationJobs": 58376.84859,
+   "wws-cents": {
+      "kWh": 5.903163885
+   },
+   "bau-cents": {
+      "kWh": 9.874882454
+   },
+   "electricityCostSavDolPerPersonPerYr": 865.5991939,
+   "futureWWS": 0.531461077,
+   "airPollutionMortality": 1278.848976,
+   "AirPollutionCostBilDollars": 16.8342075,
+   "AirPollutionCostGDP": 0.017532104,
+   "Energy+health+climates-savings-per-person": 11134.66314,
+   "paybackTime1": 1.536715644,
+   "footprintArea-FracOfCountry": 0.005363987,
+   "spacingArea": 0.019435851
+},
+ {
+   "shortCountry": "TX",
+   "country": "Texas",
+   "Onshore wind": 0.39015563,
+   "Offshore wind": 0.233683099,
+   "Wave device": 0.00299487,
+   "Geothermal electric plant": 0,
+   "Hydroelectric plant": 0.001637945,
+   "Tidal turbine": 0.0000722107,
+   "Res. roof PV system": 0.111025136,
+   "Com": {
+      "gov": {
+         "Indus roof PV system": 0.084736477
+      }
+   },
+   "Solar PV plant": 0.155788733,
+   "CSP plant": 0.019905899,
+   "constructionJobs": 229598.7602,
+   "operationJobs": 256761.2572,
+   "wws-cents": {
+      "kWh": 8.193490195
+   },
+   "bau-cents": {
+      "kWh": 10.96005911
+   },
+   "electricityCostSavDolPerPersonPerYr": 684.0796817,
+   "futureWWS": 0.564199228,
+   "airPollutionMortality": 4437.695569,
+   "AirPollutionCostBilDollars": 58.41587977,
+   "AirPollutionCostGDP": 0.012785042,
+   "Energy+health+climates-savings-per-person": 14687.69723,
+   "paybackTime1": 1.405515861,
+   "footprintArea-FracOfCountry": 0.002409233,
+   "spacingArea": 0.017770817
+},
+ {
+   "shortCountry": "UT",
+   "country": "Utah",
+   "Onshore wind": 0.325321305,
+   "Offshore wind": 0,
+   "Wave device": 0,
+   "Geothermal electric plant": 0.15680715,
+   "Hydroelectric plant": 0.013291562,
+   "Tidal turbine": 0,
+   "Res. roof PV system": 0.097596392,
+   "Com": {
+      "gov": {
+         "Indus roof PV system": 0.243990979
+      }
+   },
+   "Solar PV plant": 0.146394587,
+   "CSP plant": 0.016598026,
+   "constructionJobs": 14524.71841,
+   "operationJobs": 11916.53442,
+   "wws-cents": {
+      "kWh": 7.952323762
+   },
+   "bau-cents": {
+      "kWh": 10.41695395
+   },
+   "electricityCostSavDolPerPersonPerYr": 422.6555065,
+   "futureWWS": 0.609481207,
+   "airPollutionMortality": 652.5551386,
+   "AirPollutionCostBilDollars": 8.589949881,
+   "AirPollutionCostGDP": 0.016465327,
+   "Energy+health+climates-savings-per-person": 11359.28976,
+   "paybackTime1": 0.757155358,
+   "footprintArea-FracOfCountry": 0.00025947,
+   "spacingArea": 0.003700883
+},
+ {
+   "shortCountry": "VT",
+   "country": "Vermont",
+   "Onshore wind": 0.025,
+   "Offshore wind": 0,
+   "Wave device": 0,
+   "Geothermal electric plant": 0,
+   "Hydroelectric plant": 0.9,
+   "Tidal turbine": 0,
+   "Res. roof PV system": 0.015,
+   "Com": {
+      "gov": {
+         "Indus roof PV system": 0.0375
+      }
+   },
+   "Solar PV plant": 0.0225,
+   "CSP plant": 0,
+   "constructionJobs": 1221.808515,
+   "operationJobs": 1389.029628,
+   "wws-cents": {
+      "kWh": 6.190468363
+   },
+   "bau-cents": {
+      "kWh": 7.983973701
+   },
+   "electricityCostSavDolPerPersonPerYr": 414.2285051,
+   "futureWWS": 0.646775474,
+   "airPollutionMortality": 45.58685057,
+   "AirPollutionCostBilDollars": 0.600085324,
+   "AirPollutionCostGDP": 0.008461215,
+   "Energy+health+climates-savings-per-person": 8010.189885,
+   "paybackTime1": 0.110714987,
+   "footprintArea-FracOfCountry": 0.0000371743,
+   "spacingArea": -0.0000994788
+},
+ {
+   "shortCountry": "VA",
+   "country": "Virginia",
+   "Onshore wind": 0.147446987,
+   "Offshore wind": 0.257317927,
+   "Wave device": 0.002957813,
+   "Geothermal electric plant": 0,
+   "Hydroelectric plant": 0.013554355,
+   "Tidal turbine": 0.000507919,
+   "Res. roof PV system": 0.222737695,
+   "Com": {
+      "gov": {
+         "Indus roof PV system": 0.183932019
+      }
+   },
+   "Solar PV plant": 0.171545284,
+   "CSP plant": 0,
+   "constructionJobs": 45768.67191,
+   "operationJobs": 38220.44328,
+   "wws-cents": {
+      "kWh": 9.402834719
+   },
+   "bau-cents": {
+      "kWh": 10.89508256
+   },
+   "electricityCostSavDolPerPersonPerYr": 591.7510404,
+   "futureWWS": 0.538508304,
+   "airPollutionMortality": 1167.428974,
+   "AirPollutionCostBilDollars": 15.36752342,
+   "AirPollutionCostGDP": 0.013640862,
+   "Energy+health+climates-savings-per-person": 9208.645095,
+   "paybackTime1": 1.441296579,
+   "footprintArea-FracOfCountry": 0.002010386,
+   "spacingArea": 0.008600918
+},
+ {
+   "shortCountry": "WA",
+   "country": "Washington",
+   "Onshore wind": 0.22432498,
+   "Offshore wind": 0.060567745,
+   "Wave device": 0.0016875,
+   "Geothermal electric plant": 0.012361258,
+   "Hydroelectric plant": 0.424554101,
+   "Tidal turbine": 0.000584691,
+   "Res. roof PV system": 0.067297494,
+   "Com": {
+      "gov": {
+         "Indus roof PV system": 0.168243735
+      }
+   },
+   "Solar PV plant": 0.040378496,
+   "CSP plant": 0,
+   "constructionJobs": 25883.03155,
+   "operationJobs": 22369.80124,
+   "wws-cents": {
+      "kWh": 6.831399095
+   },
+   "bau-cents": {
+      "kWh": 7.621189763
+   },
+   "electricityCostSavDolPerPersonPerYr": 291.3918702,
+   "futureWWS": 0.561753711,
+   "airPollutionMortality": 878.6355522,
+   "AirPollutionCostBilDollars": 11.56597337,
+   "AirPollutionCostGDP": 0.009705438,
+   "Energy+health+climates-savings-per-person": 6733.604362,
+   "paybackTime1": 0.873213901,
+   "footprintArea-FracOfCountry": 0.000252932,
+   "spacingArea": 0.006617521
+},
+ {
+   "shortCountry": "WV",
+   "country": "West Virginia",
+   "Onshore wind": 0.146943731,
+   "Offshore wind": 0,
+   "Wave device": 0,
+   "Geothermal electric plant": 0,
+   "Hydroelectric plant": 0.020375123,
+   "Tidal turbine": 0,
+   "Res. roof PV system": 0.147244032,
+   "Com": {
+      "gov": {
+         "Indus roof PV system": 0.109725795
+      }
+   },
+   "Solar PV plant": 0.575711318,
+   "CSP plant": 0,
+   "constructionJobs": 19534.64713,
+   "operationJobs": 23026.18963,
+   "wws-cents": {
+      "kWh": 7.088395529
+   },
+   "bau-cents": {
+      "kWh": 10.07107335
+   },
+   "electricityCostSavDolPerPersonPerYr": 1499.067974,
+   "futureWWS": 0.559271079,
+   "airPollutionMortality": 206.1642482,
+   "AirPollutionCostBilDollars": 2.713855818,
+   "AirPollutionCostGDP": 0.015275564,
+   "Energy+health+climates-savings-per-person": 44629.91651,
+   "paybackTime1": 0.580524108,
+   "footprintArea-FracOfCountry": 0.004333264,
+   "spacingArea": 0.00521986
+},
+ {
+   "shortCountry": "WI",
+   "country": "Wisconsin",
+   "Onshore wind": 0.539155179,
+   "Offshore wind": 0.178146745,
+   "Wave device": 0.002949696,
+   "Geothermal electric plant": 0,
+   "Hydroelectric plant": 0.016768161,
+   "Tidal turbine": 0,
+   "Res. roof PV system": 0.093302595,
+   "Com": {
+      "gov": {
+         "Indus roof PV system": 0.050913128
+      }
+   },
+   "Solar PV plant": 0.118764496,
+   "CSP plant": 0,
+   "constructionJobs": 34200.56773,
+   "operationJobs": 36113.91836,
+   "wws-cents": {
+      "kWh": 7.905894947
+   },
+   "bau-cents": {
+      "kWh": 10.39878408
+   },
+   "electricityCostSavDolPerPersonPerYr": 693.9428194,
+   "futureWWS": 0.559200279,
+   "airPollutionMortality": 745.3014462,
+   "AirPollutionCostBilDollars": 9.81082163,
+   "AirPollutionCostGDP": 0.013744538,
+   "Energy+health+climates-savings-per-person": 13360.36618,
+   "paybackTime1": 1.212106554,
+   "footprintArea-FracOfCountry": 0.001461317,
+   "spacingArea": 0.014643145
+},
+ {
+   "shortCountry": "WY",
+   "country": "Wyoming",
+   "Onshore wind": 0.52858432,
+   "Offshore wind": 0,
+   "Wave device": 0,
+   "Geothermal electric plant": 0.020358718,
+   "Hydroelectric plant": 0.018578882,
+   "Tidal turbine": 0,
+   "Res. roof PV system": 0.075735774,
+   "Com": {
+      "gov": {
+         "Indus roof PV system": 0.076789286
+      }
+   },
+   "Solar PV plant": 0.27995302,
+   "CSP plant": 0,
+   "constructionJobs": 12002.93782,
+   "operationJobs": 13895.58947,
+   "wws-cents": {
+      "kWh": 6.63583279
+   },
+   "bau-cents": {
+      "kWh": 10.11699729
+   },
+   "electricityCostSavDolPerPersonPerYr": 2103.718534,
+   "futureWWS": 0.560305606,
+   "airPollutionMortality": 45.9758268,
+   "AirPollutionCostBilDollars": 0.605205636,
+   "AirPollutionCostGDP": 0.009028372,
+   "Energy+health+climates-savings-per-person": 76384.03314,
+   "paybackTime1": 0.595522661,
+   "footprintArea-FracOfCountry": 0.000429915,
+   "spacingArea": 0.002789378
+}
+]
