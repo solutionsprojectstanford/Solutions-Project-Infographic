@@ -246,6 +246,7 @@
 
   <div id="states-sidebar" class="overlay">
     <a class="closebtn" onclick="closeNav()">&times;</a>
+    <!--
     <div class="overlay-content">
       <h1><span id="stateName"></span></h1>
       <br>
@@ -265,6 +266,7 @@
       <br>
       <br>
     </div>
+  -->
   </div>
 
   <div id="countries-sidebar" class="overlay">
@@ -492,9 +494,12 @@
 
         // Click event for different states
         stateLayer.addListener("click", function(event) {
-          stateLayer.revertStyle();
-          document.getElementById("states-sidebar").style.width = "450px";
 
+          stateLayer.revertStyle();
+          //document.getElementById("states-sidebar").style.width = "450px";
+          document.getElementById("states-sidebar").style.width = "100%";
+
+          /*
           document.getElementById('stateName').textContent = event.feature.getProperty('locationName');
 
           var onshoreWind = Number(event.feature.getProperty('onshoreWind'));
@@ -544,6 +549,7 @@
             var chart = new google.visualization.PieChart(document.getElementById('state energy piechart'));
             chart.draw(data, options);
           };
+          */
         });
 
         townLayer.addListener("click", function(event) {
