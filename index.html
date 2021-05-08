@@ -287,7 +287,7 @@
     </div>
 
   </div>
-
+<!--
   <div id="countries-sidebar" class="overlay">
     <a class="closebtn" onclick="closeNav()">&times;</a>
     <div class="overlay-content">
@@ -310,7 +310,7 @@
       <br>
     </div>
   </div>
-
+-->
   <div id="placeholder" class="overlay">
     <a class="closebtn" onclick="closeNav()">&times;</a>
     <div class="overlay-content">
@@ -330,6 +330,7 @@
     <div class="AE-Program-Logo">
       <img src="Images /SUSig_Red_Stree_Left.png" style="height: 50px;">
     </div>
+<!--
     <div id="icon-sidebar" class="Icon-Images">
       <button id="globeButton" class="image-buttons"> <img src="https://img.icons8.com/fluent/48/000000/globe.png" style="height: 50px"/></button>
       <br>
@@ -338,9 +339,8 @@
       <br>
       <br>
       <button id="dcButton" class="image-buttons"> <img src="https://img.icons8.com/fluent/48/000000/us-capitol.png" style="height: 50px;"/></button>
-
     </div>
-
+-->
 
     <script>
 
@@ -358,7 +358,7 @@
           disableDefaultUI: true,
         });
 
-        var countryJson = 'https://raw.githubusercontent.com/milesmsmith/Solutions-Project-Infographic/master/countries.json';
+        var countryJson = 'https://raw.githubusercontent.com/milesmsmith/Solutions-Project-Infographic/master/regions.json';
         var stateJson = 'https://raw.githubusercontent.com/milesmsmith/Solutions-Project-Infographic/master/us-states.json';
         var cityJson = 'https://raw.githubusercontent.com/milesmsmith/Solutions-Project-Infographic/master/cities.json';
         var townsJson = 'https://raw.githubusercontent.com/milesmsmith/Solutions-Project-Infographic/master/NA-towns.json'
@@ -1000,6 +1000,7 @@
           map.setMapTypeId("styled_map");
 
           // Setting up DC, CONUS, World buttons on maps
+          /*
           var conusBtn = document.getElementById('conusButton');
           var globeBtn = document.getElementById('globeButton');
           var dcBtn = document.getElementById('dcButton');
@@ -1019,6 +1020,7 @@
             document.getElementById("states-sidebar").style.width = "100%";
             document.getElementById("placeholderPDF").src = "https://drive.google.com/file/d/1HG-O8f95zvH0NQPL7z3xy9_XNHUXotxS/preview";
           });
+          */
 
 
 
