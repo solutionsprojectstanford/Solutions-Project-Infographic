@@ -263,8 +263,8 @@
     <div class="placeholder-content">
     </div>
 
-    <div class="overlay-content">
-      <iframe id=placeholderPDF src="" width="100%" height="7000"style="text-align: center;"></iframe>
+    <div class="overlay-content" style="position: relative; height:85%; text-align:center;">
+      <iframe id=placeholderPDF src="" width="75%" height="100%"></iframe>
       <!--
       <h1><span id="stateName"></span></h1>
       <br>
@@ -287,10 +287,16 @@
     </div>
 
   </div>
-<!--
+
   <div id="countries-sidebar" class="overlay">
     <a class="closebtn" onclick="closeNav()">&times;</a>
-    <div class="overlay-content">
+    <div class="placeholder-content"></div>
+
+    <div class="overlay-content" style="position: relative; height:85%; text-align:center;">
+      <iframe id=countryPDF src="" width="75%" height="100%"></iframe>
+    </div>
+
+<!--
       <h1><span id="countryName"></span></h1>
       <br>
       <h3>2050 100% Wind-Water-Solar (WWS) Energy Mix After Electrifying All Energy Sectors</h3>
@@ -309,8 +315,9 @@
       <br>
       <br>
     </div>
+    -->
   </div>
--->
+
   <div id="placeholder" class="overlay">
     <a class="closebtn" onclick="closeNav()">&times;</a>
     <div class="overlay-content">
@@ -348,8 +355,8 @@
 
         // New map
         var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 3,
-          center: {lat:15, lng:0},
+          zoom: 4,
+          center: {lat:39.0119, lng:-98.4842},
           mapTypeControlOptions: {
             mapTypeIds: [
               "styled_map"
@@ -379,8 +386,8 @@
 
         // Show only the country layer by default (Eventually add the cities layer here and for the button!)
         countryLayer.setMap(null);
-        stateLayer.setMap(null);
-        cityLayer.setMap(map);
+        stateLayer.setMap(map);
+        cityLayer.setMap(null);
         townLayer.setMap(null);
 
 
@@ -444,8 +451,10 @@
         // See combining data layers from Google Maps to add to menu
         countryLayer.addListener("click", function(event) {
           countryLayer.revertStyle();
-          document.getElementById("countries-sidebar").style.width = "450px";
+          document.getElementById("countryPDF").src = event.feature.getProperty('infoPDF');
+          document.getElementById("countries-sidebar").style.width = "100%";
 
+          /*
           document.getElementById('countryName').textContent = String(event.feature.getProperty('locationName'));
 
           var onshoreWind = Number(event.feature.getProperty('onshoreWind'));
@@ -496,6 +505,7 @@
             var chart = new google.visualization.PieChart(document.getElementById('country energy piechart'));
             chart.draw(data, options);
           };
+          */
 
 
         });
@@ -1030,7 +1040,7 @@
           var citiesbtn = document.getElementById('cities');
 
           // Default state
-          $("#cities").addClass("active");
+          $("#states").addClass("active");
 
           // Need to implement a way to stay active or focused until another button is pressed.
 
