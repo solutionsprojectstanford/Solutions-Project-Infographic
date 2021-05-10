@@ -137,6 +137,7 @@
         border: none;
         background-color: transparent;
         outline: none;
+        transition: visibility 1s
       }
 
       .image-buttons:hover{
@@ -1080,7 +1081,13 @@
             document.getElementById("states-sidebar").style.width = "0%";
             document.getElementById("countries-sidebar").style.width = "0%";
             document.getElementById("placeholder").style.width = "0%";
-            document.getElementById("icon-sidebar").style.opacity = "0"
+            document.getElementById("icon-sidebar").style.opacity = "0";
+            document.getElementById("dcButton").style.visibility = "hidden";
+            document.getElementById("conusButton").style.visibility = "hidden";
+            document.getElementById("usButton").style.visibility = "hidden";
+
+
+
 
 
           });
@@ -1098,7 +1105,11 @@
             document.getElementById("states-sidebar").style.width = "0%";
             document.getElementById("countries-sidebar").style.width = "0%";
             document.getElementById("placeholder").style.width = "0%";
-            document.getElementById("icon-sidebar").style.opacity = "1"
+            document.getElementById("icon-sidebar").style.opacity = "1";
+            document.getElementById("dcButton").style.visibility = "visible";
+            document.getElementById("conusButton").style.visibility = "visible";
+            document.getElementById("usButton").style.visibility = "visible";
+
 
 
           });
@@ -1115,9 +1126,11 @@
             document.getElementById("megacities-sidebar").style.width = "0%";
             document.getElementById("states-sidebar").style.width = "0%";
             document.getElementById("countries-sidebar").style.width = "0%";
-            document.getElementById("icon-sidebar").style.opacity = "0"
-
+            document.getElementById("icon-sidebar").style.opacity = "0";
             document.getElementById("placeholder").style.width = "0%";
+            document.getElementById("dcButton").style.visibility = "hidden";
+            document.getElementById("conusButton").style.visibility = "hidden";
+            document.getElementById("usButton").style.visibility = "hidden";
 
           });
 
