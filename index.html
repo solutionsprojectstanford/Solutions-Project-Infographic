@@ -392,14 +392,17 @@
           disableDefaultUI: true,
         });
 
-        var countryJson = 'https://raw.githubusercontent.com/milesmsmith/Solutions-Project-Infographic/master/regions.json';
+
+        var countryJson = ''; // ALEX: Post your link here
+        var subregionJson = ''; // and here
+        var regionJson = 'https://raw.githubusercontent.com/milesmsmith/Solutions-Project-Infographic/master/regions.json';
         var stateJson = 'https://raw.githubusercontent.com/milesmsmith/Solutions-Project-Infographic/master/us-states.json';
         var cityJson = 'https://raw.githubusercontent.com/milesmsmith/Solutions-Project-Infographic/master/cities.json';
         var townsJson = 'https://raw.githubusercontent.com/milesmsmith/Solutions-Project-Infographic/master/NA-towns.json'
 
         // Load the boundary coordinates of each country
         var countryLayer = new google.maps.Data()
-        countryLayer.loadGeoJson(countryJson);
+        countryLayer.loadGeoJson(regionJson); // ALEX: change regionJson to your variable name (to test JSON)
 
         // Load the boundary coordinates of each state
         var stateLayer = new google.maps.Data()
