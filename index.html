@@ -393,7 +393,7 @@
         });
 
 
-        var countryJson = ''; // ALEX: Post your link here
+        var countryJson = 'https://github.com/milesmsmith/Solutions-Project-Infographic/blob/master/CountryPDFsAlex.json'; // ALEX: Post your link here
         var subregionJson = ''; // and here
         var regionJson = 'https://raw.githubusercontent.com/milesmsmith/Solutions-Project-Infographic/master/regions.json';
         var stateJson = 'https://raw.githubusercontent.com/milesmsmith/Solutions-Project-Infographic/master/us-states.json';
@@ -402,7 +402,7 @@
 
         // Load the boundary coordinates of each country
         var countryLayer = new google.maps.Data()
-        countryLayer.loadGeoJson(regionJson); // ALEX: change regionJson to your variable name (to test JSON)
+        countryLayer.loadGeoJson(countryJson); // ALEX: change regionJson to your variable name (to test JSON)
 
         // Load the boundary coordinates of each state
         var stateLayer = new google.maps.Data()
