@@ -41,7 +41,7 @@
         right: 30px;
         z-index: 1;
         border-style: solid;
-        border-color: gray;
+        border-color: lightgray;
         border-width: 1px;
         border-radius: 4px;
         outline: none;
@@ -105,7 +105,6 @@
         right: 30px;
         z-index: 1;
         border-radius: 10px;
-        box-shadow: 3px 3px 2px;
         font-family: Roboto, thin, sans-serif;
         font-size: 15px;
 
@@ -125,7 +124,7 @@
         z-index: 1;
         background: white;
         border-radius: 10px;
-        box-shadow: 3px 3px 2px;
+        border: 1px solid lightgray;
         transition:opacity 1s;
       }
 
@@ -209,6 +208,81 @@
         border-color: #8c1515 !important;
         transition: all 0.4s ease 0s;
         }
+
+        .switch {
+          position: relative;
+          display: inline-block;
+          width: 95px;
+          height: 34px;
+          z-index: 1;
+          border-radius: 34px;
+          border: 1px solid lightgray;
+
+        }
+
+        .switch input {display:none;}
+
+        .slider {
+          position: absolute;
+          cursor: pointer;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background-color: #8c1515;
+          -webkit-transition: .4s;
+          transition: .4s;
+          border-radius: 34px;
+        }
+
+        .slider:before {
+          position: absolute;
+          content: "";
+          height: 26px;
+          width: 26px;
+          left: 4px;
+          bottom: 4px;
+          background-color: white;
+          -webkit-transition: .4s;
+          transition: .4s;
+          border-radius: 50%;
+        }
+
+        input:checked + .slider {
+          background-color: dodgerblue;
+        }
+
+        input:focus + .slider {
+          box-shadow: 0 0 1px #2196F3;
+        }
+
+        input:checked + .slider:before {
+          -webkit-transform: translateX(26px);
+          -ms-transform: translateX(26px);
+          transform: translateX(60px);
+        }
+
+        /*------ ADDED CSS ---------*/
+        .slider:after
+        {
+         content:'Countries';
+         color: white;
+         display: block;
+         position: absolute;
+         transform: translate(-50%,-50%);
+         top: 50%;
+         right: -10px;
+         font-size: 10px;
+         font-family: Verdana, sans-serif;
+        }
+
+        input:checked + .slider:after
+        {
+          content:'Regions';
+          left: 45px;
+        }
+
+        /*--------- END --------*/
 
 
     </style>
@@ -338,6 +412,15 @@
     -->
   </div>
 
+  <div>
+      <!-- Rounded switch -->
+      <label class="switch" style="position:absolute;right: 25px; bottom: 85px;">
+        <input type="checkbox" id="region-slider" >
+        <span class="slider round"></span>
+      </label>
+
+  </div>
+
   <div id="placeholder" class="overlay">
     <a class="closebtn" onclick="closeNav()">&times;</a>
     <div class="overlay-content">
@@ -372,11 +455,16 @@
       <button id="dcButton" class="image-buttons">
         <img src="https://img.icons8.com/fluent/48/000000/us-capitol.png" style="width: 55px;"/>
         <span class=icon-caption>DC</span>
-
       </button>
     </div>
 
     <script>
+
+    // Global Variables
+    const COUNTRY_MODE = 0;
+    const REGION_MODE = 1;
+    var toggleSetting=COUNTRY_MODE; // Contries = 0; Regions = 1;
+
 
     function initMap(){
 
@@ -403,6 +491,9 @@
         // Load the boundary coordinates of each country
         var countryLayer = new google.maps.Data()
         countryLayer.loadGeoJson(countryJson); // ALEX: change regionJson to your variable name (to test JSON)
+
+        var regionLayer = new google.maps.Data()
+        regionLayer.loadGeoJson(regionJson);
 
         // Load the boundary coordinates of each state
         var stateLayer = new google.maps.Data()
@@ -452,6 +543,93 @@
 
         var markerCluster = new MarkerClusterer(map, markers,
             {imagePath: 'Marker Clusterer/m'});
+
+        // Style the country layer
+        regionLayer.setStyle({
+          fillOpacity: 0.3,
+          fillColor: "yellowgreen",
+          strokeWeight: 0
+        });
+
+
+        // Mouseover event for different countries
+        regionLayer.addListener("mouseover", function(event) {
+          regionLayer.revertStyle();
+          regionLayer.overrideStyle(event.feature, {
+            fillColor: "darkgreen",
+            strokeColor: "white",
+            strokeWeight: 1,
+            fillOpacity: 0.5
+          });
+        });
+
+        // Revert back to the original style on mouseout
+        regionLayer.addListener("mouseout", function(event) {
+          regionLayer.revertStyle();
+        });
+
+        // Click event for different countries
+        // See combining data layers from Google Maps to add to menu
+        regionLayer.addListener("click", function(event) {
+          regionLayer.revertStyle();
+          document.getElementById("countryPDF").src = event.feature.getProperty('infoPDF');
+          document.getElementById("countries-sidebar").style.width = "100%";
+
+          /*
+          document.getElementById('countryName').textContent = String(event.feature.getProperty('locationName'));
+
+          var onshoreWind = Number(event.feature.getProperty('onshoreWind'));
+          var offshoreWind = Number(event.feature.getProperty('offshoreWind'));
+          var wave = Number(event.feature.getProperty('waveDevice'));
+          var geothermal = Number(event.feature.getProperty('geoPlant'));
+          var hydroelectric = Number(event.feature.getProperty('hydroPlant'));
+          var tidal = Number(event.feature.getProperty('turbine'));
+          var resPV = Number(event.feature.getProperty('resRoof'));
+          var govPV = Number(event.feature.getProperty('govRoof'));
+          var utilityPV = Number(event.feature.getProperty('solarPlant'));
+          var concSolar = Number(event.feature.getProperty('cspPlant'));
+
+          var costSavings = Number(event.feature.getProperty('totalSavings'));
+          var avoidedDeaths = Number(event.feature.getProperty('airPollutionMortality'));
+
+          document.getElementById('country costSavings').textContent = costSavings;
+          document.getElementById('country avoided deaths').textContent = avoidedDeaths;
+
+
+          // Energy Mix Chart
+          google.charts.load('current', {'packages':['corechart']});
+          google.charts.setOnLoadCallback(drawCountryEnergyPie);
+          function drawCountryEnergyPie() {
+            var data = google.visualization.arrayToDataTable([
+              ['Energy Source', 'Usage Percent'],
+              ['Onshore Wind',     onshoreWind],
+              ['Offshore Wind',      offshoreWind],
+              ['Wave',      wave],
+              ['Geothermal',      geothermal],
+              ['Hydroelectric',      hydroelectric],
+              ['Tidal',      tidal],
+              ['Res. PV',      resPV],
+              ['Com./Gov PV',      govPV],
+              ['Utility PV',      utilityPV],
+              ['CSP',      concSolar]
+            ]);
+
+            var options = {
+              title: 'Percent Annual End-Use Energy Provided by WWS Generator',
+              backgroundColor: 'white',
+              chartArea: {left: 20, top: 30, bottom: 30, height: '100%', width: '100%'},
+              height: 300,
+              width: 380,
+              titleTextStyle: {fontSize: 12}
+            };
+
+            var chart = new google.visualization.PieChart(document.getElementById('country energy piechart'));
+            chart.draw(data, options);
+          };
+          */
+
+
+        });
 
         // Style the country layer
         countryLayer.setStyle({
@@ -1039,6 +1217,57 @@
           map.mapTypes.set("styled_map", styledMapType);
           map.setMapTypeId("styled_map");
 
+          // Toggle Button (Flips between Region.JSON and CountryPDFsAlex.JSON on countryLayer)
+          var toggleBtn = document.getElementById('region-slider');
+
+          toggleBtn.addEventListener("click", function(event){
+            if (toggleSetting == COUNTRY_MODE) {
+              // pass to REGION_MODE
+              toggleSetting = REGION_MODE;
+              countryLayer.setMap(null);
+              regionLayer.setMap(map);
+              stateLayer.setMap(null);
+              cityLayer.setMap(null);
+              townLayer.setMap(null);
+
+              map.panTo({lat:15, lng:0});
+              map.setZoom(3);
+
+              $(countriesbtn).addClass('active');
+              $(countriesbtn).siblings().removeClass('active');
+              document.getElementById("megacities-sidebar").style.width = "0%";
+              document.getElementById("states-sidebar").style.width = "0%";
+              document.getElementById("countries-sidebar").style.width = "0%";
+              document.getElementById("placeholder").style.width = "0%";
+              document.getElementById("icon-sidebar").style.opacity = "0";
+              document.getElementById("dcButton").style.visibility = "hidden";
+              document.getElementById("conusButton").style.visibility = "hidden";
+              document.getElementById("usButton").style.visibility = "hidden";
+            }
+            else if (toggleSetting == REGION_MODE) {
+              toggleSetting = COUNTRY_MODE;
+              countryLayer.setMap(map);
+              regionLayer.setMap(null);
+              stateLayer.setMap(null);
+              cityLayer.setMap(null);
+              townLayer.setMap(null);
+
+              map.panTo({lat:15, lng:0});
+              map.setZoom(3);
+
+              $(countriesbtn).addClass('active');
+              $(countriesbtn).siblings().removeClass('active');
+              document.getElementById("megacities-sidebar").style.width = "0%";
+              document.getElementById("states-sidebar").style.width = "0%";
+              document.getElementById("countries-sidebar").style.width = "0%";
+              document.getElementById("placeholder").style.width = "0%";
+              document.getElementById("icon-sidebar").style.opacity = "0";
+              document.getElementById("dcButton").style.visibility = "hidden";
+              document.getElementById("conusButton").style.visibility = "hidden";
+              document.getElementById("usButton").style.visibility = "hidden";
+            }
+          });
+
           // Setting up DC, CONUS, World buttons on maps
 
           var conusBtn = document.getElementById('conusButton');
@@ -1074,10 +1303,18 @@
           countriesbtn.addEventListener("click", function(event) {
             map.panTo({lat:15, lng:0});
             map.setZoom(3);
-            countryLayer.setMap(map);
             stateLayer.setMap(null);
             cityLayer.setMap(null);
             townLayer.setMap(null);
+            if (toggleSetting == COUNTRY_MODE) {
+              countryLayer.setMap(map);
+              regionLayer.setMap(null);
+            }
+            else if (toggleSetting == REGION_MODE) {
+              countryLayer.setMap(null);
+              regionLayer.setMap(map);
+            }
+
             $(this).addClass('active');
             $(this).siblings().removeClass('active');
             document.getElementById("megacities-sidebar").style.width = "0%";
@@ -1088,11 +1325,6 @@
             document.getElementById("dcButton").style.visibility = "hidden";
             document.getElementById("conusButton").style.visibility = "hidden";
             document.getElementById("usButton").style.visibility = "hidden";
-
-
-
-
-
           });
 
           statesbtn.addEventListener("click", function(event) {
@@ -1102,6 +1334,7 @@
             cityLayer.setMap(null);
             stateLayer.setMap(map);
             townLayer.setMap(null);
+            regionLayer.setMap(null);
             $(this).siblings().removeClass('active');
             $(this).addClass('active');
             document.getElementById("megacities-sidebar").style.width = "0%";
@@ -1112,9 +1345,6 @@
             document.getElementById("dcButton").style.visibility = "visible";
             document.getElementById("conusButton").style.visibility = "visible";
             document.getElementById("usButton").style.visibility = "visible";
-
-
-
           });
 
           citiesbtn.addEventListener("click", function(event) {
@@ -1124,6 +1354,7 @@
             stateLayer.setMap(null);
             cityLayer.setMap(map);
             townLayer.setMap(null);
+            regionLayer.setMap(null);
             $(this).siblings().removeClass('active');
             $(this).addClass('active');
             document.getElementById("megacities-sidebar").style.width = "0%";
