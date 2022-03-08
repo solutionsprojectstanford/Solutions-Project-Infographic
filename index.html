@@ -585,6 +585,7 @@
 
         // Click event for different cities
         cityLayer.addListener("click", function(event) {
+
           cityLayer.revertStyle();
           document.getElementById("states-sidebar").style.width = "100%";
           document.getElementById("placeholderPDF").src = event.feature.getProperty('infoPDF');
