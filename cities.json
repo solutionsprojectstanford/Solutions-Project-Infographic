@@ -5,6 +5,7 @@
       "type": "Feature",
       "properties": {
         "name": "Abidjan",
+        "infoPDF":"https://drive.google.com/file/d/1QsFXDUSLU7J1EKS0ToMa1JDA4oICbZ5V/preview",
         "country": "Cote d'Ivoire",
         "onshore wind": 35.38,
         "offshore wind": 10.99,
@@ -62,6 +63,7 @@
       "type": "Feature",
       "properties": {
         "name": "Addis Ababa",
+        "infoPDF":"https://drive.google.com/file/d/1y1hQqNi3XqqZMpS6NnHfTGtxtTAy-6uo/preview",
         "country": "Ethiopia",
         "onshore wind": 35.94,
         "offshore wind": 0,
@@ -119,6 +121,7 @@
       "type": "Feature",
       "properties": {
         "name": "Ankara",
+        "infoPDF":"https://drive.google.com/file/d/1wu5eMc3K5lfeV_sPMR6fg4KiejY67RNc/preview",
         "country": "Turkey",
         "onshore wind": 35.48,
         "offshore wind": 2.08,
@@ -176,6 +179,7 @@
       "type": "Feature",
       "properties": {
         "name": "Auckland",
+        "infoPDF":"https://drive.google.com/file/d/1wsqKIjmVWc-KDCAPNzEjFlkN_x987Bi9/preview",
         "country": "New Zealand",
         "onshore wind": 32.42,
         "offshore wind": 10.38,
@@ -233,6 +237,7 @@
       "type": "Feature",
       "properties": {
         "name": "Baghdad",
+        "infoPDF":"https://drive.google.com/file/d/1WawctZ0MKpZ9Vdw061791Cri_hrzkNxh/preview",
         "country": "Iraq",
         "onshore wind": 40.83,
         "offshore wind": 0.91,
@@ -290,6 +295,7 @@
       "type": "Feature",
       "properties": {
         "name": "Bangkok",
+        "infoPDF":"https://drive.google.com/file/d/1RRzmZShdWR6yhHV7MgLYoQmhbphxuClO/preview",
         "country": "Thailand",
         "onshore wind": 3.75,
         "offshore wind": 18.81,
@@ -347,6 +353,7 @@
       "type": "Feature",
       "properties": {
         "name": "Beijing",
+        "infoPDF":"https://drive.google.com/file/d/1TmL0EmMHWgjsbtJhuvX1SQ_-KgNQXlfb/preview",
         "country": "China",
         "onshore wind": 34.84,
         "offshore wind": 14.29,
@@ -404,6 +411,7 @@
       "type": "Feature",
       "properties": {
         "name": "Berlin",
+        "infoPDF":"https://drive.google.com/file/d/18utjf9buNDkqqaTt_EONqXFLFPq3jifI/preview",
         "country": "Germany",
         "onshore wind": 41.05,
         "offshore wind": 20.42,
@@ -461,6 +469,7 @@
       "type": "Feature",
       "properties": {
         "name": "Bogota",
+        "infoPDF":"https://drive.google.com/file/d/1h7OmQBeWuGn28PMt1xTGsdTZM6LTBZRz/preview",
         "country": "Colombia",
         "onshore wind": 34.42,
         "offshore wind": 8.83,
@@ -518,6 +527,7 @@
       "type": "Feature",
       "properties": {
         "name": "Bologna",
+        "infoPDF":"https://drive.google.com/file/d/1rXQvUdn_YE5-A9THXUUOO_UMkb3aOlzB/preview",
         "country": "Italy",
         "onshore wind": 37.31,
         "offshore wind": 13.97,
@@ -575,6 +585,7 @@
       "type": "Feature",
       "properties": {
         "name": "Bucharest",
+        "infoPDF":"https://drive.google.com/file/d/1YIDgCnVKJfwUAImhU2re9ZUY9epMbqqK/preview",
         "country": "Romania",
         "onshore wind": 37.45,
         "offshore wind": 12.03,
@@ -632,6 +643,7 @@
       "type": "Feature",
       "properties": {
         "name": "Buenos Aires",
+        "infoPDF":"https://drive.google.com/file/d/1DEOvdG1E3Z6UQH7JO8EAJKWl1IPOKiOR/preview",
         "country": "Argentina",
         "onshore wind": 38.77,
         "offshore wind": 9.95,
@@ -689,6 +701,7 @@
       "type": "Feature",
       "properties": {
         "name": "Cairo",
+        "infoPDF":"https://drive.google.com/file/d/1memb5BPWABgWBp85EnqdtJ57PzCifhvz/preview",
         "country": "Egypt",
         "onshore wind": 42.1,
         "offshore wind": 10.8,
@@ -746,6 +759,7 @@
       "type": "Feature",
       "properties": {
         "name": "Calgary",
+        "infoPDF":"https://drive.google.com/file/d/1-IaIYnc2LJTAtbJX83WlG5rnUS52KrFz/preview",
         "country": "Canada",
         "onshore wind": 32.74,
         "offshore wind": 8.87,
@@ -803,6 +817,7 @@
       "type": "Feature",
       "properties": {
         "name": "Cape Town",
+        "infoPDF":"https://drive.google.com/file/d/1XBOLrkoR2D3eB74vEx5tX1Q-LTXh4FNi/preview",
         "country": "South Africa",
         "onshore wind": 42.19,
         "offshore wind": 13.7,
@@ -860,6 +875,7 @@
       "type": "Feature",
       "properties": {
         "name": "Caracas",
+        "infoPDF":"https://drive.google.com/file/d/1QoodP5ridbqROhTODY7aTskjPQoJFqzA/preview",
         "country": "Venezuela",
         "onshore wind": 35.91,
         "offshore wind": 9.22,
@@ -917,6 +933,7 @@
       "type": "Feature",
       "properties": {
         "name": "Casablanca",
+        "infoPDF":"https://drive.google.com/file/d/1s_7MZQTy3idFueerXkymU0RSOQaymdTv/preview",
         "country": "Morocco",
         "onshore wind": 41.01,
         "offshore wind": 10.53,
@@ -974,6 +991,7 @@
       "type": "Feature",
       "properties": {
         "name": "Chicago",
+        "infoPDF":"https://drive.google.com/file/d/19Y8UO9dqvgfEgIc-FDrNY9F40crMOVma/preview",
         "country": "United States of America",
         "onshore wind": 31.44,
         "offshore wind": 16.42,
@@ -1031,6 +1049,7 @@
       "type": "Feature",
       "properties": {
         "name": "Delhi",
+        "infoPDF":"https://drive.google.com/file/d/17MIKaoaBRBrEfdn_IDkWAXOxSK6wVGgj/preview",
         "country": "India",
         "onshore wind": 36.92,
         "offshore wind": 6.23,
@@ -1088,6 +1107,7 @@
       "type": "Feature",
       "properties": {
         "name": "Dhaka",
+        "infoPDF":"https://drive.google.com/file/d/1czB7H5I5-kCpL0LV6xbzG6U79Rq0fqXQ/preview",
         "country": "Bangladesh",
         "onshore wind": 7.08,
         "offshore wind": 7.12,
@@ -1145,6 +1165,7 @@
       "type": "Feature",
       "properties": {
         "name": "Dubai",
+        "infoPDF":"https://drive.google.com/file/d/19JSrFEaQ4XA67o0nnwNn-b6QnHO1uBaA/preview",
         "country": "United Arab Emirates",
         "onshore wind": 5.9,
         "offshore wind": 12.26,
@@ -1202,6 +1223,7 @@
       "type": "Feature",
       "properties": {
         "name": "Edmonton",
+        "infoPDF":"https://drive.google.com/file/d/1HkpMMbrinGz6SFsEeu7QgParAx6eqTuU/preview",
         "country": "Canada",
         "onshore wind": 32.74,
         "offshore wind": 8.87,
@@ -1259,6 +1281,7 @@
       "type": "Feature",
       "properties": {
         "name": "Guayaquil",
+        "infoPDF":"",
         "country": "Ecuador",
         "onshore wind": 33.38,
         "offshore wind": 3.09,
@@ -1316,6 +1339,7 @@
       "type": "Feature",
       "properties": {
         "name": "Hanoi",
+        "infoPDF":"https://drive.google.com/file/d/1wXYj7keeD0aEK9EhgmW1B_H7hwcWOWDx/preview",
         "country": "Vietnam",
         "onshore wind": 0.72,
         "offshore wind": 25.19,
@@ -1373,6 +1397,7 @@
       "type": "Feature",
       "properties": {
         "name": "Havana",
+        "infoPDF":"https://drive.google.com/file/d/1cC9RemSRxGes1APqLjd5I5t96rm2Azyw/preview",
         "country": "Cuba",
         "onshore wind": 42.12,
         "offshore wind": 10.81,
@@ -1430,6 +1455,7 @@
       "type": "Feature",
       "properties": {
         "name": "Ho Chi Minh City",
+        "infoPDF":"https://drive.google.com/file/d/151aCKVQRuqDAWN2kKy_kK3jboDe1DX5q/preview",
         "country": "Vietnam",
         "onshore wind": 0.72,
         "offshore wind": 25.19,
@@ -1487,6 +1513,7 @@
       "type": "Feature",
       "properties": {
         "name": "Houston",
+        "infoPDF":"https://drive.google.com/file/d/12PRzUeqwXOcg0mksHxmSLxArc_qETndS/preview",
         "country": "United States of America",
         "onshore wind": 31.44,
         "offshore wind": 16.42,
@@ -1544,6 +1571,7 @@
       "type": "Feature",
       "properties": {
         "name": "Ibiza",
+        "infoPDF":"https://drive.google.com/file/d/15JTwJnr2y7Dpr0gxK3AuHmh0lxvl6U4m/preview",
         "country": "Spain",
         "onshore wind": 37.36,
         "offshore wind": 11.92,
@@ -1601,6 +1629,7 @@
       "type": "Feature",
       "properties": {
         "name": "Istanbul",
+        "infoPDF":"https://drive.google.com/file/d/1iRzqRen9IcjjGmI1e7fkSQ9RwQFcxwC3/preview",
         "country": "Turkey",
         "onshore wind": 35.48,
         "offshore wind": 2.08,
@@ -1658,6 +1687,7 @@
       "type": "Feature",
       "properties": {
         "name": "Jakarta",
+        "infoPDF":"https://drive.google.com/file/d/1EafwaHg9y2bJjZ0sBhcAK6DtfATqUh2C/preview",
         "country": "Indonesia",
         "onshore wind": 15.79,
         "offshore wind": 15.28,
@@ -1715,6 +1745,7 @@
       "type": "Feature",
       "properties": {
         "name": "Karachi",
+        "infoPDF":"https://drive.google.com/file/d/1s3s4HpTJSzbIHpOVqLtIcEHSJV93bMKY/preview",
         "country": "Pakistan",
         "onshore wind": 23.99,
         "offshore wind": 10.55,
@@ -1772,6 +1803,7 @@
       "type": "Feature",
       "properties": {
         "name": "Kiev",
+        "infoPDF":"https://drive.google.com/file/d/1AJxGH7WJRmUUMD1fslrFcuMVlxYY01GE/preview",
         "country": "Ukraine",
         "onshore wind": 42.41,
         "offshore wind": 15.21,
@@ -1829,6 +1861,7 @@
       "type": "Feature",
       "properties": {
         "name": "Kinshasa",
+        "infoPDF":"https://drive.google.com/file/d/183e1CSRuB1tD25Y-exlynHUtHpapJAXT/preview",
         "country": "Democratic Republic of the Congo",
         "onshore wind": 41.43,
         "offshore wind": 10.63,
@@ -1886,6 +1919,7 @@
       "type": "Feature",
       "properties": {
         "name": "Kyoto",
+        "infoPDF":"https://drive.google.com/file/d/1U4d2c7CBl0Fnh8a9TXmFHMkcIXHll2mV/preview",
         "country": "Japan",
         "onshore wind": 10.24,
         "offshore wind": 31.55,
@@ -1943,6 +1977,7 @@
       "type": "Feature",
       "properties": {
         "name": "Lagos",
+        "infoPDF":"https://drive.google.com/file/d/1CExnkHNCLmIgHagV-qPl98xuaQMCE0VC/preview",
         "country": "Nigeria",
         "onshore wind": 13.63,
         "offshore wind": 0,
@@ -2000,6 +2035,7 @@
       "type": "Feature",
       "properties": {
         "name": "Lima",
+        "infoPDF":"https://drive.google.com/file/d/1Wtxchl0yP8PXPutrJ0JRnflcYE_J-iPw/preview",
         "country": "Peru",
         "onshore wind": 33.56,
         "offshore wind": 0.02,
@@ -2057,6 +2093,7 @@
       "type": "Feature",
       "properties": {
         "name": "London",
+        "infoPDF":"https://drive.google.com/file/d/1u-xBmZ_GsPuzh1F6n2nThOWsVIxFrK1f/preview",
         "country": "England",
         "onshore wind": 20.29,
         "offshore wind": 32.66,
@@ -2114,6 +2151,7 @@
       "type": "Feature",
       "properties": {
         "name": "Los Angeles",
+        "infoPDF":"https://drive.google.com/file/d/1ZGSrkgpauSmsU7kvt6mhjVk3qHVKwsZO/preview",
         "country": "United States of America",
         "onshore wind": 31.44,
         "offshore wind": 16.42,
@@ -2171,6 +2209,7 @@
       "type": "Feature",
       "properties": {
         "name": "Madrid",
+        "infoPDF":"https://drive.google.com/file/d/1IKY2K5lEo8Ray0cc2qOiPdn9I4rs_V5l/preview",
         "country": "Spain",
         "onshore wind": 37.36,
         "offshore wind": 11.92,
@@ -2228,6 +2267,7 @@
       "type": "Feature",
       "properties": {
         "name": "Mexico City",
+        "infoPDF":"https://drive.google.com/file/d/1Sg7rMF96gnnBgf-I07f3MpXJyR1HT4zy/preview",
         "country": "Mexico",
         "onshore wind": 39.44,
         "offshore wind": 10.12,
@@ -2285,6 +2325,7 @@
       "type": "Feature",
       "properties": {
         "name": "Montevideo",
+        "infoPDF":"https://drive.google.com/file/d/1YXecb4RDmcBI5pJi7_FIrGjTJShQVhTk/preview",
         "country": "Uruguay",
         "onshore wind": 36.55,
         "offshore wind": 9.38,
@@ -2342,6 +2383,7 @@
       "type": "Feature",
       "properties": {
         "name": "Montreal",
+        "infoPDF":"https://drive.google.com/file/d/1gNeoBbCdoxGmoEgtF5WecqiJUEVgh-CA/preview",
         "country": "Canada",
         "onshore wind": 32.74,
         "offshore wind": 8.87,
@@ -2399,6 +2441,7 @@
       "type": "Feature",
       "properties": {
         "name": "Moscow",
+        "infoPDF":"https://drive.google.com/file/d/1Vgqdn5LVEU0tX2SZIi_GyYAI4uUebkLb/preview",
         "country": "Russia",
         "onshore wind": 40.25,
         "offshore wind": 13.06,
@@ -2456,6 +2499,7 @@
       "type": "Feature",
       "properties": {
         "name": "Mumbai",
+        "infoPDF":"https://drive.google.com/file/d/1oq1jZq4LMdHDPhkDaVGt2p7qh6lyhDQ1/preview",
         "country": "India",
         "onshore wind": 36.92,
         "offshore wind": 6.23,
@@ -2513,6 +2557,7 @@
       "type": "Feature",
       "properties": {
         "name": "Nairobi",
+        "infoPDF":"https://drive.google.com/file/d/1mvcZC-gFo0H9sk_x0YfK8uCBSL1aPP8n/preview",
         "country": "Kenya",
         "onshore wind": 35.46,
         "offshore wind": 9.1,
@@ -2570,6 +2615,7 @@
       "type": "Feature",
       "properties": {
         "name": "New York City",
+        "infoPDF":"https://drive.google.com/file/d/1FSQcZGhnPVY34BDElzJgEAEL40-Pt4g1/preview",
         "country": "United States of America",
         "onshore wind": 31.44,
         "offshore wind": 16.42,
@@ -2627,6 +2673,7 @@
       "type": "Feature",
       "properties": {
         "name": "Oslo",
+        "infoPDF":"https://drive.google.com/file/d/1PFWQ2l1XhFPe5Z_9HVoDt-QP9hNNLLJA/preview",
         "country": "Norway",
         "onshore wind": 13.71,
         "offshore wind": 5.56,
@@ -2684,6 +2731,7 @@
       "type": "Feature",
       "properties": {
         "name": "Palma",
+        "infoPDF":"https://drive.google.com/file/d/1PFWQ2l1XhFPe5Z_9HVoDt-QP9hNNLLJA/preview",
         "country": "Spain",
         "onshore wind": 37.36,
         "offshore wind": 11.92,
@@ -2741,6 +2789,7 @@
       "type": "Feature",
       "properties": {
         "name": "Paris",
+        "infoPDF":"https://drive.google.com/file/d/1dMoBihx-f9KO97YlbBS7c2CG2yk8fntC/preview",
         "country": "France",
         "onshore wind": 40.28,
         "offshore wind": 13.15,
@@ -2798,6 +2847,7 @@
       "type": "Feature",
       "properties": {
         "name": "Perth",
+        "infoPDF":"https://drive.google.com/file/d/1ief2c03vEqwqkBMxrkN2XxOVIEgjSjh5/preview",
         "country": "Australia",
         "onshore wind": 26.95,
         "offshore wind": 15.09,
@@ -2855,6 +2905,7 @@
       "type": "Feature",
       "properties": {
         "name": "Philadelphia",
+        "infoPDF":"https://drive.google.com/file/d/1BDSgPwYqkBsX9X5SkiiyGOs-XdShnRY8/preview",
         "country": "United States of America",
         "onshore wind": 31.44,
         "offshore wind": 16.42,
@@ -2912,6 +2963,7 @@
       "type": "Feature",
       "properties": {
         "name": "Phoenix",
+        "infoPDF":"https://drive.google.com/file/d/1FhjRrYodStzYyYltirKm42W3e54YUpcT/preview",
         "country": "United States of America",
         "onshore wind": 31.44,
         "offshore wind": 16.42,
@@ -2969,6 +3021,7 @@
       "type": "Feature",
       "properties": {
         "name": "Pyongyang",
+        "infoPDF":"https://drive.google.com/file/d/11o2SB9oFsJ2bfD82vQKkB3vYGYAh340R/preview",
         "country": "Democratic Republic of Korea",
         "onshore wind": 36.13,
         "offshore wind": 13.74,
@@ -3026,6 +3079,7 @@
       "type": "Feature",
       "properties": {
         "name": "Quezon City",
+        "infoPDF":"https://drive.google.com/file/d/1YRIxF4Ap1ONPG9tsz_UV-VDQa0rGLz9k/preview",
         "country": "Philippines",
         "onshore wind": 7.68,
         "offshore wind": 15.13,
@@ -3083,6 +3137,7 @@
       "type": "Feature",
       "properties": {
         "name": "Rio de Janeiro",
+        "infoPDF":"https://drive.google.com/file/d/1frWAfaT0cc70i5C8KDyg6fL4MV0SNHdX/preview",
         "country": "Brazil",
         "onshore wind": 35.53,
         "offshore wind": 9.12,
@@ -3140,6 +3195,7 @@
       "type": "Feature",
       "properties": {
         "name": "Rome",
+        "infoPDF":"https://drive.google.com/file/d/1q7Q5SYGvzBPzcIq_WXH425jRBGNDgY1-/preview",
         "country": "Italy",
         "onshore wind": 37.31,
         "offshore wind": 13.97,
@@ -3197,6 +3253,7 @@
       "type": "Feature",
       "properties": {
         "name": "San Jose",
+        "infoPDF":"https://drive.google.com/file/d/1ccXecmvSXOqSy8cWVJApoy0LScnk_m1O/preview",
         "country": "Costa Rica",
         "onshore wind": 21.46,
         "offshore wind": 5.51,
@@ -3254,6 +3311,7 @@
       "type": "Feature",
       "properties": {
         "name": "San Jose",
+        "infoPDF":"https://drive.google.com/file/d/1G3wTbBohgkCSo-hWNjOTRPJwQzDYQs3T/preview",
         "country": "United States of America",
         "onshore wind": 31.44,
         "offshore wind": 16.42,
@@ -3311,6 +3369,7 @@
       "type": "Feature",
       "properties": {
         "name": "Santiago",
+        "infoPDF":"https://drive.google.com/file/d/1w5SrzcMHM3XAauTZjECzgSmI3Aki-7ZG/preview",
         "country": "Chile",
         "onshore wind": 36.71,
         "offshore wind": 10.06,
@@ -3368,6 +3427,7 @@
       "type": "Feature",
       "properties": {
         "name": "Sao Paulo",
+        "infoPDF":"https://drive.google.com/file/d/1J_oP_3ee4OV6Qvgh_BK_SnnWN2pnzo97/preview",
         "country": "Brazil",
         "onshore wind": 35.53,
         "offshore wind": 9.12,
@@ -3425,6 +3485,7 @@
       "type": "Feature",
       "properties": {
         "name": "Seoul",
+        "infoPDF":"https://drive.google.com/file/d/1VPyjKqIrR-ynAkCBwYI_IQzRYneKPc1f/preview",
         "country": "South Korea",
         "onshore wind": 4.44,
         "offshore wind": 37.18,
@@ -3482,6 +3543,7 @@
       "type": "Feature",
       "properties": {
         "name": "Shanghai",
+        "infoPDF":"https://drive.google.com/file/d/1m-7WNeRxWmtijoufgyxO3vidHv4sYhBQ/preview",
         "country": "China",
         "onshore wind": 34.84,
         "offshore wind": 14.29,
@@ -3539,6 +3601,7 @@
       "type": "Feature",
       "properties": {
         "name": "Tashkent",
+        "infoPDF":"https://drive.google.com/file/d/1-w9z6ftLfOFEihnpYB1bplG6OwF2cyZm/preview",
         "country": "Uzbekistan",
         "onshore wind": 26.95,
         "offshore wind": 15.09,
@@ -3596,6 +3659,7 @@
       "type": "Feature",
       "properties": {
         "name": "Tehran",
+        "infoPDF":"https://drive.google.com/file/d/12jcPGUSqIO3CfhhBdqo8TLoIM4jkk6h_/preview",
         "country": "Iran",
         "onshore wind": 28.92,
         "offshore wind": 12.56,
@@ -3653,6 +3717,7 @@
       "type": "Feature",
       "properties": {
         "name": "Tokyo",
+        "infoPDF":"https://drive.google.com/file/d/1GcFpoOYpDYbJvXRwbRmYMdikoAOx03TV/preview",
         "country": "Japan",
         "onshore wind": 10.24,
         "offshore wind": 31.55,
@@ -3710,6 +3775,7 @@
       "type": "Feature",
       "properties": {
         "name": "Toronto",
+        "infoPDF":"https://drive.google.com/file/d/1yfS_9VlgziZrIOIiyRcOitLi2Qcm6IRy/preview",
         "country": "Canada",
         "onshore wind": 32.74,
         "offshore wind": 8.87,
@@ -3767,6 +3833,7 @@
       "type": "Feature",
       "properties": {
         "name": "Ulaanbaatar",
+        "infoPDF":"https://drive.google.com/file/d/1Kk5oERGAEb5b5Go8oiHRkGK30rcHtEc7/preview",
         "country": "Mongolia",
         "onshore wind": 44.87,
         "offshore wind": 0,
@@ -3824,6 +3891,7 @@
       "type": "Feature",
       "properties": {
         "name": "Vancouver",
+        "infoPDF":"https://drive.google.com/file/d/15rOFacj2tzXTC5cjSLFG8N6UimbWh9-7/preview",
         "country": "Canada",
         "onshore wind": 32.74,
         "offshore wind": 8.87,
@@ -3881,6 +3949,7 @@
       "type": "Feature",
       "properties": {
         "name": "Vienna",
+        "infoPDF":"https://drive.google.com/file/d/1SG6QXweBpkw07NUYOyT5II853gPVJ2_s/preview",
         "country": "Austria",
         "onshore wind": 36.18,
         "offshore wind": 0,
@@ -3938,6 +4007,7 @@
       "type": "Feature",
       "properties": {
         "name": "Yangon",
+        "infoPDF":"https://drive.google.com/file/d/19-n_U7-9722Eo0K33lcCQjrM7tXge1N8/preview",
         "country": "Myanmar",
         "onshore wind": 37.67,
         "offshore wind": 9.67,
@@ -3995,6 +4065,7 @@
       "type": "Feature",
       "properties": {
         "name": "Yixing",
+        "infoPDF":"https://drive.google.com/file/d/1KubtjvzkJSz7OcfZCJDd3Jahoje3sEMZ/preview",
         "country": "China",
         "onshore wind": 34.84,
         "offshore wind": 14.29,
@@ -4052,6 +4123,7 @@
       "type": "Feature",
       "properties": {
         "name": "Zurich",
+        "infoPDF":"https://drive.google.com/file/d/1ABwVnNzCq72DKstYjHn92JD4kVFWO6pa/preview",
         "country": "Switzerland",
         "onshore wind": 26.91,
         "offshore wind": 0,
@@ -4109,6 +4181,7 @@
       "type": "Feature",
       "properties": {
         "name": "Shenzhen",
+        "infoPDF":"https://drive.google.com/file/d/1aII4Y34iIK4qoZxvx6Z6rVKy4uvX6uhR/preview",
         "country": "China",
         "onshore wind": 34.84,
         "offshore wind": 14.29,
@@ -4152,6 +4225,7 @@
       "type": "Feature",
       "properties": {
         "name": "Sydney",
+        "infoPDF":"https://drive.google.com/file/d/15MWeIkEbDNwOGB-1dpNfiO-3UnG712zr/preview",
         "country": "Australia",
         "cost savings": 16779,
         "avoided deaths": 705,
