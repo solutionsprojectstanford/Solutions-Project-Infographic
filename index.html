@@ -376,7 +376,7 @@
 
     <div id="icon-sidebar" class="Icon-Images">
       <button id="usButton" class="image-buttons">
-        <img src="https://img.icons8.com/ios-filled/50/000000/usa-map.png" style="width:55px"/>
+        <img src="https://img.icons8.com/external-wanicon-flat-wanicon/64/000000/external-usa-independence-day-wanicon-flat-wanicon.png" style="width:55px"/>
         <span class=icon-caption>Total US</span>
       </button>
       <br>
@@ -585,7 +585,6 @@
 
         // Click event for different cities
         cityLayer.addListener("click", function(event) {
-
           cityLayer.revertStyle();
           document.getElementById("states-sidebar").style.width = "100%";
           document.getElementById("placeholderPDF").src = event.feature.getProperty('infoPDF');
