@@ -3253,7 +3253,7 @@
       "type": "Feature",
       "properties": {
         "name": "San Jose",
-        "infoPDF":"https://drive.google.com/file/d/1ccXecmvSXOqSy8cWVJApoy0LScnk_m1O/preview",
+        "infoPDF":"https://drive.google.com/file/d/1G3wTbBohgkCSo-hWNjOTRPJwQzDYQs3T/preview",
         "country": "Costa Rica",
         "onshore wind": 21.46,
         "offshore wind": 5.51,
@@ -3311,7 +3311,8 @@
       "type": "Feature",
       "properties": {
         "name": "San Jose",
-        "infoPDF":"https://drive.google.com/file/d/1G3wTbBohgkCSo-hWNjOTRPJwQzDYQs3T/preview",
+        "infoPDF":"https://drive.google.com/file/d/1ccXecmvSXOqSy8cWVJApoy0LScnk_m1O/preview",
+
         "country": "United States of America",
         "onshore wind": 31.44,
         "offshore wind": 16.42,
