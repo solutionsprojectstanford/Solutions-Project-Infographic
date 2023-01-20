@@ -326,7 +326,7 @@
 
     <div class="overlay-content" style="position: relative; height:85%; text-align:center;">
       <iframe id=placeholderPDF src="" width="75%" height="100%"></iframe>
-      <button id=placeholderPDFbutton onclick="" type="button">www.example.com</button>
+      <a id=placeholderPDFbutton href="" class="btn btn-primary">Go to Google</a>
       -->
     </div>
 
@@ -575,10 +575,7 @@
           //document.getElementById("states-sidebar").style.width = "450px";
           document.getElementById("states-sidebar").style.width = "100%";
           document.getElementById("placeholderPDF").src = event.feature.getProperty('infoPDF');
-          // let infoPDFlink = event.feature.getProperty('infoPDF');
-          // let prepend = 'location.href='
-          // let buttonlink = prepend.concat(infoPDFlink, "'")
-          document.getElementById("placeholderPDFbutton").onclick = "location.href='https://drive.google.com/file/d/11LIdsCC_iWNFvvHxbWWzVu9FcuDYMRvi/preview'";
+          document.getElementById("placeholderPDFbutton").href = event.feature.getProperty('infoPDF');
 
         });
 
