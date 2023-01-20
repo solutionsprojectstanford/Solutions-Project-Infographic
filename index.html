@@ -326,7 +326,15 @@
 
     <div class="overlay-content" style="position: relative; height:85%; text-align:center;">
       <iframe id=placeholderPDF src="" width="75%" height="100%"></iframe>
-      <a id=placeholderPDFbutton href="" class="btn btn-primary">Go to Google</a>
+      <a id=placeholderPDFbutton href="" class="button" target="_blank">Go to Google</a>
+      a.button {
+          -webkit-appearance: button;
+          -moz-appearance: button;
+          appearance: button;
+
+          text-decoration: none;
+          color: initial;
+      }
       -->
     </div>
 
