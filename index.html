@@ -326,7 +326,7 @@
 
     <div class="overlay-content" style="position: relative; height:85%; text-align:center;">
       <iframe id=placeholderPDF src="" width="75%" height="100%"></iframe>
-      <button id=placeholderPDF onclick="location.href=placeholderPDF" type="button">www.example.com</button>
+      <button id=placeholderPDFbutton onclick="" type="button">www.example.com</button>
       -->
     </div>
 
@@ -575,6 +575,7 @@
           //document.getElementById("states-sidebar").style.width = "450px";
           document.getElementById("states-sidebar").style.width = "100%";
           document.getElementById("placeholderPDF").src = event.feature.getProperty('infoPDF');
+          document.getElementById("placeholderPDFbutton").onclick = event.feature.getProperty('infoPDF');
 
         });
 
