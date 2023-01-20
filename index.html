@@ -575,7 +575,10 @@
           //document.getElementById("states-sidebar").style.width = "450px";
           document.getElementById("states-sidebar").style.width = "100%";
           document.getElementById("placeholderPDF").src = event.feature.getProperty('infoPDF');
-          document.getElementById("placeholderPDFbutton").onclick = event.feature.getProperty('infoPDF');
+          let infoPDFlink = event.feature.getProperty('infoPDF');
+          let prepend = "location.href="
+          let buttonlink = prepend.concat(infoPDFlink)
+          document.getElementById("placeholderPDFbutton").onclick = buttonlink;
 
         });
 
