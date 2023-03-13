@@ -1281,7 +1281,7 @@
       "type": "Feature",
       "properties": {
         "name": "Guayaquil",
-        "infoPDF":"",
+        "infoPDF":"https://drive.google.com/file/d/1Z19-nYrfWL_nSxf6ZCjfMhueK_Cs2hZD/preview",
         "country": "Ecuador",
         "onshore wind": 33.38,
         "offshore wind": 3.09,
